@@ -1,0 +1,7133 @@
+{
+ "meta": {
+  "title": "ODIN'S INTEL // HAJIN DMZ",
+  "game": "Call of Duty: Modern Warfare 4 (2026) DMZ - Hajin",
+  "updated": "2026-10-30 (CT)",
+  "dataAsOf": "Launch (Oct 23, 2026) + hotfixes through Oct 29, 2026",
+  "coords": "Official Tac Map space: 4096 x 4096 units, origin top-left.",
+  "grid": {
+   "x0": 708,
+   "y0": 722,
+   "size": 270,
+   "cols": 10,
+   "rows": 10,
+   "note": "ESTIMATED grid (the official map has no grid); fitted to 36 of 38 community references. Letters A-J west->east, numbers north->south. Some sites (e.g. dmzradar) number rows one higher."
+  },
+  "confidence": {
+   "official": "Activision / Infinity Ward data or text",
+   "high": "Several guides agree / filmed",
+   "guide": "Fan or press guide that tested it",
+   "medium": "One good source, or partly documented",
+   "community": "Community map pin (dmzradar)",
+   "creator": "One creator's claim",
+   "low": "Undocumented / unconfirmed",
+   "rumor": "Unverified rumor"
+  },
+  "disclaimer": "Fan-made, not affiliated with, endorsed by, or sponsored by Activision, Infinity Ward, or Call of Duty. All trademarks belong to their owners. Locations are approximate and can change with patches."
+ },
+ "basemap": {
+  "outline": {
+   "playable": [
+    [
+     1184,
+     824
+    ],
+    [
+     1072,
+     1008
+    ],
+    [
+     936,
+     1392
+    ],
+    [
+     920,
+     1808
+    ],
+    [
+     816,
+     1904
+    ],
+    [
+     792,
+     1992
+    ],
+    [
+     848,
+     2920
+    ],
+    [
+     888,
+     2944
+    ],
+    [
+     968,
+     3184
+    ],
+    [
+     1048,
+     3256
+    ],
+    [
+     1240,
+     3296
+    ],
+    [
+     1992,
+     3288
+    ],
+    [
+     2240,
+     3296
+    ],
+    [
+     2376,
+     3336
+    ],
+    [
+     2696,
+     3312
+    ],
+    [
+     3240,
+     3352
+    ],
+    [
+     3296,
+     3232
+    ],
+    [
+     3272,
+     2896
+    ],
+    [
+     3312,
+     2328
+    ],
+    [
+     3248,
+     1976
+    ],
+    [
+     3184,
+     1856
+    ],
+    [
+     3184,
+     1720
+    ],
+    [
+     3344,
+     1392
+    ],
+    [
+     3392,
+     1376
+    ],
+    [
+     3392,
+     1304
+    ],
+    [
+     3280,
+     1112
+    ],
+    [
+     3280,
+     928
+    ],
+    [
+     3312,
+     920
+    ],
+    [
+     3320,
+     856
+    ],
+    [
+     3160,
+     848
+    ],
+    [
+     3160,
+     944
+    ],
+    [
+     3128,
+     968
+    ],
+    [
+     2984,
+     960
+    ],
+    [
+     2944,
+     984
+    ],
+    [
+     2864,
+     1144
+    ],
+    [
+     2744,
+     1280
+    ],
+    [
+     2760,
+     1688
+    ],
+    [
+     2712,
+     1736
+    ],
+    [
+     2712,
+     1800
+    ],
+    [
+     2592,
+     1872
+    ],
+    [
+     2456,
+     1888
+    ],
+    [
+     2240,
+     1728
+    ],
+    [
+     2064,
+     1720
+    ],
+    [
+     1992,
+     1776
+    ],
+    [
+     1904,
+     1776
+    ],
+    [
+     1760,
+     1616
+    ],
+    [
+     1736,
+     1544
+    ],
+    [
+     1648,
+     1504
+    ],
+    [
+     1640,
+     1424
+    ],
+    [
+     1312,
+     1216
+    ],
+    [
+     1272,
+     1088
+    ],
+    [
+     1288,
+     832
+    ]
+   ],
+   "water": [
+    [
+     [
+      3080,
+      1808
+     ],
+     [
+      3128,
+      1952
+     ],
+     [
+      3032,
+      2160
+     ],
+     [
+      2984,
+      2200
+     ],
+     [
+      2976,
+      2248
+     ],
+     [
+      3048,
+      2288
+     ],
+     [
+      3072,
+      2392
+     ],
+     [
+      3056,
+      2416
+     ],
+     [
+      3024,
+      2416
+     ],
+     [
+      3040,
+      2480
+     ],
+     [
+      3016,
+      2536
+     ],
+     [
+      3080,
+      2632
+     ],
+     [
+      3080,
+      2680
+     ],
+     [
+      3144,
+      2696
+     ],
+     [
+      3120,
+      2776
+     ],
+     [
+      3080,
+      2816
+     ],
+     [
+      3072,
+      2880
+     ],
+     [
+      3008,
+      2904
+     ],
+     [
+      3000,
+      2928
+     ],
+     [
+      3064,
+      2992
+     ],
+     [
+      3032,
+      3024
+     ],
+     [
+      3040,
+      3128
+     ],
+     [
+      3088,
+      3128
+     ],
+     [
+      3112,
+      3152
+     ],
+     [
+      3088,
+      3312
+     ],
+     [
+      3120,
+      3312
+     ],
+     [
+      3120,
+      3256
+     ],
+     [
+      3152,
+      3192
+     ],
+     [
+      3256,
+      3184
+     ],
+     [
+      3232,
+      3008
+     ],
+     [
+      3272,
+      2696
+     ],
+     [
+      3280,
+      2304
+     ],
+     [
+      3216,
+      2064
+     ],
+     [
+      3224,
+      2008
+     ],
+     [
+      3160,
+      1872
+     ]
+    ],
+    [
+     [
+      2752,
+      1296
+     ],
+     [
+      2768,
+      1376
+     ],
+     [
+      2976,
+      1368
+     ],
+     [
+      3048,
+      1344
+     ],
+     [
+      3120,
+      1352
+     ],
+     [
+      3152,
+      1328
+     ],
+     [
+      3200,
+      1344
+     ],
+     [
+      3352,
+      1344
+     ],
+     [
+      3360,
+      1320
+     ],
+     [
+      3256,
+      1152
+     ],
+     [
+      3256,
+      1000
+     ],
+     [
+      3184,
+      968
+     ],
+     [
+      3096,
+      984
+     ],
+     [
+      3016,
+      960
+     ],
+     [
+      2952,
+      992
+     ],
+     [
+      2872,
+      1144
+     ]
+    ]
+   ]
+  },
+  "image": null,
+  "imageBounds": [
+   0,
+   0,
+   4096,
+   4096
+  ],
+  "view": [
+   700,
+   760,
+   2720,
+   2720
+  ]
+ },
+ "layers": [
+  {
+   "id": "poi",
+   "name": "POIs",
+   "color": "#c9b37e",
+   "icon": "poi",
+   "on": true
+  },
+  {
+   "id": "strongholds",
+   "name": "Strongholds",
+   "color": "#e0a030",
+   "icon": "fort",
+   "on": true
+  },
+  {
+   "id": "banks",
+   "name": "Banks (Hanex)",
+   "color": "#ffcc33",
+   "icon": "bank",
+   "on": true
+  },
+  {
+   "id": "compounds",
+   "name": "Compounds",
+   "color": "#d4a017",
+   "icon": "comp",
+   "on": true
+  },
+  {
+   "id": "keys",
+   "name": "Keys",
+   "color": "#6fb3ff",
+   "icon": "key",
+   "on": true
+  },
+  {
+   "id": "ltrooms",
+   "name": "Lieutenant loot rooms",
+   "color": "#ff8a3d",
+   "icon": "room",
+   "on": true
+  },
+  {
+   "id": "ultra",
+   "name": "Ultra lockers",
+   "color": "#ff2b3a",
+   "icon": "ultra",
+   "on": true
+  },
+  {
+   "id": "bosses",
+   "name": "Bosses",
+   "color": "#c0182a",
+   "icon": "boss",
+   "on": true
+  },
+  {
+   "id": "caches",
+   "name": "Caches / drops / safes",
+   "color": "#58d68d",
+   "icon": "cache",
+   "on": true
+  },
+  {
+   "id": "secrets",
+   "name": "Secret spots",
+   "color": "#b48cff",
+   "icon": "secret",
+   "on": true
+  },
+  {
+   "id": "silos",
+   "name": "Silo bunkers",
+   "color": "#7fa7c9",
+   "icon": "silo",
+   "on": true
+  },
+  {
+   "id": "exfils",
+   "name": "Exfils",
+   "color": "#3ee07a",
+   "icon": "exfil",
+   "on": true
+  },
+  {
+   "id": "gas",
+   "name": "Gas stations (batteries)",
+   "color": "#9aa4ad",
+   "icon": "dot",
+   "on": false
+  },
+  {
+   "id": "services",
+   "name": "Police / fire / clinics",
+   "color": "#8899aa",
+   "icon": "dot",
+   "on": false
+  },
+  {
+   "id": "ammo",
+   "name": "Ammo & armor caches",
+   "color": "#7c8b5a",
+   "icon": "dot",
+   "on": false
+  },
+  {
+   "id": "uav",
+   "name": "UAV & Lt hunt towers",
+   "color": "#5fb0b7",
+   "icon": "dot",
+   "on": false
+  },
+  {
+   "id": "sideops",
+   "name": "SAM / bounty",
+   "color": "#a07050",
+   "icon": "dot",
+   "on": false
+  },
+  {
+   "id": "spawns",
+   "name": "Player spawns",
+   "color": "#666f78",
+   "icon": "dot",
+   "on": false
+  }
+ ],
+ "items": [
+  {
+   "id": "poi-14th-political-prison",
+   "layer": "poi",
+   "name": "14th Political Prison",
+   "x": 1248,
+   "y": 1622,
+   "grid": "C3",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "NW prison complex. Best-gear zone (east barracks, Prison Yard, Citadel).",
+   "kind": "major",
+   "threat": "High; Citadel Critical",
+   "lieutenant": "The Warden (mess hall)",
+   "keys": 6
+  },
+  {
+   "id": "poi-chang-san-air-base",
+   "layer": "poi",
+   "name": "Chang-san Air Base",
+   "x": 1024,
+   "y": 2316,
+   "grid": "B5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Heavy AI. Air Base sweep money route; Supreme Leader bunker; DRC locker.",
+   "kind": "major",
+   "threat": "Critical; bunker Extreme",
+   "lieutenant": "none listed (mission text mentions \"Lieutenant Bae\")",
+   "keys": 7
+  },
+  {
+   "id": "poi-deadtown",
+   "layer": "poi",
+   "name": "Deadtown",
+   "x": 1240,
+   "y": 2727,
+   "grid": "B7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Room reachable only via a hole in the roof (official hint).",
+   "kind": "major",
+   "threat": "Low/Medium; Re-Education Center Medium",
+   "lieutenant": "Bale",
+   "keys": 3
+  },
+  {
+   "id": "poi-imjin-farmland",
+   "layer": "poi",
+   "name": "Imjin Farmland",
+   "x": 1595,
+   "y": 2799,
+   "grid": "D7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Beginner-safe. Hidden cache area.",
+   "kind": "major",
+   "threat": "Low; Rice Mill Medium",
+   "lieutenant": "Gorani (nearby forest)",
+   "keys": 5
+  },
+  {
+   "id": "poi-cheongun-village",
+   "layer": "poi",
+   "name": "Cheongun Village",
+   "x": 2106,
+   "y": 2015,
+   "grid": "F4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Hanex branch bank, casino vaults, gun store.",
+   "kind": "major",
+   "threat": "Low (metaradar) vs High (dmzmap); Casino High",
+   "lieutenant": "Jin-Tae (casino)",
+   "keys": 7
+  },
+  {
+   "id": "poi-haneul-nuclear-reactor",
+   "layer": "poi",
+   "name": "Haneul Nuclear Reactor",
+   "x": 2878,
+   "y": 1921,
+   "grid": "I4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Bring a gas mask / radiation blockers. Op Fallen Ember.",
+   "kind": "major",
+   "threat": "High + radiation (gas mask)",
+   "lieutenant": "The Chemist",
+   "keys": 5
+  },
+  {
+   "id": "poi-mirae-general-hospital",
+   "layer": "poi",
+   "name": "Mirae General Hospital",
+   "x": 2280,
+   "y": 2184,
+   "grid": "F5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Beginner-safe. Story mission Critical Extraction.",
+   "kind": "major",
+   "threat": "Low",
+   "lieutenant": "The Doctor (parking garage)",
+   "keys": 2
+  },
+  {
+   "id": "poi-nurigo-mall",
+   "layer": "poi",
+   "name": "NuriGo Mall",
+   "x": 2636,
+   "y": 2380,
+   "grid": "H6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Shopping DRC Locker (Ultra) under the mall.",
+   "kind": "major",
+   "threat": "High",
+   "lieutenant": "Deathstalker (Commander heli) seen here",
+   "keys": 3
+  },
+  {
+   "id": "poi-cheonwang-peak-array",
+   "layer": "poi",
+   "name": "Cheonwang Peak Array",
+   "x": 2039,
+   "y": 2554,
+   "grid": "E6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "",
+   "kind": "major",
+   "threat": "Medium",
+   "lieutenant": "Iskra",
+   "keys": 1
+  },
+  {
+   "id": "poi-the-grid",
+   "layer": "poi",
+   "name": "The Grid",
+   "x": 2473,
+   "y": 2555,
+   "grid": "G6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Hajin City centre. Hanex Bank tower.",
+   "kind": "major",
+   "threat": "Critical; Netshin Tech Complex Extreme",
+   "lieutenant": "Roze (DBN HQ), Jang-ui (Netshin 15F)",
+   "keys": 8
+  },
+  {
+   "id": "poi-songdo-wharf",
+   "layer": "poi",
+   "name": "Songdo Wharf",
+   "x": 2868,
+   "y": 2691,
+   "grid": "I7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Beginner-safe. Hanex branch bank (north).",
+   "kind": "major",
+   "threat": "Low",
+   "lieutenant": "-",
+   "keys": 1
+  },
+  {
+   "id": "poi-wolves-stadium",
+   "layer": "poi",
+   "name": "Wolves Stadium",
+   "x": 2352,
+   "y": 2779,
+   "grid": "G7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Two Hanex branch banks nearby.",
+   "kind": "major",
+   "threat": "Medium",
+   "lieutenant": "Scavenger roams through",
+   "keys": 3
+  },
+  {
+   "id": "poi-hajin-river-heights",
+   "layer": "poi",
+   "name": "Hajin River Heights",
+   "x": 2539,
+   "y": 2932,
+   "grid": "G8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "",
+   "kind": "major",
+   "threat": "Medium",
+   "lieutenant": "The Scavenger",
+   "keys": 3
+  },
+  {
+   "id": "poi-jayon-warehouses",
+   "layer": "poi",
+   "name": "Jayon Warehouses",
+   "x": 1048,
+   "y": 1171,
+   "grid": "B1",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-russian-border-crossing-west",
+   "layer": "poi",
+   "name": "Russian Border Crossing (West)",
+   "x": 1321,
+   "y": 1242,
+   "grid": "C1",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-russian-border-crossing",
+   "layer": "poi",
+   "name": "Russian Border Crossing",
+   "x": 1945,
+   "y": 1806,
+   "grid": "E4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-russian-border-crossing-east",
+   "layer": "poi",
+   "name": "Russian Border Crossing (East)",
+   "x": 2584,
+   "y": 1909,
+   "grid": "G4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-hanrim-village",
+   "layer": "poi",
+   "name": "Hanrim Village",
+   "x": 1424,
+   "y": 1386,
+   "grid": "C2",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-revolution-dam",
+   "layer": "poi",
+   "name": "Revolution Dam",
+   "x": 1667,
+   "y": 1468,
+   "grid": "D2",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-tong-il-village",
+   "layer": "poi",
+   "name": "Tong-il Village",
+   "x": 1696,
+   "y": 1779,
+   "grid": "D3",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-pyonghwa-village",
+   "layer": "poi",
+   "name": "Pyonghwa Village",
+   "x": 1515,
+   "y": 2063,
+   "grid": "C4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-namjin-riverside",
+   "layer": "poi",
+   "name": "Namjin Riverside",
+   "x": 1805,
+   "y": 3199,
+   "grid": "E9",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-south-island",
+   "layer": "poi",
+   "name": "South Island",
+   "x": 2684,
+   "y": 3075,
+   "grid": "H8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-cheongun-outskirts",
+   "layer": "poi",
+   "name": "Cheongun Outskirts",
+   "x": 1926,
+   "y": 1909,
+   "grid": "E4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-imjin-suburb",
+   "layer": "poi",
+   "name": "Imjin Suburb",
+   "x": 1728,
+   "y": 2383,
+   "grid": "D6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-mujin-pass",
+   "layer": "poi",
+   "name": "Mujin Pass",
+   "x": 2024,
+   "y": 2348,
+   "grid": "E6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-daesong-ridge",
+   "layer": "poi",
+   "name": "Daesong Ridge",
+   "x": 2019,
+   "y": 2722,
+   "grid": "E7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-oamsik-turtle-islands",
+   "layer": "poi",
+   "name": "Oamsik Turtle Islands",
+   "x": 3004,
+   "y": 2302,
+   "grid": "I5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-nurigo-west",
+   "layer": "poi",
+   "name": "NuriGO West",
+   "x": 2476,
+   "y": 2373,
+   "grid": "G6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-shoreline-station",
+   "layer": "poi",
+   "name": "Shoreline Station",
+   "x": 2888,
+   "y": 2390,
+   "grid": "I6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-nurigo-east",
+   "layer": "poi",
+   "name": "NuriGO East",
+   "x": 2752,
+   "y": 2441,
+   "grid": "H6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-dbn-headquarters",
+   "layer": "poi",
+   "name": "DBN Headquarters",
+   "x": 2546,
+   "y": 2489,
+   "grid": "G6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-hanex-bank",
+   "layer": "poi",
+   "name": "Hanex Bank",
+   "x": 2578,
+   "y": 2547,
+   "grid": "G6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-construction-zone",
+   "layer": "poi",
+   "name": "Construction Zone",
+   "x": 2731,
+   "y": 2654,
+   "grid": "H7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "poi-songdo-pier",
+   "layer": "poi",
+   "name": "Songdo Pier",
+   "x": 3093,
+   "y": 2753,
+   "grid": "I7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Minor POI.",
+   "kind": "minor"
+  },
+  {
+   "id": "strongholds-the-citadel",
+   "layer": "strongholds",
+   "name": "The Citadel",
+   "x": 1200,
+   "y": 1671,
+   "grid": "B3",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Fortress (stronghold) on the official Tac Map. Heavier AI, better loot."
+  },
+  {
+   "id": "strongholds-heavenly-luck-casino",
+   "layer": "strongholds",
+   "name": "Heavenly Luck Casino",
+   "x": 2221,
+   "y": 1924,
+   "grid": "F4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Fortress (stronghold) on the official Tac Map. Heavier AI, better loot."
+  },
+  {
+   "id": "strongholds-mirae-general-hospital",
+   "layer": "strongholds",
+   "name": "Mirae General Hospital",
+   "x": 2285,
+   "y": 2253,
+   "grid": "F5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Fortress (stronghold) on the official Tac Map. Heavier AI, better loot."
+  },
+  {
+   "id": "strongholds-admin-complex-no-2",
+   "layer": "strongholds",
+   "name": "Admin Complex No. 2",
+   "x": 1044,
+   "y": 2321,
+   "grid": "B5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Fortress (stronghold) on the official Tac Map. Heavier AI, better loot."
+  },
+  {
+   "id": "strongholds-re-education-center",
+   "layer": "strongholds",
+   "name": "Re-Education Center",
+   "x": 1159,
+   "y": 2699,
+   "grid": "B7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Fortress (stronghold) on the official Tac Map. Heavier AI, better loot."
+  },
+  {
+   "id": "strongholds-rice-mill",
+   "layer": "strongholds",
+   "name": "Rice Mill",
+   "x": 1680,
+   "y": 2943,
+   "grid": "D8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Fortress (stronghold) on the official Tac Map. Heavier AI, better loot."
+  },
+  {
+   "id": "strongholds-nurigo-mall",
+   "layer": "strongholds",
+   "name": "NuriGO Mall",
+   "x": 2654,
+   "y": 2412,
+   "grid": "H6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Fortress (stronghold) on the official Tac Map. Heavier AI, better loot."
+  },
+  {
+   "id": "gas-gas-station",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 1568,
+   "y": 1479,
+   "grid": "D2",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-2",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 1577,
+   "y": 1953,
+   "grid": "D4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-3",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 1415,
+   "y": 2135,
+   "grid": "C5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-4",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 1226,
+   "y": 2539,
+   "grid": "B6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-5",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 1061,
+   "y": 2786,
+   "grid": "B7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-6",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 1645,
+   "y": 3099,
+   "grid": "D8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-7",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 1937,
+   "y": 3246,
+   "grid": "E9",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-8",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 1960,
+   "y": 2028,
+   "grid": "E4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-9",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 2413,
+   "y": 1988,
+   "grid": "G4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-10",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 2628,
+   "y": 2094,
+   "grid": "H5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-11",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 1730,
+   "y": 2403,
+   "grid": "D6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-12",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 2182,
+   "y": 2442,
+   "grid": "F6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-13",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 2451,
+   "y": 2366,
+   "grid": "G6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-14",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 2721,
+   "y": 2319,
+   "grid": "H5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-15",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 2076,
+   "y": 2827,
+   "grid": "F7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-16",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 2309,
+   "y": 2874,
+   "grid": "F7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-17",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 2715,
+   "y": 2710,
+   "grid": "H7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-gas-station-18",
+   "layer": "gas",
+   "name": "Gas Station",
+   "x": 2968,
+   "y": 2568,
+   "grid": "I6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Car batteries for bank panels spawn at gas stations."
+  },
+  {
+   "id": "gas-marine-gas-station",
+   "layer": "gas",
+   "name": "Marine Gas Station",
+   "x": 1348,
+   "y": 1304,
+   "grid": "C2",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "gas-marine-gas-station-2",
+   "layer": "gas",
+   "name": "Marine Gas Station",
+   "x": 2229,
+   "y": 1779,
+   "grid": "F3",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "gas-marine-gas-station-3",
+   "layer": "gas",
+   "name": "Marine Gas Station",
+   "x": 3079,
+   "y": 1994,
+   "grid": "I4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "gas-marine-gas-station-4",
+   "layer": "gas",
+   "name": "Marine Gas Station",
+   "x": 3104,
+   "y": 2701,
+   "grid": "I7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "gas-marine-gas-station-5",
+   "layer": "gas",
+   "name": "Marine Gas Station",
+   "x": 2423,
+   "y": 3060,
+   "grid": "G8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "gas-marine-gas-station-6",
+   "layer": "gas",
+   "name": "Marine Gas Station",
+   "x": 2489,
+   "y": 3306,
+   "grid": "G9",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-fire-station",
+   "layer": "services",
+   "name": "Fire Station",
+   "x": 1303,
+   "y": 1350,
+   "grid": "C2",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-fire-station-2",
+   "layer": "services",
+   "name": "Fire Station",
+   "x": 1399,
+   "y": 2097,
+   "grid": "C5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-fire-station-3",
+   "layer": "services",
+   "name": "Fire Station",
+   "x": 1295,
+   "y": 2466,
+   "grid": "C6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-fire-station-4",
+   "layer": "services",
+   "name": "Fire Station",
+   "x": 2029,
+   "y": 2035,
+   "grid": "E4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-fire-station-5",
+   "layer": "services",
+   "name": "Fire Station",
+   "x": 2741,
+   "y": 2449,
+   "grid": "H6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-fire-station-6",
+   "layer": "services",
+   "name": "Fire Station",
+   "x": 1602,
+   "y": 3090,
+   "grid": "D8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-police-station",
+   "layer": "services",
+   "name": "Police Station",
+   "x": 1643,
+   "y": 1523,
+   "grid": "D2",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Police Station Armory key spawns inside its own station."
+  },
+  {
+   "id": "services-police-station-2",
+   "layer": "services",
+   "name": "Police Station",
+   "x": 1426,
+   "y": 2058,
+   "grid": "C4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Police Station Armory key spawns inside its own station."
+  },
+  {
+   "id": "services-police-station-3",
+   "layer": "services",
+   "name": "Police Station",
+   "x": 2086,
+   "y": 1916,
+   "grid": "F4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Police Station Armory key spawns inside its own station."
+  },
+  {
+   "id": "services-police-station-4",
+   "layer": "services",
+   "name": "Police Station",
+   "x": 2677,
+   "y": 2322,
+   "grid": "H5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Police Station Armory key spawns inside its own station."
+  },
+  {
+   "id": "services-police-station-5",
+   "layer": "services",
+   "name": "Police Station",
+   "x": 2444,
+   "y": 2806,
+   "grid": "G7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Police Station Armory key spawns inside its own station."
+  },
+  {
+   "id": "services-clinic",
+   "layer": "services",
+   "name": "Clinic",
+   "x": 1650,
+   "y": 1758,
+   "grid": "D3",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-clinic-2",
+   "layer": "services",
+   "name": "Clinic",
+   "x": 1480,
+   "y": 1995,
+   "grid": "C4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-clinic-3",
+   "layer": "services",
+   "name": "Clinic",
+   "x": 1075,
+   "y": 2258,
+   "grid": "B5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-clinic-4",
+   "layer": "services",
+   "name": "Clinic",
+   "x": 2087,
+   "y": 2039,
+   "grid": "F4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-clinic-5",
+   "layer": "services",
+   "name": "Clinic",
+   "x": 1766,
+   "y": 2172,
+   "grid": "D5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-clinic-6",
+   "layer": "services",
+   "name": "Clinic",
+   "x": 1861,
+   "y": 2681,
+   "grid": "E7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "services-clinic-7",
+   "layer": "services",
+   "name": "Clinic",
+   "x": 2258,
+   "y": 2792,
+   "grid": "F7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 1208,
+   "y": 1708,
+   "grid": "B3",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-2",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 1095,
+   "y": 2000,
+   "grid": "B4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-3",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 1111,
+   "y": 2220,
+   "grid": "B5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-4",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 970,
+   "y": 2404,
+   "grid": "A6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-5",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 1181,
+   "y": 2701,
+   "grid": "B7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-6",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 1696,
+   "y": 2092,
+   "grid": "D5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-7",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 1747,
+   "y": 2266,
+   "grid": "D5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-8",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2094,
+   "y": 1974,
+   "grid": "F4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-9",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2160,
+   "y": 1936,
+   "grid": "F4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-10",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2201,
+   "y": 1923,
+   "grid": "F4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-11",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2214,
+   "y": 2046,
+   "grid": "F4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-12",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2237,
+   "y": 2228,
+   "grid": "F5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-13",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2948,
+   "y": 1849,
+   "grid": "I4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-14",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2851,
+   "y": 1887,
+   "grid": "H4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-15",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2799,
+   "y": 2162,
+   "grid": "H5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-16",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2652,
+   "y": 2365,
+   "grid": "H6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-17",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2665,
+   "y": 2546,
+   "grid": "H6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-18",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2540,
+   "y": 2608,
+   "grid": "G6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-19",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2454,
+   "y": 2667,
+   "grid": "G7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-20",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2707,
+   "y": 2757,
+   "grid": "H7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-21",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2952,
+   "y": 2720,
+   "grid": "I7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-22",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2364,
+   "y": 2824,
+   "grid": "G7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-23",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2567,
+   "y": 2990,
+   "grid": "G8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-24",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 1619,
+   "y": 2651,
+   "grid": "D7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-25",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 1931,
+   "y": 2841,
+   "grid": "E7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-26",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 2133,
+   "y": 3006,
+   "grid": "F8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-27",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 1527,
+   "y": 2914,
+   "grid": "D8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "ammo-ammo-armor-cache-28",
+   "layer": "ammo",
+   "name": "Ammo & Armor Cache",
+   "x": 1707,
+   "y": 2923,
+   "grid": "D8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": ""
+  },
+  {
+   "id": "uav-uav-tower",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 1151,
+   "y": 1672,
+   "grid": "B3",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-2",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 968,
+   "y": 2194,
+   "grid": "A5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-3",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 1217,
+   "y": 2609,
+   "grid": "B6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-4",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 1647,
+   "y": 2623,
+   "grid": "D7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-5",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 1673,
+   "y": 3039,
+   "grid": "D8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-6",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 2038,
+   "y": 1943,
+   "grid": "E4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-7",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 2372,
+   "y": 1940,
+   "grid": "G4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-8",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 2701,
+   "y": 1931,
+   "grid": "H4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-9",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 2337,
+   "y": 2274,
+   "grid": "G5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-10",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 2686,
+   "y": 2310,
+   "grid": "H5",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-11",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 2030,
+   "y": 2547,
+   "grid": "E6",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-12",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 2307,
+   "y": 2884,
+   "grid": "F8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-13",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 2644,
+   "y": 2928,
+   "grid": "H8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-uav-tower-14",
+   "layer": "uav",
+   "name": "UAV Tower",
+   "x": 2919,
+   "y": 2726,
+   "grid": "I7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Capture to scan; announces you. Enemy-held towers can be retaken (Oct 22 patch)."
+  },
+  {
+   "id": "uav-lieutenant-hunt-tower",
+   "layer": "uav",
+   "name": "Lieutenant Hunt Tower",
+   "x": 1705,
+   "y": 1685,
+   "grid": "D3",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Free: reveals the nearest Lieutenant."
+  },
+  {
+   "id": "uav-lieutenant-hunt-tower-2",
+   "layer": "uav",
+   "name": "Lieutenant Hunt Tower",
+   "x": 1117,
+   "y": 2834,
+   "grid": "B7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Free: reveals the nearest Lieutenant."
+  },
+  {
+   "id": "uav-lieutenant-hunt-tower-3",
+   "layer": "uav",
+   "name": "Lieutenant Hunt Tower",
+   "x": 2548,
+   "y": 2029,
+   "grid": "G4",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Free: reveals the nearest Lieutenant."
+  },
+  {
+   "id": "uav-lieutenant-hunt-tower-4",
+   "layer": "uav",
+   "name": "Lieutenant Hunt Tower",
+   "x": 2258,
+   "y": 2677,
+   "grid": "F7",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Free: reveals the nearest Lieutenant."
+  },
+  {
+   "id": "uav-lieutenant-hunt-tower-5",
+   "layer": "uav",
+   "name": "Lieutenant Hunt Tower",
+   "x": 2782,
+   "y": 2921,
+   "grid": "H8",
+   "conf": "official",
+   "src": [
+    "atvi"
+   ],
+   "precision": "exact",
+   "desc": "Free: reveals the nearest Lieutenant."
+  },
+  {
+   "id": "compounds-compound-foxtrot",
+   "layer": "compounds",
+   "name": "Compound Foxtrot",
+   "x": 1107,
+   "y": 1999,
+   "grid": "B4",
+   "conf": "official",
+   "src": [
+    "atvi",
+    "codcentralloot"
+   ],
+   "precision": "exact",
+   "desc": "Green safe + LTV. "
+  },
+  {
+   "id": "compounds-compound-alpha",
+   "layer": "compounds",
+   "name": "Compound Alpha",
+   "x": 1911,
+   "y": 2865,
+   "grid": "E7",
+   "conf": "official",
+   "src": [
+    "atvi",
+    "codcentralloot"
+   ],
+   "precision": "exact",
+   "desc": "Green safe + LTV. "
+  },
+  {
+   "id": "compounds-compound-bravo",
+   "layer": "compounds",
+   "name": "Compound Bravo",
+   "x": 2120,
+   "y": 3022,
+   "grid": "F8",
+   "conf": "official",
+   "src": [
+    "atvi",
+    "codcentralloot"
+   ],
+   "precision": "exact",
+   "desc": "Green safe + LTV. Gold Bar seen here."
+  },
+  {
+   "id": "compounds-compound-charlie",
+   "layer": "compounds",
+   "name": "Compound Charlie",
+   "x": 1679,
+   "y": 2106,
+   "grid": "D5",
+   "conf": "official",
+   "src": [
+    "atvi",
+    "codcentralloot"
+   ],
+   "precision": "exact",
+   "desc": "Green safe + LTV. "
+  },
+  {
+   "id": "compounds-compound-delta",
+   "layer": "compounds",
+   "name": "Compound Delta",
+   "x": 2786,
+   "y": 2174,
+   "grid": "H5",
+   "conf": "official",
+   "src": [
+    "atvi",
+    "codcentralloot"
+   ],
+   "precision": "exact",
+   "desc": "Green safe + LTV. Start of the safe run (deploy Op Fallen Ember to spawn below Delta)."
+  },
+  {
+   "id": "compounds-compound-echo",
+   "layer": "compounds",
+   "name": "Compound Echo",
+   "x": 2544,
+   "y": 2855,
+   "grid": "G7",
+   "conf": "official",
+   "src": [
+    "atvi",
+    "codcentralloot"
+   ],
+   "precision": "exact",
+   "desc": "Green safe + LTV. 2 safes: underground parking + sandbag tent. Gangbyeon Apartment B stronghold nearby."
+  },
+  {
+   "id": "banks-1-cheongun-village-branch",
+   "layer": "banks",
+   "name": "1. Cheongun Village branch",
+   "x": 2137,
+   "y": 2011,
+   "grid": "F4",
+   "conf": "high",
+   "src": [
+    "laserbolt",
+    "dmzradar",
+    "codcentral",
+    "gamerfuzion",
+    "gamesgg",
+    "gamerantbank"
+   ],
+   "precision": "pin (+/-20 map units)",
+   "desc": "East of the Clinic/Hospital in Cheongun Village. Panel in the basement parking garage, on the left; card used in the back office room.",
+   "steps": [
+    "Bring a Car Battery (gas stations; one may spawn in or around the bank). The reader says \"READER LACKS POWER\" until it is powered.",
+    "Insert the battery at the sparking electrical panel inside the branch.",
+    "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
+    "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
+   ],
+   "threats": "Casino (Jin-Tae, High threat) close by.",
+   "exfils": "Cheongun Village exfils; Mirae Hospital Southern"
+  },
+  {
+   "id": "banks-2-nurigo-west-branch",
+   "layer": "banks",
+   "name": "2. NuriGO West branch",
+   "x": 2471,
+   "y": 2419,
+   "grid": "G6",
+   "conf": "medium",
+   "src": [
+    "laserbolt",
+    "gamerfuzion",
+    "gamesgg",
+    "gamerantbank"
+   ],
+   "precision": "pin (+/-20 map units)",
+   "desc": "NuriGO West, G6. Only shown in one creator route (filmed); not pinned on dmzradar/COD Central. Panel/door spots not documented.",
+   "steps": [
+    "Bring a Car Battery (gas stations; one may spawn in or around the bank). The reader says \"READER LACKS POWER\" until it is powered.",
+    "Insert the battery at the sparking electrical panel inside the branch.",
+    "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
+    "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
+   ],
+   "threats": "Heavy AI incl. riot shields; Deathstalker heli seen at NuriGO Mall.",
+   "exfils": "NuriGO Mall exfils"
+  },
+  {
+   "id": "banks-3-songdo-wharf-north-branch",
+   "layer": "banks",
+   "name": "3. Songdo Wharf (north) branch",
+   "x": 2938,
+   "y": 2618,
+   "grid": "I7",
+   "conf": "high",
+   "src": [
+    "laserbolt",
+    "dmzradar",
+    "codcentral",
+    "gamesgg",
+    "gamerantbank"
+   ],
+   "precision": "pin (+/-20 map units)",
+   "desc": "North Songdo Wharf. Card seen on the teller counter. Panel spot not documented.",
+   "steps": [
+    "Bring a Car Battery (gas stations; one may spawn in or around the bank). The reader says \"READER LACKS POWER\" until it is powered.",
+    "Insert the battery at the sparking electrical panel inside the branch.",
+    "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
+    "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
+   ],
+   "threats": "Low-threat area.",
+   "exfils": "Songdo Wharf; Songdo Northern Island Final Exfil"
+  },
+  {
+   "id": "banks-4-wolves-stadium-north-branch",
+   "layer": "banks",
+   "name": "4. Wolves Stadium north branch",
+   "x": 2478,
+   "y": 2705,
+   "grid": "G7",
+   "conf": "high",
+   "src": [
+    "laserbolt",
+    "dmzradar",
+    "codcentral",
+    "gamesgg",
+    "gamerantbank"
+   ],
+   "precision": "pin (+/-20 map units)",
+   "desc": "Small dark-fronted building with a \"HANEX BANK\" sign, S side of the road NE of the stadium, ~100 units N of the Wolves police station, SE edge of The Grid; seen across a grassy slope + iron fence. Fuse box + 3-digit note by the stairs; card on teller counter (COD Central). Battery: Construction Zone gas station.",
+   "steps": [
+    "Bring a Car Battery (gas stations; one may spawn in or around the bank). The reader says \"READER LACKS POWER\" until it is powered.",
+    "Insert the battery at the sparking electrical panel inside the branch.",
+    "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
+    "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
+   ],
+   "threats": "The Scavenger roams Wolves Stadium / River Heights.",
+   "exfils": "Wolves Stadium Northern; Wolves Stadium"
+  },
+  {
+   "id": "banks-5-wolves-stadium-south-branch",
+   "layer": "banks",
+   "name": "5. Wolves Stadium south branch",
+   "x": 2309,
+   "y": 2912,
+   "grid": "F8",
+   "conf": "high",
+   "src": [
+    "laserbolt",
+    "dmzradar",
+    "dmztracker",
+    "gamesgg",
+    "gamerantbank"
+   ],
+   "precision": "pin (+/-20 map units)",
+   "desc": "Blue ground-floor \"HANEX BANK\" corner storefront in a multi-storey building beside an elevated road, just S of the gas station + UAV tower SW of the stadium. Battery \"usually right here\" near the panel.",
+   "steps": [
+    "Bring a Car Battery (gas stations; one may spawn in or around the bank). The reader says \"READER LACKS POWER\" until it is powered.",
+    "Insert the battery at the sparking electrical panel inside the branch.",
+    "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
+    "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
+   ],
+   "threats": "UAV tower side op next door (announces you).",
+   "exfils": "Wolves Stadium Southern; Hajin River Heights"
+  },
+  {
+   "id": "banks-6-hanex-bank-tower-the-grid",
+   "layer": "banks",
+   "name": "6. Hanex Bank tower (The Grid)",
+   "x": 2578,
+   "y": 2547,
+   "grid": "G6",
+   "conf": "medium",
+   "src": [
+    "atvi",
+    "dmztracker",
+    "codcentral",
+    "gamesgg",
+    "gamerantbank"
+   ],
+   "precision": "exact",
+   "desc": "Official \"Hanex Bank\" marker. Two vault rooms on floor 17 (one below the roof) with a separate code lock; Hanex Guard Station (Epic key) between them: 2 weapon lockers, safe, equipment case. How the tower code lock works is NOT confirmed (COD Central says same card + note + 1-guess system).",
+   "steps": [
+    "Bring a Car Battery (gas stations; one may spawn in or around the bank). The reader says \"READER LACKS POWER\" until it is powered.",
+    "Insert the battery at the sparking electrical panel inside the branch.",
+    "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
+    "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
+   ],
+   "threats": "Critical-threat Grid; Roze and Jang-ui next door; Deathstalker seen.",
+   "exfils": "NuriGO Mall exfils; Hajin City heli exfil"
+  },
+  {
+   "id": "keys-air-base-armory-card",
+   "layer": "keys",
+   "name": "Air Base Armory Card",
+   "x": 1052,
+   "y": 2316,
+   "grid": "B5",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Bunker armory door; upgrade Access Card at Admin Complex No.2 server room; 6-digit code from notes. Inside: Bunker armory + DRC locker access.",
+   "keyId": "key-air-base-armory-card",
+   "rarity": "Legendary",
+   "worth": "High"
+  },
+  {
+   "id": "keys-air-base-drc-weapons-locker",
+   "layer": "keys",
+   "name": "Air Base DRC Weapons Locker",
+   "x": 1040,
+   "y": 2441,
+   "grid": "B6",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: White cabinet in bunker warehouse past armory. Inside: 3-plate helmet, weapon manual seen.",
+   "keyId": "key-air-base-drc-weapons-locker",
+   "rarity": "Ultra",
+   "worth": "High"
+  },
+  {
+   "id": "ultra-air-base-drc-weapons-locker",
+   "layer": "ultra",
+   "name": "Air Base DRC Weapons Locker",
+   "x": 1040,
+   "y": 2441,
+   "grid": "B6",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Ultra (red) DRC locker. Door: White cabinet in bunker warehouse past armory. Inside: 3-plate helmet, weapon manual seen.",
+   "keyId": "key-air-base-drc-weapons-locker"
+  },
+  {
+   "id": "keys-supreme-leader-s-bunker-access-card",
+   "layer": "keys",
+   "name": "Supreme Leader's Bunker Access Card",
+   "x": 1036,
+   "y": 2363,
+   "grid": "B6",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Grey blast door (red star) bottom of bunker via Admin Complex No.2 stairwell 02. Inside: Lt crate; legendary LMG seen.",
+   "keyId": "key-supreme-leader-s-bunker-access-card",
+   "rarity": "Legendary",
+   "worth": "High"
+  },
+  {
+   "id": "keys-commandant-office",
+   "layer": "keys",
+   "name": "Commandant Office",
+   "x": 1016,
+   "y": 2347,
+   "grid": "B5",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Admin Complex No.2, 2F, first left under Conference Room sign. Inside: Rifle case, weapon lockers, equipment case, crate.",
+   "keyId": "key-commandant-office",
+   "rarity": "Epic",
+   "worth": "High"
+  },
+  {
+   "id": "keys-field-depot",
+   "layer": "keys",
+   "name": "Field Depot",
+   "x": 1028,
+   "y": 2268,
+   "grid": "B5",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Supply warehouse NE of base clinic, 1F. Inside: Undocumented.",
+   "keyId": "key-field-depot",
+   "rarity": "Epic",
+   "worth": "?"
+  },
+  {
+   "id": "keys-weapons-mod-workshop",
+   "layer": "keys",
+   "name": "Weapons Mod Workshop",
+   "x": 1012,
+   "y": 2245,
+   "grid": "B5",
+   "conf": "low",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Repair garage W of base clinic, 2F. Inside: Undocumented.",
+   "keyId": "key-weapons-mod-workshop",
+   "rarity": "Rare",
+   "worth": "?"
+  },
+  {
+   "id": "keys-counting-room-vault",
+   "layer": "keys",
+   "name": "Counting Room Vault",
+   "x": 2249,
+   "y": 1924,
+   "grid": "F4",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Casino main floor, east wing corridor; opens outer+inner. Inside: Foot locker, weapon crate, safes, cash; Gold Skull/Nuclear files reported.",
+   "keyId": "key-counting-room-vault",
+   "rarity": "Epic",
+   "worth": "High"
+  },
+  {
+   "id": "keys-vault-armory",
+   "layer": "keys",
+   "name": "Vault Armory",
+   "x": 2193,
+   "y": 1950,
+   "grid": "F4",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Casino underground parking mesh door, foot of NW stairs. Inside: Armor box, weapon case, 2 weapon lockers; manual reported.",
+   "keyId": "key-vault-armory",
+   "rarity": "Epic",
+   "worth": "High"
+  },
+  {
+   "id": "keys-jin-tae-s-private-lounge",
+   "layer": "keys",
+   "name": "Jin-Tae's Private Lounge",
+   "x": 2225,
+   "y": 1876,
+   "grid": "F4",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Casino penthouse floor 7. Inside: Lt crate w/ 2 legendary weapons, 2 lockers.",
+   "keyId": "key-jin-tae-s-private-lounge",
+   "rarity": "Legendary",
+   "worth": "High"
+  },
+  {
+   "id": "keys-mechanic-s-shack",
+   "layer": "keys",
+   "name": "Mechanic's Shack",
+   "x": 2115,
+   "y": 2060,
+   "grid": "F4",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Shed directly S of Cheongun clinic. Inside: Footlockers, rifle case, armor box, KG-7 Vulcan reported.",
+   "keyId": "key-mechanic-s-shack",
+   "rarity": "Rare",
+   "worth": "High for a Rare"
+  },
+  {
+   "id": "keys-rail-depot-storage",
+   "layer": "keys",
+   "name": "Rail Depot Storage",
+   "x": 1991,
+   "y": 2056,
+   "grid": "E4",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Cheongun W train depot basement, dark green door. Inside: 5 lockers, crates, rifle case, cash.",
+   "keyId": "key-rail-depot-storage",
+   "rarity": "Rare",
+   "worth": "Med-High"
+  },
+  {
+   "id": "keys-gun-store-weapons-locker-1",
+   "layer": "keys",
+   "name": "Gun Store Weapons Locker #1",
+   "x": 2908,
+   "y": 2548,
+   "grid": "I6",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Gun store basement, 3 green lockers (1 per key). Inside: A weapon w/ attachments.",
+   "keyId": "key-gun-store-weapons-locker",
+   "rarity": "Rare",
+   "worth": "Med"
+  },
+  {
+   "id": "keys-gun-store-weapons-locker-2",
+   "layer": "keys",
+   "name": "Gun Store Weapons Locker #2",
+   "x": 2028,
+   "y": 1901,
+   "grid": "E4",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Gun store basement, 3 green lockers (1 per key). Inside: A weapon w/ attachments.",
+   "keyId": "key-gun-store-weapons-locker",
+   "rarity": "Rare",
+   "worth": "Med"
+  },
+  {
+   "id": "keys-fire-station-storage",
+   "layer": "keys",
+   "name": "Fire Station Storage",
+   "x": 2057,
+   "y": 2035,
+   "grid": "E4",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Cheongun fire station upstairs. Inside: Undocumented.",
+   "keyId": "key-fire-station-storage",
+   "rarity": "Unknown",
+   "worth": "?"
+  },
+  {
+   "id": "keys-police-station-armory-1",
+   "layer": "keys",
+   "name": "Police Station Armory #1",
+   "x": 1643,
+   "y": 1523,
+   "grid": "D2",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Barred ground-floor armory (Pyeonghwa: basement). Inside: Military gear + weapon.",
+   "keyId": "key-police-station-armory",
+   "rarity": "Uncommon",
+   "worth": "Med (spawns in station)"
+  },
+  {
+   "id": "keys-police-station-armory-2",
+   "layer": "keys",
+   "name": "Police Station Armory #2",
+   "x": 1426,
+   "y": 2058,
+   "grid": "C4",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Barred ground-floor armory (Pyeonghwa: basement). Inside: Military gear + weapon.",
+   "keyId": "key-police-station-armory",
+   "rarity": "Uncommon",
+   "worth": "Med (spawns in station)"
+  },
+  {
+   "id": "keys-police-station-armory-3",
+   "layer": "keys",
+   "name": "Police Station Armory #3",
+   "x": 2086,
+   "y": 1916,
+   "grid": "F4",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Barred ground-floor armory (Pyeonghwa: basement). Inside: Military gear + weapon.",
+   "keyId": "key-police-station-armory",
+   "rarity": "Uncommon",
+   "worth": "Med (spawns in station)"
+  },
+  {
+   "id": "keys-police-station-armory-4",
+   "layer": "keys",
+   "name": "Police Station Armory #4",
+   "x": 2677,
+   "y": 2322,
+   "grid": "H5",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Barred ground-floor armory (Pyeonghwa: basement). Inside: Military gear + weapon.",
+   "keyId": "key-police-station-armory",
+   "rarity": "Uncommon",
+   "worth": "Med (spawns in station)"
+  },
+  {
+   "id": "keys-police-station-armory-5",
+   "layer": "keys",
+   "name": "Police Station Armory #5",
+   "x": 2444,
+   "y": 2806,
+   "grid": "G7",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Barred ground-floor armory (Pyeonghwa: basement). Inside: Military gear + weapon.",
+   "keyId": "key-police-station-armory",
+   "rarity": "Uncommon",
+   "worth": "Med (spawns in station)"
+  },
+  {
+   "id": "keys-police-weapon-depository",
+   "layer": "keys",
+   "name": "Police Weapon Depository",
+   "x": 2416,
+   "y": 2806,
+   "grid": "G7",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: White garage, green roller door N of Wolves police station. Inside: Epic weapons reported.",
+   "keyId": "key-police-weapon-depository",
+   "rarity": "Epic",
+   "worth": "High"
+  },
+  {
+   "id": "keys-shop-records-room",
+   "layer": "keys",
+   "name": "Shop Records Room",
+   "x": 2261,
+   "y": 2826,
+   "grid": "F7",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Above Goh24 supermart, green outside stairs. Inside: Duffel w/ documents, lockers.",
+   "keyId": "key-shop-records-room",
+   "rarity": "Rare",
+   "worth": "Med"
+  },
+  {
+   "id": "keys-gangbyeon-apartment-a",
+   "layer": "keys",
+   "name": "Gangbyeon Apartment A",
+   "x": 2572,
+   "y": 2855,
+   "grid": "G7",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Block A door, Compound Echo. Inside: Undocumented.",
+   "keyId": "key-gangbyeon-apartment-a",
+   "rarity": "Unknown",
+   "worth": "?"
+  },
+  {
+   "id": "keys-gangbyeon-apartment-b",
+   "layer": "keys",
+   "name": "Gangbyeon Apartment B",
+   "x": 2516,
+   "y": 2881,
+   "grid": "G7",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Glass doors, block w/ SAM on roof. Inside: Lockers, crates; 2 Epic backpacks run.",
+   "keyId": "key-gangbyeon-apartment-b",
+   "rarity": "Uncommon",
+   "worth": "High"
+  },
+  {
+   "id": "keys-militia-arms-depot",
+   "layer": "keys",
+   "name": "Militia Arms Depot",
+   "x": 2548,
+   "y": 2807,
+   "grid": "G7",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Apt B armory, white door teal corridor (2F per video). Inside: Not itemised.",
+   "keyId": "key-militia-arms-depot",
+   "rarity": "Rare",
+   "worth": "?"
+  },
+  {
+   "id": "keys-hanex-guard-station",
+   "layer": "keys",
+   "name": "Hanex Guard Station",
+   "x": 2606,
+   "y": 2547,
+   "grid": "G6",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Hanex tower floor 17 between vaults. Inside: 2 weapon lockers, safe, equipment case.",
+   "keyId": "key-hanex-guard-station",
+   "rarity": "Epic",
+   "worth": "High"
+  },
+  {
+   "id": "keys-executive-arms-auction",
+   "layer": "keys",
+   "name": "Executive Arms Auction",
+   "x": 2544,
+   "y": 2494,
+   "grid": "G6",
+   "conf": "medium",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: DBN HQ upper floor dark teal door. Inside: Weapon cases (reported).",
+   "keyId": "key-executive-arms-auction",
+   "rarity": "Epic",
+   "worth": "Med-High"
+  },
+  {
+   "id": "keys-netshin-it-room",
+   "layer": "keys",
+   "name": "Netshin IT Room",
+   "x": 2528,
+   "y": 2530,
+   "grid": "G6",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Netshin floor 14 behind server hall. Inside: Weapons locker, server blades.",
+   "keyId": "key-netshin-it-room",
+   "rarity": "Epic",
+   "worth": "Med"
+  },
+  {
+   "id": "keys-roze-s-highrise-armory",
+   "layer": "keys",
+   "name": "Roze's Highrise Armory",
+   "x": 2472,
+   "y": 2556,
+   "grid": "G6",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Netshin 14F east teal door. Inside: Lt crate + 2 weapon lockers.",
+   "keyId": "key-roze-s-highrise-armory",
+   "rarity": "Legendary",
+   "worth": "High"
+  },
+  {
+   "id": "keys-coin-mining-den",
+   "layer": "keys",
+   "name": "Coin Mining Den",
+   "x": 2504,
+   "y": 2373,
+   "grid": "G6",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: NuriGO West apt, S stairwell landing 3 grey door. Inside: Server racks, crafting parts, no weapons.",
+   "keyId": "key-coin-mining-den",
+   "rarity": "Rare",
+   "worth": "Med (crafting)"
+  },
+  {
+   "id": "keys-hanwoori-art-records-room",
+   "layer": "keys",
+   "name": "Hanwoori Art Records Room",
+   "x": 2589,
+   "y": 2695,
+   "grid": "G7",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Hanwoori Design Complex 1F back-left door. Inside: Rifle case, cabinets, foot lockers, equipment case.",
+   "keyId": "key-hanwoori-art-records-room",
+   "rarity": "Rare",
+   "worth": "Med"
+  },
+  {
+   "id": "keys-hajin-art-center",
+   "layer": "keys",
+   "name": "Hajin Art Center",
+   "x": 2504,
+   "y": 2482,
+   "grid": "G6",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Dark glass double door by stairwell. Inside: Undocumented.",
+   "keyId": "key-hajin-art-center",
+   "rarity": "Unknown",
+   "worth": "?"
+  },
+  {
+   "id": "keys-lucera-suite-703-bedroom",
+   "layer": "keys",
+   "name": "Lucera Suite 703 Bedroom",
+   "x": 2761,
+   "y": 2700,
+   "grid": "H7",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Hotel Lucera suite 703 (2 heavy armor AI inside). Inside: Rifle case, crate, weapon lockers.",
+   "keyId": "key-lucera-suite-703-bedroom",
+   "rarity": "Epic",
+   "worth": "High"
+  },
+  {
+   "id": "keys-hotel-lucera-lobby",
+   "layer": "keys",
+   "name": "Hotel Lucera Lobby",
+   "x": 2705,
+   "y": 2726,
+   "grid": "H7",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Lobby glass door. Inside: Lobby only.",
+   "keyId": "key-hotel-lucera-lobby",
+   "rarity": "Unknown",
+   "worth": "Low"
+  },
+  {
+   "id": "keys-gas-station-electrical-room",
+   "layer": "keys",
+   "name": "Gas Station Electrical Room",
+   "x": 2737,
+   "y": 2652,
+   "grid": "H7",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Basement grey door, S gas station below Hanwoori. Inside: Not itemised.",
+   "keyId": "key-gas-station-electrical-room",
+   "rarity": "Rare",
+   "worth": "?"
+  },
+  {
+   "id": "keys-jang-ui-s-converted-power-room",
+   "layer": "keys",
+   "name": "Jang-ui's Converted Power Room",
+   "x": 2671,
+   "y": 2437,
+   "grid": "H6",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: NuriGO lowest floor generator room. Inside: 2 weapon lockers, loot chest, Lt crate.",
+   "keyId": "key-jang-ui-s-converted-power-room",
+   "rarity": "Legendary",
+   "worth": "High"
+  },
+  {
+   "id": "keys-shopping-drc-locker",
+   "layer": "keys",
+   "name": "Shopping DRC Locker",
+   "x": 2682,
+   "y": 2412,
+   "grid": "H6",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: NuriGO lower garage DRC lab inner door (6-10 robodog cores). Inside: Elite Weapons Locker.",
+   "keyId": "key-shopping-drc-locker",
+   "rarity": "Ultra",
+   "worth": "High"
+  },
+  {
+   "id": "ultra-shopping-drc-locker",
+   "layer": "ultra",
+   "name": "Shopping DRC Locker",
+   "x": 2682,
+   "y": 2412,
+   "grid": "H6",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Ultra (red) DRC locker. Door: NuriGO lower garage DRC lab inner door (6-10 robodog cores). Inside: Elite Weapons Locker.",
+   "keyId": "key-shopping-drc-locker"
+  },
+  {
+   "id": "keys-mirae-electrical-room",
+   "layer": "keys",
+   "name": "Mirae Electrical Room",
+   "x": 2313,
+   "y": 2253,
+   "grid": "F5",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: NW garage B2, back double doors. Inside: Tool chests, armor boxes, medium weapon backpack.",
+   "keyId": "key-mirae-electrical-room",
+   "rarity": "Rare",
+   "worth": "Med-High"
+  },
+  {
+   "id": "keys-doctor-s-command-office",
+   "layer": "keys",
+   "name": "Doctor's Command Office",
+   "x": 2257,
+   "y": 2279,
+   "grid": "F5",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Mirae floor 7 office row 701-712. Inside: Lt crate; Tempered Armor Vest recipe seen.",
+   "keyId": "key-doctor-s-command-office",
+   "rarity": "Legendary",
+   "worth": "High"
+  },
+  {
+   "id": "keys-hospital-chemistry-lab",
+   "layer": "keys",
+   "name": "Hospital Chemistry Lab",
+   "x": 2289,
+   "y": 2205,
+   "grid": "F5",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: White door top of hospital stairwell. Inside: Undocumented.",
+   "keyId": "key-hospital-chemistry-lab",
+   "rarity": "Unknown",
+   "worth": "?"
+  },
+  {
+   "id": "keys-haejeok-radio-station",
+   "layer": "keys",
+   "name": "Haejeok Radio Station",
+   "x": 1756,
+   "y": 2383,
+   "grid": "D6",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Imjin Suburb transmitter bldg L1. Inside: Server racks, comms modules.",
+   "keyId": "key-haejeok-radio-station",
+   "rarity": "Rare",
+   "worth": "Med (crafting)"
+  },
+  {
+   "id": "keys-iskra-s-control-room",
+   "layer": "keys",
+   "name": "Iskra's Control Room",
+   "x": 2067,
+   "y": 2554,
+   "grid": "E6",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Cheonwang transmitter top floor. Inside: Lt crate w/ Iskra's weapon.",
+   "keyId": "key-iskra-s-control-room",
+   "rarity": "Legendary",
+   "worth": "High"
+  },
+  {
+   "id": "keys-gorani-s-scout-overlook",
+   "layer": "keys",
+   "name": "Gorani's Scout Overlook",
+   "x": 1708,
+   "y": 2943,
+   "grid": "D8",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Rice Mill bldg 2 upper landing (climb pipe). Inside: Lt loot room.",
+   "keyId": "key-gorani-s-scout-overlook",
+   "rarity": "Legendary",
+   "worth": "High"
+  },
+  {
+   "id": "keys-hoesik-supply-room",
+   "layer": "keys",
+   "name": "Hoesik Supply Room",
+   "x": 1652,
+   "y": 2969,
+   "grid": "D8",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Upstairs, southernmost office block outside mill. Inside: Military supplies.",
+   "keyId": "key-hoesik-supply-room",
+   "rarity": "Epic",
+   "worth": "Med"
+  },
+  {
+   "id": "keys-imjin-mill-foreman-s-office",
+   "layer": "keys",
+   "name": "Imjin Mill Foreman's Office",
+   "x": 1684,
+   "y": 2895,
+   "grid": "D8",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Main mill 1F upper corridor. Inside: Not itemised.",
+   "keyId": "key-imjin-mill-foreman-s-office",
+   "rarity": "Rare",
+   "worth": "?"
+  },
+  {
+   "id": "keys-mill-explosives-lab",
+   "layer": "keys",
+   "name": "Mill Explosives Lab",
+   "x": 1715,
+   "y": 2989,
+   "grid": "D8",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Not confirmed (roof/window). Inside: Undocumented.",
+   "keyId": "key-mill-explosives-lab",
+   "rarity": "Uncommon",
+   "worth": "?"
+  },
+  {
+   "id": "keys-rice-mill-bunker",
+   "layer": "keys",
+   "name": "Rice Mill Bunker",
+   "x": 1613,
+   "y": 2931,
+   "grid": "D8",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Dark green door by silos. Inside: Undocumented.",
+   "keyId": "key-rice-mill-bunker",
+   "rarity": "Unknown",
+   "worth": "?"
+  },
+  {
+   "id": "keys-haksan-school-armory",
+   "layer": "keys",
+   "name": "Haksan School Armory",
+   "x": 1187,
+   "y": 2699,
+   "grid": "B7",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: School NE of Re-Ed Center, 2F red door. Inside: Weapon lockers, medium backpack, defib.",
+   "keyId": "key-haksan-school-armory",
+   "rarity": "Rare",
+   "worth": "Med-High"
+  },
+  {
+   "id": "keys-re-education-center-annex",
+   "layer": "keys",
+   "name": "Re-Education Center Annex",
+   "x": 1131,
+   "y": 2725,
+   "grid": "B7",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Ground-floor annex, S corner. Inside: 2-Plate Gel Vest recipe, legendary Oden seen.",
+   "keyId": "key-re-education-center-annex",
+   "rarity": "Epic",
+   "worth": "High"
+  },
+  {
+   "id": "keys-underground-equipment-storage",
+   "layer": "keys",
+   "name": "Underground Equipment Storage",
+   "x": 1163,
+   "y": 2651,
+   "grid": "B7",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Re-Ed Center underground. Inside: Undocumented.",
+   "keyId": "key-underground-equipment-storage",
+   "rarity": "Unknown",
+   "worth": "?"
+  },
+  {
+   "id": "keys-underground-propaganda-store-room",
+   "layer": "keys",
+   "name": "Underground Propaganda Store Room",
+   "x": 1194,
+   "y": 2745,
+   "grid": "B7",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Re-Ed underground cells side passage. Inside: Undocumented.",
+   "keyId": "key-underground-propaganda-store-room",
+   "rarity": "Rare",
+   "worth": "?"
+  },
+  {
+   "id": "keys-blackmarket-weapons-locker-1",
+   "layer": "keys",
+   "name": "Blackmarket Weapons Locker #1",
+   "x": 1110,
+   "y": 2785,
+   "grid": "B7",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Hanrim shop stockroom green doors / Deadtown house 2nd basement. Inside: Weapon w/ attachments.",
+   "keyId": "key-blackmarket-weapons-locker",
+   "rarity": "Rare",
+   "worth": "Med"
+  },
+  {
+   "id": "keys-blackmarket-weapons-locker-2",
+   "layer": "keys",
+   "name": "Blackmarket Weapons Locker #2",
+   "x": 1462,
+   "y": 1405,
+   "grid": "C2",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Hanrim shop stockroom green doors / Deadtown house 2nd basement. Inside: Weapon w/ attachments.",
+   "keyId": "key-blackmarket-weapons-locker",
+   "rarity": "Rare",
+   "worth": "Med"
+  },
+  {
+   "id": "keys-citadel-main-control-room",
+   "layer": "keys",
+   "name": "Citadel Main Control Room",
+   "x": 1228,
+   "y": 1671,
+   "grid": "B3",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Beside Officers Only sign (open with 4 K9 cores in East Wing). Inside: South Block Armory key.",
+   "keyId": "key-citadel-main-control-room",
+   "rarity": "Uncommon",
+   "worth": "Med (chain)"
+  },
+  {
+   "id": "keys-south-block-armory",
+   "layer": "keys",
+   "name": "South Block Armory",
+   "x": 1172,
+   "y": 1697,
+   "grid": "B3",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Citadel South Block inner armory via window. Inside: Undocumented.",
+   "keyId": "key-south-block-armory",
+   "rarity": "Legendary",
+   "worth": "?"
+  },
+  {
+   "id": "keys-citadel-secondary-control-room",
+   "layer": "keys",
+   "name": "Citadel Secondary Control Room",
+   "x": 1204,
+   "y": 1623,
+   "grid": "B3",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Floor 2 landing; cameras open 2 fences. Inside: Fence controls.",
+   "keyId": "key-citadel-secondary-control-room",
+   "rarity": "Uncommon",
+   "worth": "Low"
+  },
+  {
+   "id": "keys-citadel-south-wing",
+   "layer": "keys",
+   "name": "Citadel South Wing",
+   "x": 1235,
+   "y": 1717,
+   "grid": "B3",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: SW arm door; cells need 2-note keypad. Inside: Cell block.",
+   "keyId": "key-citadel-south-wing",
+   "rarity": "Uncommon",
+   "worth": "Low"
+  },
+  {
+   "id": "keys-kang-s-arms-incinerator",
+   "layer": "keys",
+   "name": "Kang's Arms Incinerator",
+   "x": 1133,
+   "y": 1659,
+   "grid": "B3",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Citadel room. Inside: Undocumented.",
+   "keyId": "key-kang-s-arms-incinerator",
+   "rarity": "Unknown",
+   "worth": "?"
+  },
+  {
+   "id": "keys-prison-encampment-storage",
+   "layer": "keys",
+   "name": "Prison Encampment Storage",
+   "x": 1380,
+   "y": 1712,
+   "grid": "C3",
+   "conf": "low",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: SE prison camp plank-door shed. Inside: Undocumented.",
+   "keyId": "key-prison-encampment-storage",
+   "rarity": "Rare",
+   "worth": "?"
+  },
+  {
+   "id": "keys-reactor-drc-locker",
+   "layer": "keys",
+   "name": "Reactor DRC Locker",
+   "x": 2906,
+   "y": 1921,
+   "grid": "I4",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Underwater in Reactor 02 west pool. Inside: Manual, Epic weapon, 3-plate vest seen.",
+   "keyId": "key-reactor-drc-locker",
+   "rarity": "Ultra",
+   "worth": "High"
+  },
+  {
+   "id": "ultra-reactor-drc-locker",
+   "layer": "ultra",
+   "name": "Reactor DRC Locker",
+   "x": 2906,
+   "y": 1921,
+   "grid": "I4",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Ultra (red) DRC locker. Door: Underwater in Reactor 02 west pool. Inside: Manual, Epic weapon, 3-plate vest seen.",
+   "keyId": "key-reactor-drc-locker"
+  },
+  {
+   "id": "keys-reactor-02-control-room",
+   "layer": "keys",
+   "name": "Reactor 02 Control Room",
+   "x": 2850,
+   "y": 1947,
+   "grid": "I4",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Upper catwalk grey door. Inside: Not itemised.",
+   "keyId": "key-reactor-02-control-room",
+   "rarity": "Rare",
+   "worth": "?"
+  },
+  {
+   "id": "keys-utility-maintenance-storage",
+   "layer": "keys",
+   "name": "Utility Maintenance Storage",
+   "x": 2839,
+   "y": 1958,
+   "grid": "H4",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Under transformer yard SW of Reactor 01. Inside: Lockers, crates.",
+   "keyId": "key-utility-maintenance-storage",
+   "rarity": "Rare",
+   "worth": "Med"
+  },
+  {
+   "id": "keys-chemist-s-secure-armory",
+   "layer": "keys",
+   "name": "Chemist's Secure Armory",
+   "x": 2988,
+   "y": 1870,
+   "grid": "I4",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Right bunker door by NE boathouse. Inside: Rifle case, crate, 2 weapon lockers.",
+   "keyId": "key-chemist-s-secure-armory",
+   "rarity": "Legendary",
+   "worth": "High"
+  },
+  {
+   "id": "keys-hazard-storehouse",
+   "layer": "keys",
+   "name": "Hazard Storehouse",
+   "x": 2941,
+   "y": 2105,
+   "grid": "I5",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: White shed by SAM site S of reactor island. Inside: Up to 11 grenade lockers, chem cabinets.",
+   "keyId": "key-hazard-storehouse",
+   "rarity": "Rare",
+   "worth": "Med"
+  },
+  {
+   "id": "keys-old-barber-shop",
+   "layer": "keys",
+   "name": "Old Barber Shop",
+   "x": 2908,
+   "y": 2789,
+   "grid": "I7",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Songdo S side, right of crab stall. Inside: Weapon cases, armor boxes.",
+   "keyId": "key-old-barber-shop",
+   "rarity": "Rare",
+   "worth": "Med-High"
+  },
+  {
+   "id": "keys-bank-branch-vault-access-1",
+   "layer": "keys",
+   "name": "Bank Branch Vault Access #1",
+   "x": 2137,
+   "y": 2011,
+   "grid": "F4",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Hanex branch vaults. Inside: Safes, cash, gold.",
+   "keyId": "key-bank-branch-vault-access",
+   "rarity": "Rare",
+   "worth": "High"
+  },
+  {
+   "id": "keys-bank-branch-vault-access-2",
+   "layer": "keys",
+   "name": "Bank Branch Vault Access #2",
+   "x": 2471,
+   "y": 2419,
+   "grid": "G6",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Hanex branch vaults. Inside: Safes, cash, gold.",
+   "keyId": "key-bank-branch-vault-access",
+   "rarity": "Rare",
+   "worth": "High"
+  },
+  {
+   "id": "keys-bank-branch-vault-access-3",
+   "layer": "keys",
+   "name": "Bank Branch Vault Access #3",
+   "x": 2938,
+   "y": 2618,
+   "grid": "I7",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Hanex branch vaults. Inside: Safes, cash, gold.",
+   "keyId": "key-bank-branch-vault-access",
+   "rarity": "Rare",
+   "worth": "High"
+  },
+  {
+   "id": "keys-bank-branch-vault-access-4",
+   "layer": "keys",
+   "name": "Bank Branch Vault Access #4",
+   "x": 2478,
+   "y": 2705,
+   "grid": "G7",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Hanex branch vaults. Inside: Safes, cash, gold.",
+   "keyId": "key-bank-branch-vault-access",
+   "rarity": "Rare",
+   "worth": "High"
+  },
+  {
+   "id": "keys-bank-branch-vault-access-5",
+   "layer": "keys",
+   "name": "Bank Branch Vault Access #5",
+   "x": 2309,
+   "y": 2912,
+   "grid": "F8",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: Hanex branch vaults. Inside: Safes, cash, gold.",
+   "keyId": "key-bank-branch-vault-access",
+   "rarity": "Rare",
+   "worth": "High"
+  },
+  {
+   "id": "bosses-the-warden-lieutenant",
+   "layer": "bosses",
+   "name": "The Warden (Lieutenant)",
+   "x": 1268,
+   "y": 1602,
+   "grid": "C3",
+   "conf": "medium",
+   "src": [
+    "metaradar",
+    "gamesggboss",
+    "codcentralboss"
+   ],
+   "precision": "approx. (home POI)",
+   "desc": "Prison mess hall (B3). Riot shield. Dropped Type 73. Random blueprint drop reported. Drops Dog Tag Case (reveals you on every Tac-Map; pays $25k on extract), first kill $10k on extract, sometimes a Legendary key to their loot room.",
+   "lootRoom": "Kang's Arms Incinerator (Citadel, unconfirmed)"
+  },
+  {
+   "id": "bosses-bale-lieutenant",
+   "layer": "bosses",
+   "name": "Bale (Lieutenant)",
+   "x": 1179,
+   "y": 2679,
+   "grid": "B7",
+   "conf": "medium",
+   "src": [
+    "metaradar",
+    "gamesggboss",
+    "codcentralboss"
+   ],
+   "precision": "approx. (home POI)",
+   "desc": "Re-Education Center (B7). Drops Dog Tag Case (reveals you on every Tac-Map; pays $25k on extract), first kill $10k on extract, sometimes a Legendary key to their loot room.",
+   "lootRoom": "-"
+  },
+  {
+   "id": "bosses-jin-tae-lieutenant",
+   "layer": "bosses",
+   "name": "Jin-Tae (Lieutenant)",
+   "x": 2241,
+   "y": 1904,
+   "grid": "F4",
+   "conf": "high",
+   "src": [
+    "metaradar",
+    "gamesggboss",
+    "codcentralboss"
+   ],
+   "precision": "approx. (home POI)",
+   "desc": "Heavenly Luck Casino (F4). Drops Dog Tag Case (reveals you on every Tac-Map; pays $25k on extract), first kill $10k on extract, sometimes a Legendary key to their loot room.",
+   "lootRoom": "Jin-Tae's Private Lounge: casino penthouse floor 7, Lt crate with 2 legendary weapons"
+  },
+  {
+   "id": "bosses-the-doctor-lieutenant",
+   "layer": "bosses",
+   "name": "The Doctor (Lieutenant)",
+   "x": 2297,
+   "y": 2225,
+   "grid": "F5",
+   "conf": "high",
+   "src": [
+    "metaradar",
+    "gamesggboss",
+    "codcentralboss",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Mirae parking garage (F5), hazmat. Drops Dog Tag Case (reveals you on every Tac-Map; pays $25k on extract), first kill $10k on extract, sometimes a Legendary key to their loot room.",
+   "lootRoom": "Doctor's Command Office: Mirae floor 7, rooms 701-712 (Tempered Armor Vest recipe seen)"
+  },
+  {
+   "id": "bosses-the-chemist-lieutenant",
+   "layer": "bosses",
+   "name": "The Chemist (Lieutenant)",
+   "x": 2898,
+   "y": 1901,
+   "grid": "I4",
+   "conf": "high",
+   "src": [
+    "metaradar",
+    "gamesggboss",
+    "codcentralboss"
+   ],
+   "precision": "approx. (home POI)",
+   "desc": "Reactor (H4), radiation. Dropped an Epic Kastov 762. Drops Dog Tag Case (reveals you on every Tac-Map; pays $25k on extract), first kill $10k on extract, sometimes a Legendary key to their loot room.",
+   "lootRoom": "Chemist's Secure Armory: right bunker door by NE boathouse (I4)"
+  },
+  {
+   "id": "bosses-iskra-lieutenant",
+   "layer": "bosses",
+   "name": "Iskra (Lieutenant)",
+   "x": 2059,
+   "y": 2534,
+   "grid": "E6",
+   "conf": "high",
+   "src": [
+    "metaradar",
+    "gamesggboss",
+    "codcentralboss"
+   ],
+   "precision": "approx. (home POI)",
+   "desc": "Cheonwang Peak (F6/F7). Drops Dog Tag Case (reveals you on every Tac-Map; pays $25k on extract), first kill $10k on extract, sometimes a Legendary key to their loot room.",
+   "lootRoom": "Iskra's Control Room: transmitter top floor"
+  },
+  {
+   "id": "bosses-gorani-lieutenant",
+   "layer": "bosses",
+   "name": "Gorani (Lieutenant)",
+   "x": 2150,
+   "y": 2687,
+   "grid": "F7",
+   "conf": "high",
+   "src": [
+    "metaradar",
+    "gamesggboss",
+    "codcentralboss",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Forest S of Cheonwang (F7); smoke, decoys, \"teleports\". Drops Dog Tag Case (reveals you on every Tac-Map; pays $25k on extract), first kill $10k on extract, sometimes a Legendary key to their loot room.",
+   "lootRoom": "Gorani's Scout Overlook: Rice Mill bldg 2 upper landing (climb the pipe)"
+  },
+  {
+   "id": "bosses-jang-ui-lieutenant",
+   "layer": "bosses",
+   "name": "Jang-ui (Lieutenant)",
+   "x": 2428,
+   "y": 2462,
+   "grid": "G6",
+   "conf": "high",
+   "src": [
+    "metaradar",
+    "gamesggboss",
+    "codcentralboss",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Netshin 15F (G6). Drops Dog Tag Case (reveals you on every Tac-Map; pays $25k on extract), first kill $10k on extract, sometimes a Legendary key to their loot room.",
+   "lootRoom": "Jang-ui's Converted Power Room: NuriGO lowest-floor generator room"
+  },
+  {
+   "id": "bosses-roze-lieutenant",
+   "layer": "bosses",
+   "name": "Roze (Lieutenant)",
+   "x": 2566,
+   "y": 2469,
+   "grid": "G6",
+   "conf": "high",
+   "src": [
+    "metaradar",
+    "gamesggboss",
+    "codcentralboss",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "DBN HQ (G6). Sniper who can one-shot. Drops Dog Tag Case (reveals you on every Tac-Map; pays $25k on extract), first kill $10k on extract, sometimes a Legendary key to their loot room.",
+   "lootRoom": "Roze's Highrise Armory: Netshin 14F east teal door"
+  },
+  {
+   "id": "bosses-the-scavenger-lieutenant",
+   "layer": "bosses",
+   "name": "The Scavenger (Lieutenant)",
+   "x": 2486,
+   "y": 2921,
+   "grid": "G8",
+   "conf": "medium",
+   "src": [
+    "metaradar",
+    "gamesggboss",
+    "codcentralboss",
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "River Heights (G8); roams Wolves Stadium. Drops Dog Tag Case (reveals you on every Tac-Map; pays $25k on extract), first kill $10k on extract, sometimes a Legendary key to their loot room.",
+   "lootRoom": "-"
+  },
+  {
+   "id": "ltrooms-jin-tae-s-private-lounge",
+   "layer": "ltrooms",
+   "name": "Jin-Tae's Private Lounge",
+   "x": 2196,
+   "y": 1949,
+   "grid": "F4",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "metaradar"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Casino penthouse floor 7. Inside: Lt crate w/ 2 legendary weapons, 2 lockers.",
+   "keyId": "key-jin-tae-s-private-lounge"
+  },
+  {
+   "id": "ltrooms-doctor-s-command-office",
+   "layer": "ltrooms",
+   "name": "Doctor's Command Office",
+   "x": 2260,
+   "y": 2278,
+   "grid": "F5",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "metaradar"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Mirae floor 7 office row 701-712. Inside: Lt crate; Tempered Armor Vest recipe seen.",
+   "keyId": "key-doctor-s-command-office"
+  },
+  {
+   "id": "ltrooms-chemist-s-secure-armory",
+   "layer": "ltrooms",
+   "name": "Chemist's Secure Armory",
+   "x": 2935,
+   "y": 1895,
+   "grid": "I4",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "metaradar"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Right bunker door by NE boathouse. Inside: Rifle case, crate, 2 weapon lockers.",
+   "keyId": "key-chemist-s-secure-armory"
+  },
+  {
+   "id": "ltrooms-iskra-s-control-room",
+   "layer": "ltrooms",
+   "name": "Iskra's Control Room",
+   "x": 2014,
+   "y": 2579,
+   "grid": "E6",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "metaradar"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Cheonwang transmitter top floor. Inside: Lt crate w/ Iskra's weapon.",
+   "keyId": "key-iskra-s-control-room"
+  },
+  {
+   "id": "ltrooms-gorani-s-scout-overlook",
+   "layer": "ltrooms",
+   "name": "Gorani's Scout Overlook",
+   "x": 1655,
+   "y": 2968,
+   "grid": "D8",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "metaradar"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Rice Mill bldg 2 upper landing (climb pipe). Inside: Lt loot room.",
+   "keyId": "key-gorani-s-scout-overlook"
+  },
+  {
+   "id": "ltrooms-jang-ui-s-converted-power-room",
+   "layer": "ltrooms",
+   "name": "Jang-ui's Converted Power Room",
+   "x": 2646,
+   "y": 2462,
+   "grid": "H6",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar",
+    "metaradar"
+   ],
+   "precision": "community pin",
+   "desc": "Door: NuriGO lowest floor generator room. Inside: 2 weapon lockers, loot chest, Lt crate.",
+   "keyId": "key-jang-ui-s-converted-power-room"
+  },
+  {
+   "id": "ltrooms-roze-s-highrise-armory",
+   "layer": "ltrooms",
+   "name": "Roze's Highrise Armory",
+   "x": 2475,
+   "y": 2555,
+   "grid": "G6",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "metaradar"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Netshin 14F east teal door. Inside: Lt crate + 2 weapon lockers.",
+   "keyId": "key-roze-s-highrise-armory"
+  },
+  {
+   "id": "ltrooms-kang-s-arms-incinerator",
+   "layer": "ltrooms",
+   "name": "Kang's Arms Incinerator",
+   "x": 1175,
+   "y": 1696,
+   "grid": "B3",
+   "conf": "low",
+   "src": [
+    "dmztracker",
+    "metaradar"
+   ],
+   "precision": "approx. (placed at parent POI)",
+   "desc": "Door: Citadel room. Inside: Undocumented.",
+   "keyId": "key-kang-s-arms-incinerator"
+  },
+  {
+   "id": "bosses-colossus-commander",
+   "layer": "bosses",
+   "name": "Colossus (Commander)",
+   "x": 1060,
+   "y": 2420,
+   "grid": "B6",
+   "conf": "guide",
+   "src": [
+    "colossus",
+    "metaradar"
+   ],
+   "precision": "roams (pin shows one common spot)",
+   "desc": "Roaming 7-ft minigun juggernaut. Seen at Air Base (armory/bunker), Citadel, Cheongun, Songdo, Cheonwang Peak, Reactor; final boss in Fallen Ember. Fires in bursts: shoot during pauses. Explosives barely hurt; Thermite, Shock Stick, Drill Charges work. Cannot climb ladders/pipes: fight from roofs. Drops Military Composites / Experimental Compounds + $50k first kill."
+  },
+  {
+   "id": "bosses-deathstalker-commander-helicopter",
+   "layer": "bosses",
+   "name": "Deathstalker (Commander helicopter)",
+   "x": 2640,
+   "y": 2440,
+   "grid": "H6",
+   "conf": "guide",
+   "src": [
+    "metaradar",
+    "gamesggboss"
+   ],
+   "precision": "roams",
+   "desc": "Helicopter Commander seen over NuriGO Mall / The Grid. Drops Prototype RF Module."
+  },
+  {
+   "id": "exfils-exfil",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1397,
+   "y": 2413,
+   "grid": "C6",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "D6"
+  },
+  {
+   "id": "exfils-exfil-2",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1761,
+   "y": 2658,
+   "grid": "D7",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "E7"
+  },
+  {
+   "id": "exfils-exfil-3",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1708,
+   "y": 1815,
+   "grid": "D4",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "E5"
+  },
+  {
+   "id": "exfils-exfil-4",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 2273,
+   "y": 3105,
+   "grid": "F8",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "F8"
+  },
+  {
+   "id": "exfils-exfil-5",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 3133,
+   "y": 2716,
+   "grid": "I7",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "H7"
+  },
+  {
+   "id": "exfils-exfil-6",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1311,
+   "y": 2302,
+   "grid": "C5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "D6"
+  },
+  {
+   "id": "exfils-exfil-7",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1933,
+   "y": 2044,
+   "grid": "E4",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "E5"
+  },
+  {
+   "id": "exfils-exfil-8",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 2023,
+   "y": 2830,
+   "grid": "E7",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "E7"
+  },
+  {
+   "id": "exfils-exfil-9",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1479,
+   "y": 2028,
+   "grid": "C4",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "D5"
+  },
+  {
+   "id": "exfils-exfil-10",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 2699,
+   "y": 2556,
+   "grid": "H6",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "G7"
+  },
+  {
+   "id": "exfils-exfil-11",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1339,
+   "y": 1597,
+   "grid": "C3",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "D4"
+  },
+  {
+   "id": "exfils-exfil-12",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1323,
+   "y": 2204,
+   "grid": "C5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "D6"
+  },
+  {
+   "id": "exfils-exfil-13",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 2642,
+   "y": 2322,
+   "grid": "H5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "G6"
+  },
+  {
+   "id": "exfils-exfil-14",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 2003,
+   "y": 2335,
+   "grid": "E5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "E6"
+  },
+  {
+   "id": "exfils-final-exfil",
+   "layer": "exfils",
+   "name": "Final Exfil",
+   "x": 3056,
+   "y": 3002,
+   "grid": "I8",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "H8"
+  },
+  {
+   "id": "exfils-exfil-15",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1053,
+   "y": 2097,
+   "grid": "B5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "C6"
+  },
+  {
+   "id": "exfils-exfil-16",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1638,
+   "y": 1577,
+   "grid": "D3",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "E4"
+  },
+  {
+   "id": "exfils-exfil-17",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1036,
+   "y": 1384,
+   "grid": "B2",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "C4"
+  },
+  {
+   "id": "exfils-exfil-18",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1610,
+   "y": 1864,
+   "grid": "D4",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "D5"
+  },
+  {
+   "id": "exfils-exfil-19",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1954,
+   "y": 2130,
+   "grid": "E5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "E6"
+  },
+  {
+   "id": "exfils-exfil-20",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1712,
+   "y": 2355,
+   "grid": "D6",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "E6"
+  },
+  {
+   "id": "exfils-exfil-21",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1004,
+   "y": 2384,
+   "grid": "B6",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "C6"
+  },
+  {
+   "id": "exfils-exfil-22",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 1036,
+   "y": 2662,
+   "grid": "B7",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "C7"
+  },
+  {
+   "id": "exfils-exfil-23",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 2408,
+   "y": 2683,
+   "grid": "G7",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "F7"
+  },
+  {
+   "id": "exfils-exfil-24",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 3068,
+   "y": 2736,
+   "grid": "I7",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "H7"
+  },
+  {
+   "id": "exfils-exfil-25",
+   "layer": "exfils",
+   "name": "Exfil",
+   "x": 2261,
+   "y": 2982,
+   "grid": "F8",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "hajinkeys"
+   ],
+   "precision": "community pin",
+   "desc": "Exfil site. Only 3-4 are active per match (green smoke). Exfils inside the radiation storm stop working. Exfil flares are loud.",
+   "sector": "F8"
+  },
+  {
+   "id": "silos-silo-bunker-1",
+   "layer": "silos",
+   "name": "Silo Bunker 1",
+   "x": 1438,
+   "y": 1823,
+   "grid": "C4",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "gamerant"
+   ],
+   "precision": "community pin",
+   "desc": "Look for circles on the Tac Map. Hatch always open; door says \"secured on the inside\": go down the hallway, turn left, the back entrance is unlocked. 1 AI each. Control room needs a Door Breacher Charge and holds a nuke (no known use yet). Six-bunker loop ~ $62k in 17 min, no loadout needed."
+  },
+  {
+   "id": "silos-silo-bunker-2",
+   "layer": "silos",
+   "name": "Silo Bunker 2",
+   "x": 909,
+   "y": 2662,
+   "grid": "A7",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "gamerant"
+   ],
+   "precision": "community pin",
+   "desc": "Look for circles on the Tac Map. Hatch always open; door says \"secured on the inside\": go down the hallway, turn left, the back entrance is unlocked. 1 AI each. Control room needs a Door Breacher Charge and holds a nuke (no known use yet). Six-bunker loop ~ $62k in 17 min, no loadout needed."
+  },
+  {
+   "id": "silos-silo-bunker-3",
+   "layer": "silos",
+   "name": "Silo Bunker 3",
+   "x": 1217,
+   "y": 1434,
+   "grid": "B2",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "gamerant"
+   ],
+   "precision": "community pin",
+   "desc": "Look for circles on the Tac Map. Hatch always open; door says \"secured on the inside\": go down the hallway, turn left, the back entrance is unlocked. 1 AI each. Control room needs a Door Breacher Charge and holds a nuke (no known use yet). Six-bunker loop ~ $62k in 17 min, no loadout needed."
+  },
+  {
+   "id": "silos-silo-bunker-4",
+   "layer": "silos",
+   "name": "Silo Bunker 4",
+   "x": 1552,
+   "y": 1610,
+   "grid": "D3",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "gamerant"
+   ],
+   "precision": "community pin",
+   "desc": "Look for circles on the Tac Map. Hatch always open; door says \"secured on the inside\": go down the hallway, turn left, the back entrance is unlocked. 1 AI each. Control room needs a Door Breacher Charge and holds a nuke (no known use yet). Six-bunker loop ~ $62k in 17 min, no loadout needed."
+  },
+  {
+   "id": "silos-silo-bunker-5",
+   "layer": "silos",
+   "name": "Silo Bunker 5",
+   "x": 823,
+   "y": 2220,
+   "grid": "A5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "gamerant"
+   ],
+   "precision": "community pin",
+   "desc": "Look for circles on the Tac Map. Hatch always open; door says \"secured on the inside\": go down the hallway, turn left, the back entrance is unlocked. 1 AI each. Control room needs a Door Breacher Charge and holds a nuke (no known use yet). Six-bunker loop ~ $62k in 17 min, no loadout needed."
+  },
+  {
+   "id": "silos-silo-bunker-6",
+   "layer": "silos",
+   "name": "Silo Bunker 6",
+   "x": 860,
+   "y": 2871,
+   "grid": "A7",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "gamerant"
+   ],
+   "precision": "community pin",
+   "desc": "Look for circles on the Tac Map. Hatch always open; door says \"secured on the inside\": go down the hallway, turn left, the back entrance is unlocked. 1 AI each. Control room needs a Door Breacher Charge and holds a nuke (no known use yet). Six-bunker loop ~ $62k in 17 min, no loadout needed."
+  },
+  {
+   "id": "caches-hidden-cache",
+   "layer": "caches",
+   "name": "Hidden Cache",
+   "x": 1483,
+   "y": 1544,
+   "grid": "C3",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-hidden-cache-2",
+   "layer": "caches",
+   "name": "Hidden Cache",
+   "x": 1057,
+   "y": 1548,
+   "grid": "B3",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-inside-a-rusty-old-shack",
+   "layer": "caches",
+   "name": "Inside a Rusty Old Shack",
+   "x": 1135,
+   "y": 1384,
+   "grid": "B2",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-highway-service-tunnel",
+   "layer": "caches",
+   "name": "Highway Service Tunnel",
+   "x": 1364,
+   "y": 2163,
+   "grid": "C5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-hidden-cache-3",
+   "layer": "caches",
+   "name": "Hidden Cache",
+   "x": 2462,
+   "y": 2195,
+   "grid": "G5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-hidden-cache-4",
+   "layer": "caches",
+   "name": "Hidden Cache",
+   "x": 2400,
+   "y": 3363,
+   "grid": "G9",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-hidden-cache-5",
+   "layer": "caches",
+   "name": "Hidden Cache",
+   "x": 1790,
+   "y": 3228,
+   "grid": "E9",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-hidden-cache-6",
+   "layer": "caches",
+   "name": "Hidden Cache",
+   "x": 2163,
+   "y": 2601,
+   "grid": "F6",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-hidden-cache-7",
+   "layer": "caches",
+   "name": "Hidden Cache",
+   "x": 1663,
+   "y": 2040,
+   "grid": "D4",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-hidden-cache-8",
+   "layer": "caches",
+   "name": "Hidden Cache",
+   "x": 1659,
+   "y": 3142,
+   "grid": "D8",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-hidden-cache-9",
+   "layer": "caches",
+   "name": "Hidden Cache",
+   "x": 2933,
+   "y": 2884,
+   "grid": "I8",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-hidden-cache-10",
+   "layer": "caches",
+   "name": "Hidden Cache",
+   "x": 2105,
+   "y": 2269,
+   "grid": "F5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "ggranked",
+    "dmzradarsafes"
+   ],
+   "precision": "community pin",
+   "desc": "Round metal hatch. 59 spawn points, ~57 per match. Mostly uncommon/rare ingredients and intel; Sanctioned Assassination List (Legendary $10k) ~0.2%."
+  },
+  {
+   "id": "caches-lost-supply-drop",
+   "layer": "caches",
+   "name": "Lost Supply Drop",
+   "x": 1028,
+   "y": 2511,
+   "grid": "B6",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "codcentral"
+   ],
+   "precision": "community pin",
+   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+  },
+  {
+   "id": "caches-lost-supply-drop-2",
+   "layer": "caches",
+   "name": "Lost Supply Drop",
+   "x": 1442,
+   "y": 2683,
+   "grid": "C7",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "codcentral"
+   ],
+   "precision": "community pin",
+   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+  },
+  {
+   "id": "caches-lost-supply-drop-3",
+   "layer": "caches",
+   "name": "Lost Supply Drop",
+   "x": 2802,
+   "y": 2118,
+   "grid": "H5",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "codcentral"
+   ],
+   "precision": "community pin",
+   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+  },
+  {
+   "id": "caches-lost-supply-drop-4",
+   "layer": "caches",
+   "name": "Lost Supply Drop",
+   "x": 1704,
+   "y": 1987,
+   "grid": "D4",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "codcentral"
+   ],
+   "precision": "community pin",
+   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+  },
+  {
+   "id": "caches-lost-supply-drop-5",
+   "layer": "caches",
+   "name": "Lost Supply Drop",
+   "x": 1929,
+   "y": 2724,
+   "grid": "E7",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "codcentral"
+   ],
+   "precision": "community pin",
+   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+  },
+  {
+   "id": "caches-lost-supply-drop-6",
+   "layer": "caches",
+   "name": "Lost Supply Drop",
+   "x": 2146,
+   "y": 2478,
+   "grid": "F6",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "codcentral"
+   ],
+   "precision": "community pin",
+   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+  },
+  {
+   "id": "caches-lost-supply-drop-7",
+   "layer": "caches",
+   "name": "Lost Supply Drop",
+   "x": 1376,
+   "y": 2363,
+   "grid": "C6",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "codcentral"
+   ],
+   "precision": "community pin",
+   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+  },
+  {
+   "id": "caches-lost-supply-drop-8",
+   "layer": "caches",
+   "name": "Lost Supply Drop",
+   "x": 2130,
+   "y": 1876,
+   "grid": "F4",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "codcentral"
+   ],
+   "precision": "community pin",
+   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+  },
+  {
+   "id": "caches-lost-supply-drop-9",
+   "layer": "caches",
+   "name": "Lost Supply Drop",
+   "x": 1802,
+   "y": 1982,
+   "grid": "E4",
+   "conf": "community",
+   "src": [
+    "dmzradar",
+    "codcentral"
+   ],
+   "precision": "community pin",
+   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+  },
+  {
+   "id": "caches-safe",
+   "layer": "caches",
+   "name": "Safe",
+   "x": 1167,
+   "y": 2642,
+   "grid": "B7",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Safe (21 on map per COD Central; only some are pinned)."
+  },
+  {
+   "id": "caches-safe-2",
+   "layer": "caches",
+   "name": "Safe",
+   "x": 2753,
+   "y": 2593,
+   "grid": "H6",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Safe (21 on map per COD Central; only some are pinned)."
+  },
+  {
+   "id": "secrets-dead-body",
+   "layer": "secrets",
+   "name": "Dead Body",
+   "x": 1241,
+   "y": 1401,
+   "grid": "B2",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Lootable body pinned by dmzradar."
+  },
+  {
+   "id": "secrets-dead-body-2",
+   "layer": "secrets",
+   "name": "Dead Body",
+   "x": 1098,
+   "y": 1495,
+   "grid": "B2",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Lootable body pinned by dmzradar."
+  },
+  {
+   "id": "secrets-dead-body-3",
+   "layer": "secrets",
+   "name": "Dead Body",
+   "x": 1188,
+   "y": 1499,
+   "grid": "B2",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Lootable body pinned by dmzradar."
+  },
+  {
+   "id": "secrets-dead-body-4",
+   "layer": "secrets",
+   "name": "Dead Body",
+   "x": 1130,
+   "y": 1757,
+   "grid": "B3",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Lootable body pinned by dmzradar."
+  },
+  {
+   "id": "secrets-crashed-drone",
+   "layer": "secrets",
+   "name": "Crashed Drone",
+   "x": 1724,
+   "y": 2834,
+   "grid": "D7",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Lootable crashed drone (dmzradar pin)."
+  },
+  {
+   "id": "secrets-crashed-drone-2",
+   "layer": "secrets",
+   "name": "Crashed Drone",
+   "x": 1544,
+   "y": 3092,
+   "grid": "D8",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Lootable crashed drone (dmzradar pin)."
+  },
+  {
+   "id": "secrets-crashed-drone-3",
+   "layer": "secrets",
+   "name": "Crashed Drone",
+   "x": 1987,
+   "y": 2417,
+   "grid": "E6",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Lootable crashed drone (dmzradar pin)."
+  },
+  {
+   "id": "secrets-crashed-drone-4",
+   "layer": "secrets",
+   "name": "Crashed Drone",
+   "x": 3080,
+   "y": 2773,
+   "grid": "I7",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Lootable crashed drone (dmzradar pin)."
+  },
+  {
+   "id": "secrets-crashed-drone-5",
+   "layer": "secrets",
+   "name": "Crashed Drone",
+   "x": 1786,
+   "y": 1942,
+   "grid": "D4",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Lootable crashed drone (dmzradar pin)."
+  },
+  {
+   "id": "secrets-unexploded-rocket",
+   "layer": "secrets",
+   "name": "Unexploded Rocket",
+   "x": 1896,
+   "y": 3154,
+   "grid": "E9",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Unexploded rocket (dmzradar pin)."
+  },
+  {
+   "id": "secrets-unexploded-rocket-2",
+   "layer": "secrets",
+   "name": "Unexploded Rocket",
+   "x": 1810,
+   "y": 2294,
+   "grid": "E5",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Unexploded rocket (dmzradar pin)."
+  },
+  {
+   "id": "secrets-unexploded-rocket-3",
+   "layer": "secrets",
+   "name": "Unexploded Rocket",
+   "x": 3240,
+   "y": 2437,
+   "grid": "J6",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Unexploded rocket (dmzradar pin)."
+  },
+  {
+   "id": "secrets-keypad-door",
+   "layer": "secrets",
+   "name": "Keypad Door",
+   "x": 1954,
+   "y": 1876,
+   "grid": "E4",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Keypad door: the code is somewhere nearby and changes every match."
+  },
+  {
+   "id": "sideops-sam-site",
+   "layer": "sideops",
+   "name": "SAM Site",
+   "x": 1446,
+   "y": 2879,
+   "grid": "C7",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "SAM site side op."
+  },
+  {
+   "id": "sideops-sam-site-2",
+   "layer": "sideops",
+   "name": "SAM Site",
+   "x": 2978,
+   "y": 2687,
+   "grid": "I7",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "SAM site side op."
+  },
+  {
+   "id": "sideops-sam-site-3",
+   "layer": "sideops",
+   "name": "SAM Site",
+   "x": 2343,
+   "y": 2712,
+   "grid": "G7",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "SAM site side op."
+  },
+  {
+   "id": "sideops-sam-site-4",
+   "layer": "sideops",
+   "name": "SAM Site",
+   "x": 2220,
+   "y": 2879,
+   "grid": "F7",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "SAM site side op."
+  },
+  {
+   "id": "sideops-sam-site-5",
+   "layer": "sideops",
+   "name": "SAM Site",
+   "x": 2793,
+   "y": 3080,
+   "grid": "H8",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "SAM site side op."
+  },
+  {
+   "id": "sideops-sam-site-6",
+   "layer": "sideops",
+   "name": "SAM Site",
+   "x": 2527,
+   "y": 2322,
+   "grid": "G5",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "SAM site side op."
+  },
+  {
+   "id": "sideops-sam-site-7",
+   "layer": "sideops",
+   "name": "SAM Site",
+   "x": 1036,
+   "y": 2761,
+   "grid": "B7",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "SAM site side op."
+  },
+  {
+   "id": "sideops-sam-site-8",
+   "layer": "sideops",
+   "name": "SAM Site",
+   "x": 2122,
+   "y": 2126,
+   "grid": "F5",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "SAM site side op."
+  },
+  {
+   "id": "sideops-sam-site-9",
+   "layer": "sideops",
+   "name": "SAM Site",
+   "x": 963,
+   "y": 2232,
+   "grid": "A5",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "SAM site side op."
+  },
+  {
+   "id": "sideops-sam-site-10",
+   "layer": "sideops",
+   "name": "SAM Site",
+   "x": 958,
+   "y": 2351,
+   "grid": "A6",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "SAM site side op."
+  },
+  {
+   "id": "sideops-bounty-station",
+   "layer": "sideops",
+   "name": "Bounty Station",
+   "x": 2724,
+   "y": 2499,
+   "grid": "H6",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Bounty station."
+  },
+  {
+   "id": "spawns-player-spawn",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 1946,
+   "y": 3285,
+   "grid": "E9",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-2",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 1225,
+   "y": 3215,
+   "grid": "B9",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-3",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 1647,
+   "y": 1483,
+   "grid": "D2",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-4",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 1749,
+   "y": 1745,
+   "grid": "D3",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-5",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 967,
+   "y": 1573,
+   "grid": "A3",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-6",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 2974,
+   "y": 2195,
+   "grid": "I5",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-7",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 1532,
+   "y": 3285,
+   "grid": "D9",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-8",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 2359,
+   "y": 1831,
+   "grid": "G4",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-9",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 1946,
+   "y": 1823,
+   "grid": "E4",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-10",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 1425,
+   "y": 1286,
+   "grid": "C2",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-11",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 1298,
+   "y": 1192,
+   "grid": "C1",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-12",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 2634,
+   "y": 3305,
+   "grid": "H9",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-13",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 885,
+   "y": 2580,
+   "grid": "A6",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-14",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 1053,
+   "y": 3146,
+   "grid": "B8",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-story-mission-spawn",
+   "layer": "spawns",
+   "name": "Story Mission Spawn",
+   "x": 2531,
+   "y": 2167,
+   "grid": "G5",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-15",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 2966,
+   "y": 3322,
+   "grid": "I9",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-story-mission-spawn-2",
+   "layer": "spawns",
+   "name": "Story Mission Spawn",
+   "x": 1036,
+   "y": 2626,
+   "grid": "B7",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "spawns-player-spawn-16",
+   "layer": "spawns",
+   "name": "Player Spawn",
+   "x": 799,
+   "y": 2007,
+   "grid": "A4",
+   "conf": "community",
+   "src": [
+    "dmzradar"
+   ],
+   "precision": "community pin",
+   "desc": "Player infil spawn."
+  },
+  {
+   "id": "secrets-hidden-cache-oamsik-turtle-island-boardwalk",
+   "layer": "secrets",
+   "name": "Hidden cache: Oamsik Turtle Island boardwalk",
+   "x": 3004,
+   "y": 2302,
+   "grid": "I5",
+   "conf": "guide",
+   "src": [
+    "dmzradarsafes",
+    "x"
+   ],
+   "precision": "approx. (area)",
+   "desc": "Metal hatch on the boardwalk."
+  },
+  {
+   "id": "secrets-hidden-cache-area-construction-zone",
+   "layer": "secrets",
+   "name": "Hidden cache area: Construction Zone",
+   "x": 2731,
+   "y": 2654,
+   "grid": "H7",
+   "conf": "guide",
+   "src": [
+    "dmzradarsafes"
+   ],
+   "precision": "approx. (area)",
+   "desc": "Hatch somewhere in the Construction Zone."
+  },
+  {
+   "id": "secrets-hidden-cache-area-imjin-farmland",
+   "layer": "secrets",
+   "name": "Hidden cache area: Imjin Farmland",
+   "x": 1595,
+   "y": 2799,
+   "grid": "D7",
+   "conf": "guide",
+   "src": [
+    "dmzradarsafes"
+   ],
+   "precision": "approx. (area)",
+   "desc": "Hatch somewhere in Imjin Farmland."
+  },
+  {
+   "id": "secrets-locked-nuke-bunker-no-known-key",
+   "layer": "secrets",
+   "name": "Locked nuke bunker (no known key)",
+   "x": 1000,
+   "y": 2380,
+   "grid": "B6",
+   "conf": "guide",
+   "src": [
+    "metka"
+   ],
+   "precision": "approx. (area)",
+   "desc": "Near Chang-san Air Base. No key known yet."
+  },
+  {
+   "id": "secrets-deadtown-roof-hole-room",
+   "layer": "secrets",
+   "name": "Deadtown roof-hole room",
+   "x": 1240,
+   "y": 2727,
+   "grid": "B7",
+   "conf": "official",
+   "src": [
+    "atviblog"
+   ],
+   "precision": "approx. (area)",
+   "desc": "Room reachable only via a hole in the roof. Doors \"locked from inside\" always have another way in."
+  },
+  {
+   "id": "secrets-comms-station-six-window-entry",
+   "layer": "secrets",
+   "name": "Comms Station Six (window entry)",
+   "x": 1680,
+   "y": 2960,
+   "grid": "D8",
+   "conf": "rumor",
+   "src": [
+    "x"
+   ],
+   "precision": "approx. (area)",
+   "desc": "Rice Mill, Imjin Farmland: enter by window, no key. Low confidence, one X post."
+  },
+  {
+   "id": "secrets-gangbyeon-apartment-b-stronghold",
+   "layer": "secrets",
+   "name": "Gangbyeon Apartment B stronghold",
+   "x": 2560,
+   "y": 2840,
+   "grid": "G7",
+   "conf": "guide",
+   "src": [
+    "dmzradarloot"
+   ],
+   "precision": "approx. (area)",
+   "desc": "Uncommon key opens a stronghold at Compound Echo; one run: 2 Epic backpacks, Defib, X-58 Nyx."
+  },
+  {
+   "id": "secrets-secret-room-old-barber-shop",
+   "layer": "secrets",
+   "name": "Secret room: Old Barber Shop",
+   "x": 2908,
+   "y": 2789,
+   "grid": "I7",
+   "conf": "creator",
+   "src": [
+    "x"
+   ],
+   "precision": "approx. (area)",
+   "desc": "One of the secret rooms shown by a creator (also Gangbyeon Apt B, Hanex Guard Station, a side door at The Grid)."
+  },
+  {
+   "id": "secrets-secret-side-door-the-grid",
+   "layer": "secrets",
+   "name": "Secret side door: The Grid",
+   "x": 2473,
+   "y": 2580,
+   "grid": "G6",
+   "conf": "creator",
+   "src": [
+    "x"
+   ],
+   "precision": "approx. (area)",
+   "desc": "Creator-shown side door at The Grid. Exact door not documented."
+  }
+ ],
+ "routes": [
+  {
+   "id": "route-compounds",
+   "name": "Compound safe run",
+   "color": "#d4a017",
+   "conf": "guide",
+   "src": [
+    "codcentralloot"
+   ],
+   "points": [
+    [
+     2786,
+     2174
+    ],
+    [
+     2544,
+     2855
+    ],
+    [
+     2120,
+     3022
+    ],
+    [
+     1911,
+     2865
+    ],
+    [
+     1679,
+     2106
+    ],
+    [
+     1107,
+     1999
+    ]
+   ],
+   "desc": "Delta -> Echo -> Bravo -> Alpha -> Charlie -> Foxtrot. Each has a green safe + LTV; Echo has 2 safes. ~$240k/hr, 10-min loops, $30-58k per loop. Deploy Op Fallen Ember to spawn below Compound Delta. Cash/valuables only."
+  },
+  {
+   "id": "route-banks",
+   "name": "5-vault solo bank route",
+   "color": "#b3202a",
+   "conf": "creator",
+   "src": [
+    "gamerfuzion",
+    "laserbolt"
+   ],
+   "points": [
+    [
+     2137,
+     2011
+    ],
+    [
+     2471,
+     2419
+    ],
+    [
+     2938,
+     2618
+    ],
+    [
+     2478,
+     2705
+    ],
+    [
+     2309,
+     2912
+    ],
+    [
+     2228,
+     3097
+    ]
+   ],
+   "desc": "Cheongun -> NuriGO West (hardest AI) -> Songdo Wharf -> (car) -> Wolves north -> Wolves south (UAV tower) -> heli exfil Hajin City. Under 20-25 min. Filmed: 1 Gold Bar, $72.7k backpack. Creator claims best ~$285k (unverified). Deploy Operation Silent Ledger for the Cheongun-side spawn."
+  },
+  {
+   "id": "route-silos",
+   "name": "Six silo bunkers",
+   "color": "#7fa7c9",
+   "conf": "guide",
+   "src": [
+    "gamerant",
+    "dmzradarmoney"
+   ],
+   "points": [
+    [
+     1217,
+     1434
+    ],
+    [
+     1552,
+     1610
+    ],
+    [
+     1438,
+     1823
+    ],
+    [
+     823,
+     2220
+    ],
+    [
+     909,
+     2662
+    ],
+    [
+     860,
+     2871
+    ]
+   ],
+   "desc": "~$62k in 17 min (~$220k/hr), no loadout needed. 1 AI each. Order shown N->S is a suggestion."
+  }
+ ],
+ "keys": [
+  {
+   "id": "key-air-base-armory-card",
+   "name": "Air Base Armory Card",
+   "rarity": "Legendary",
+   "grid": "B5",
+   "door": "Bunker armory door; upgrade Access Card at Admin Complex No.2 server room; 6-digit code from notes",
+   "inside": "Bunker armory + DRC locker access",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-air-base-drc-weapons-locker",
+   "name": "Air Base DRC Weapons Locker",
+   "rarity": "Ultra",
+   "grid": "B6",
+   "door": "White cabinet in bunker warehouse past armory",
+   "inside": "3-plate helmet, weapon manual seen",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-supreme-leader-s-bunker-access-card",
+   "name": "Supreme Leader's Bunker Access Card",
+   "rarity": "Legendary",
+   "grid": "B6",
+   "door": "Grey blast door (red star) bottom of bunker via Admin Complex No.2 stairwell 02",
+   "inside": "Lt crate; legendary LMG seen",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-commandant-office",
+   "name": "Commandant Office",
+   "rarity": "Epic",
+   "grid": "B5",
+   "door": "Admin Complex No.2, 2F, first left under Conference Room sign",
+   "inside": "Rifle case, weapon lockers, equipment case, crate",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-field-depot",
+   "name": "Field Depot",
+   "rarity": "Epic",
+   "grid": "B5",
+   "door": "Supply warehouse NE of base clinic, 1F",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-weapons-mod-workshop",
+   "name": "Weapons Mod Workshop",
+   "rarity": "Rare",
+   "grid": "B5",
+   "door": "Repair garage W of base clinic, 2F",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-counting-room-vault",
+   "name": "Counting Room Vault",
+   "rarity": "Epic",
+   "grid": "F4",
+   "door": "Casino main floor, east wing corridor; opens outer+inner",
+   "inside": "Foot locker, weapon crate, safes, cash; Gold Skull/Nuclear files reported",
+   "worth": "High",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-vault-armory",
+   "name": "Vault Armory",
+   "rarity": "Epic",
+   "grid": "F4",
+   "door": "Casino underground parking mesh door, foot of NW stairs",
+   "inside": "Armor box, weapon case, 2 weapon lockers; manual reported",
+   "worth": "High",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-jin-tae-s-private-lounge",
+   "name": "Jin-Tae's Private Lounge",
+   "rarity": "Legendary",
+   "grid": "F4",
+   "door": "Casino penthouse floor 7",
+   "inside": "Lt crate w/ 2 legendary weapons, 2 lockers",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-mechanic-s-shack",
+   "name": "Mechanic's Shack",
+   "rarity": "Rare",
+   "grid": "F5",
+   "door": "Shed directly S of Cheongun clinic",
+   "inside": "Footlockers, rifle case, armor box, KG-7 Vulcan reported",
+   "worth": "High for a Rare",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-rail-depot-storage",
+   "name": "Rail Depot Storage",
+   "rarity": "Rare",
+   "grid": "E5",
+   "door": "Cheongun W train depot basement, dark green door",
+   "inside": "5 lockers, crates, rifle case, cash",
+   "worth": "Med-High",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-gun-store-weapons-locker",
+   "name": "Gun Store Weapons Locker",
+   "rarity": "Rare",
+   "grid": "E4/I6",
+   "door": "Gun store basement, 3 green lockers (1 per key)",
+   "inside": "A weapon w/ attachments",
+   "worth": "Med",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-fire-station-storage",
+   "name": "Fire Station Storage",
+   "rarity": "Unknown",
+   "grid": "E4",
+   "door": "Cheongun fire station upstairs",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-police-station-armory",
+   "name": "Police Station Armory",
+   "rarity": "Uncommon",
+   "grid": "D2/C4/F4/H5/G7",
+   "door": "Barred ground-floor armory (Pyeonghwa: basement)",
+   "inside": "Military gear + weapon",
+   "worth": "Med (spawns in station)",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-police-weapon-depository",
+   "name": "Police Weapon Depository",
+   "rarity": "Epic",
+   "grid": "G7",
+   "door": "White garage, green roller door N of Wolves police station",
+   "inside": "Epic weapons reported",
+   "worth": "High",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-shop-records-room",
+   "name": "Shop Records Room",
+   "rarity": "Rare",
+   "grid": "F7",
+   "door": "Above Goh24 supermart, green outside stairs",
+   "inside": "Duffel w/ documents, lockers",
+   "worth": "Med",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-gangbyeon-apartment-a",
+   "name": "Gangbyeon Apartment A",
+   "rarity": "Unknown",
+   "grid": "G7",
+   "door": "Block A door, Compound Echo",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-gangbyeon-apartment-b",
+   "name": "Gangbyeon Apartment B",
+   "rarity": "Uncommon",
+   "grid": "G7",
+   "door": "Glass doors, block w/ SAM on roof",
+   "inside": "Lockers, crates; 2 Epic backpacks run",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-militia-arms-depot",
+   "name": "Militia Arms Depot",
+   "rarity": "Rare",
+   "grid": "G7",
+   "door": "Apt B armory, white door teal corridor (2F per video)",
+   "inside": "Not itemised",
+   "worth": "?",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-hanex-guard-station",
+   "name": "Hanex Guard Station",
+   "rarity": "Epic",
+   "grid": "G6",
+   "door": "Hanex tower floor 17 between vaults",
+   "inside": "2 weapon lockers, safe, equipment case",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-executive-arms-auction",
+   "name": "Executive Arms Auction",
+   "rarity": "Epic",
+   "grid": "G6",
+   "door": "DBN HQ upper floor dark teal door",
+   "inside": "Weapon cases (reported)",
+   "worth": "Med-High",
+   "conf": "medium",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-netshin-it-room",
+   "name": "Netshin IT Room",
+   "rarity": "Epic",
+   "grid": "G6",
+   "door": "Netshin floor 14 behind server hall",
+   "inside": "Weapons locker, server blades",
+   "worth": "Med",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-roze-s-highrise-armory",
+   "name": "Roze's Highrise Armory",
+   "rarity": "Legendary",
+   "grid": "G6",
+   "door": "Netshin 14F east teal door",
+   "inside": "Lt crate + 2 weapon lockers",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-coin-mining-den",
+   "name": "Coin Mining Den",
+   "rarity": "Rare",
+   "grid": "G6",
+   "door": "NuriGO West apt, S stairwell landing 3 grey door",
+   "inside": "Server racks, crafting parts, no weapons",
+   "worth": "Med (crafting)",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-hanwoori-art-records-room",
+   "name": "Hanwoori Art Records Room",
+   "rarity": "Rare",
+   "grid": "G7",
+   "door": "Hanwoori Design Complex 1F back-left door",
+   "inside": "Rifle case, cabinets, foot lockers, equipment case",
+   "worth": "Med",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-hajin-art-center",
+   "name": "Hajin Art Center",
+   "rarity": "Unknown",
+   "grid": "G6",
+   "door": "Dark glass double door by stairwell",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-lucera-suite-703-bedroom",
+   "name": "Lucera Suite 703 Bedroom",
+   "rarity": "Epic",
+   "grid": "H7",
+   "door": "Hotel Lucera suite 703 (2 heavy armor AI inside)",
+   "inside": "Rifle case, crate, weapon lockers",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-hotel-lucera-lobby",
+   "name": "Hotel Lucera Lobby",
+   "rarity": "Unknown",
+   "grid": "H7",
+   "door": "Lobby glass door",
+   "inside": "Lobby only",
+   "worth": "Low",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-gas-station-electrical-room",
+   "name": "Gas Station Electrical Room",
+   "rarity": "Rare",
+   "grid": "H7",
+   "door": "Basement grey door, S gas station below Hanwoori",
+   "inside": "Not itemised",
+   "worth": "?",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-jang-ui-s-converted-power-room",
+   "name": "Jang-ui's Converted Power Room",
+   "rarity": "Legendary",
+   "grid": "H6",
+   "door": "NuriGO lowest floor generator room",
+   "inside": "2 weapon lockers, loot chest, Lt crate",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-shopping-drc-locker",
+   "name": "Shopping DRC Locker",
+   "rarity": "Ultra",
+   "grid": "H6",
+   "door": "NuriGO lower garage DRC lab inner door (6-10 robodog cores)",
+   "inside": "Elite Weapons Locker",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-mirae-electrical-room",
+   "name": "Mirae Electrical Room",
+   "rarity": "Rare",
+   "grid": "F5",
+   "door": "NW garage B2, back double doors",
+   "inside": "Tool chests, armor boxes, medium weapon backpack",
+   "worth": "Med-High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-doctor-s-command-office",
+   "name": "Doctor's Command Office",
+   "rarity": "Legendary",
+   "grid": "F5",
+   "door": "Mirae floor 7 office row 701-712",
+   "inside": "Lt crate; Tempered Armor Vest recipe seen",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-hospital-chemistry-lab",
+   "name": "Hospital Chemistry Lab",
+   "rarity": "Unknown",
+   "grid": "F5",
+   "door": "White door top of hospital stairwell",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-haejeok-radio-station",
+   "name": "Haejeok Radio Station",
+   "rarity": "Rare",
+   "grid": "D6",
+   "door": "Imjin Suburb transmitter bldg L1",
+   "inside": "Server racks, comms modules",
+   "worth": "Med (crafting)",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-iskra-s-control-room",
+   "name": "Iskra's Control Room",
+   "rarity": "Legendary",
+   "grid": "F7",
+   "door": "Cheonwang transmitter top floor",
+   "inside": "Lt crate w/ Iskra's weapon",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-gorani-s-scout-overlook",
+   "name": "Gorani's Scout Overlook",
+   "rarity": "Legendary",
+   "grid": "D8",
+   "door": "Rice Mill bldg 2 upper landing (climb pipe)",
+   "inside": "Lt loot room",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-hoesik-supply-room",
+   "name": "Hoesik Supply Room",
+   "rarity": "Epic",
+   "grid": "D8",
+   "door": "Upstairs, southernmost office block outside mill",
+   "inside": "Military supplies",
+   "worth": "Med",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-imjin-mill-foreman-s-office",
+   "name": "Imjin Mill Foreman's Office",
+   "rarity": "Rare",
+   "grid": "D8",
+   "door": "Main mill 1F upper corridor",
+   "inside": "Not itemised",
+   "worth": "?",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-mill-explosives-lab",
+   "name": "Mill Explosives Lab",
+   "rarity": "Uncommon",
+   "grid": "D8",
+   "door": "Not confirmed (roof/window)",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-rice-mill-bunker",
+   "name": "Rice Mill Bunker",
+   "rarity": "Unknown",
+   "grid": "D8",
+   "door": "Dark green door by silos",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-haksan-school-armory",
+   "name": "Haksan School Armory",
+   "rarity": "Rare",
+   "grid": "B7",
+   "door": "School NE of Re-Ed Center, 2F red door",
+   "inside": "Weapon lockers, medium backpack, defib",
+   "worth": "Med-High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-re-education-center-annex",
+   "name": "Re-Education Center Annex",
+   "rarity": "Epic",
+   "grid": "B7",
+   "door": "Ground-floor annex, S corner",
+   "inside": "2-Plate Gel Vest recipe, legendary Oden seen",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-underground-equipment-storage",
+   "name": "Underground Equipment Storage",
+   "rarity": "Unknown",
+   "grid": "B7",
+   "door": "Re-Ed Center underground",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-underground-propaganda-store-room",
+   "name": "Underground Propaganda Store Room",
+   "rarity": "Rare",
+   "grid": "B7",
+   "door": "Re-Ed underground cells side passage",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-blackmarket-weapons-locker",
+   "name": "Blackmarket Weapons Locker",
+   "rarity": "Rare",
+   "grid": "C2/B7",
+   "door": "Hanrim shop stockroom green doors / Deadtown house 2nd basement",
+   "inside": "Weapon w/ attachments",
+   "worth": "Med",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-citadel-main-control-room",
+   "name": "Citadel Main Control Room",
+   "rarity": "Uncommon",
+   "grid": "B3",
+   "door": "Beside Officers Only sign (open with 4 K9 cores in East Wing)",
+   "inside": "South Block Armory key",
+   "worth": "Med (chain)",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-south-block-armory",
+   "name": "South Block Armory",
+   "rarity": "Legendary",
+   "grid": "B3",
+   "door": "Citadel South Block inner armory via window",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-citadel-secondary-control-room",
+   "name": "Citadel Secondary Control Room",
+   "rarity": "Uncommon",
+   "grid": "B3",
+   "door": "Floor 2 landing; cameras open 2 fences",
+   "inside": "Fence controls",
+   "worth": "Low",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-citadel-south-wing",
+   "name": "Citadel South Wing",
+   "rarity": "Uncommon",
+   "grid": "B3",
+   "door": "SW arm door; cells need 2-note keypad",
+   "inside": "Cell block",
+   "worth": "Low",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-kang-s-arms-incinerator",
+   "name": "Kang's Arms Incinerator",
+   "rarity": "Unknown",
+   "grid": "B3",
+   "door": "Citadel room",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-prison-encampment-storage",
+   "name": "Prison Encampment Storage",
+   "rarity": "Rare",
+   "grid": "C3",
+   "door": "SE prison camp plank-door shed",
+   "inside": "Undocumented",
+   "worth": "?",
+   "conf": "low",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-reactor-drc-locker",
+   "name": "Reactor DRC Locker",
+   "rarity": "Ultra",
+   "grid": "H4",
+   "door": "Underwater in Reactor 02 west pool",
+   "inside": "Manual, Epic weapon, 3-plate vest seen",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-reactor-02-control-room",
+   "name": "Reactor 02 Control Room",
+   "rarity": "Rare",
+   "grid": "H4",
+   "door": "Upper catwalk grey door",
+   "inside": "Not itemised",
+   "worth": "?",
+   "conf": "medium",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-utility-maintenance-storage",
+   "name": "Utility Maintenance Storage",
+   "rarity": "Rare",
+   "grid": "H4",
+   "door": "Under transformer yard SW of Reactor 01",
+   "inside": "Lockers, crates",
+   "worth": "Med",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-chemist-s-secure-armory",
+   "name": "Chemist's Secure Armory",
+   "rarity": "Legendary",
+   "grid": "I4",
+   "door": "Right bunker door by NE boathouse",
+   "inside": "Rifle case, crate, 2 weapon lockers",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker"
+   ],
+   "mapPrecision": "approx. (placed at parent POI)"
+  },
+  {
+   "id": "key-hazard-storehouse",
+   "name": "Hazard Storehouse",
+   "rarity": "Rare",
+   "grid": "I5",
+   "door": "White shed by SAM site S of reactor island",
+   "inside": "Up to 11 grenade lockers, chem cabinets",
+   "worth": "Med",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-old-barber-shop",
+   "name": "Old Barber Shop",
+   "rarity": "Rare",
+   "grid": "I7",
+   "door": "Songdo S side, right of crab stall",
+   "inside": "Weapon cases, armor boxes",
+   "worth": "Med-High",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  },
+  {
+   "id": "key-bank-branch-vault-access",
+   "name": "Bank Branch Vault Access",
+   "rarity": "Rare",
+   "grid": "I7/F8",
+   "door": "Hanex branch vaults",
+   "inside": "Safes, cash, gold",
+   "worth": "High",
+   "conf": "high",
+   "src": [
+    "dmztracker",
+    "dmzradar"
+   ],
+   "mapPrecision": "community pin"
+  }
+ ],
+ "money": [
+  {
+   "name": "Compound safe run",
+   "value": "~$240k/hr",
+   "conf": "guide",
+   "src": [
+    "codcentralloot"
+   ],
+   "notes": "Delta -> Echo -> Bravo -> Alpha -> Charlie -> Foxtrot. Each has a green safe + LTV; Echo has 2 safes. ~$240k/hr, 10-min loops, $30-58k per loop. Deploy Op Fallen Ember to spawn below Compound Delta. Cash/valuables only."
+  },
+  {
+   "name": "5 Hanex vaults",
+   "value": "$72.7k filmed; >$100k claimed",
+   "conf": "creator",
+   "src": [
+    "gamerfuzion"
+   ],
+   "notes": "Cheongun -> NuriGO West (hardest AI) -> Songdo Wharf -> (car) -> Wolves north -> Wolves south (UAV tower) -> heli exfil Hajin City. Under 20-25 min. Filmed: 1 Gold Bar, $72.7k backpack. Creator claims best ~$285k (unverified). Deploy Operation Silent Ledger for the Cheongun-side spawn."
+  },
+  {
+   "name": "Six silo bunkers",
+   "value": "~$62k / 17 min",
+   "conf": "guide",
+   "src": [
+    "gamerant",
+    "dmzradarmoney"
+   ],
+   "notes": "~$62k in 17 min (~$220k/hr), no loadout needed. 1 AI each. Order shown N->S is a suggestion."
+  },
+  {
+   "name": "Chang-san Air Base sweep",
+   "value": "~$230k/hr + ~1,470 printer resources/hr",
+   "conf": "guide",
+   "src": [
+    "dmzradarmoney"
+   ],
+   "notes": "3 barracks, fridge basement, north safe building, + west clinic chemical lockers. Heavy AI; recipes common."
+  },
+  {
+   "name": "Op Iron Citadel",
+   "value": "~$108k per run, Epic gear",
+   "conf": "guide",
+   "src": [
+    "dmzradarmoney"
+   ],
+   "notes": "Hardest; Colossus possible."
+  },
+  {
+   "name": "Train",
+   "value": "\"gold mine\"",
+   "conf": "creator",
+   "src": [
+    "mw4meta"
+   ],
+   "notes": "Push to the front carriage and loot top to bottom."
+  },
+  {
+   "name": "Irradiated container",
+   "value": "manual / legendary weapon / epic material",
+   "conf": "guide",
+   "src": [
+    "mw4meta"
+   ],
+   "notes": "Take it to Reactor 02 during Op Fallen Ember, process at the panel."
+  }
+ ],
+ "cash": [
+  "Lieutenant first kill $10k (on extract); Commander $50k",
+  "Lieutenant dog tag $25k + 1,000 XP every extract (but reveals you on the map)",
+  "Weapon Manual / Recipe $5k each on exfil",
+  "Gold Bar / Gold Skull $25k; keys sell for $100",
+  "Dynamic Ops pay 6,800-14,880 each (raised Oct 29)"
+ ],
+ "loot": {
+  "keep": [
+   "Rigid Synthetics (in the 3 cheapest upgrades)",
+   "Reactive Metals, Biomaterials, Binding Catalyst",
+   "Electronic Sensors, CPU, Printed Circuit Boards, Comms Modules, Power Regulators, Control Units",
+   "Military Composites / Experimental Compounds (legendary, $3,500 sell)",
+   "Intel: 15 Nuclear Program Files + 15 Degraded Execution Footage (Bank Upgrades III-VI + MIA Recovery I-IV); 5 Regional Combat Notes (MIA Recovery I)",
+   "Gold Bars: Stash Weapon Upgrade III needs 5",
+   "Keys until used"
+  ],
+  "sell": [
+   "Gold Skull ($25k, no known recipe use)",
+   "Spare gear: Large Backpack $8,000, 3-Plate Vest $7,500 (keep one each)",
+   "Duplicate valuables",
+   "Lieutenant dog tags pay on extraction ($25k), not by selling"
+  ],
+  "notes": [
+   "Resources (Synthetics, Electronics, Chemicals, Metals) auto-convert and never take Stash space.",
+   "Secure Slot = free insurance for 1 item (key, manual, recipe, Gold Bar).",
+   "Early upgrades: Bank I 20k; Bank II 50k; Stash Item I 10k + 10 Rigid Synth + 10 Electronic Sensors."
+  ],
+  "conf": "guide",
+  "src": [
+   "metaradarsell",
+   "dmztrackerg",
+   "dmzwiki"
+  ]
+ },
+ "heistSteps": [
+  "Bring a Car Battery (gas stations; one may spawn in or around the bank). The reader says \"READER LACKS POWER\" until it is powered.",
+  "Insert the battery at the sparking electrical panel inside the branch.",
+  "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
+  "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
+  "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+  "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
+ ],
+ "sources": [
+  {
+   "id": "atvi",
+   "name": "Activision official Hajin Tac Map data (callofduty.com DMZ map guide)",
+   "url": "https://www.callofduty.com/guides/modernwarfare4/dmz-maps/hajin"
+  },
+  {
+   "id": "atviblog",
+   "name": "Call of Duty blog: DMZ Deep Dive, Hajin",
+   "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-dmz-deep-dive-hajin"
+  },
+  {
+   "id": "dmzradar",
+   "name": "DMZ Radar interactive map",
+   "url": "https://dmzradar.com/map.html"
+  },
+  {
+   "id": "dmzradarsafes",
+   "name": "DMZ Radar safes/caches guide",
+   "url": "https://dmzradar.com/guide-safes.html"
+  },
+  {
+   "id": "dmzradarmoney",
+   "name": "DMZ Radar money guide",
+   "url": "https://dmzradar.com/guide-make-money.html"
+  },
+  {
+   "id": "dmzradarloot",
+   "name": "DMZ Radar best loot guide",
+   "url": "https://dmzradar.com/guide-best-loot.html"
+  },
+  {
+   "id": "dmztracker",
+   "name": "DMZ Tracker key database",
+   "url": "https://dmztracker.com/keys/"
+  },
+  {
+   "id": "codcentral",
+   "name": "COD Central DMZ map / keys / loot guides",
+   "url": "https://codcentral.net/blog/mw4-dmz-map/"
+  },
+  {
+   "id": "codcentralloot",
+   "name": "COD Central loot strategies",
+   "url": "https://codcentral.net/blog/mw4-dmz-loot-strategies/"
+  },
+  {
+   "id": "codcentralboss",
+   "name": "COD Central Boss Board",
+   "url": "https://codcentral.net/blog/mw4-dmz-boss-board/"
+  },
+  {
+   "id": "metaradar",
+   "name": "metaradar.gg DMZ",
+   "url": "https://metaradar.gg/modernwarfare4/dmz/bosses"
+  },
+  {
+   "id": "metaradarsell",
+   "name": "metaradar.gg keep or sell",
+   "url": "https://metaradar.gg/modernwarfare4/dmz/keep-or-sell"
+  },
+  {
+   "id": "dmzmap",
+   "name": "dmzmap.com",
+   "url": "https://dmzmap.com/"
+  },
+  {
+   "id": "metka",
+   "name": "Metka DMZ keys guide",
+   "url": "https://metka.gg/en/guides/dmz-keys/"
+  },
+  {
+   "id": "gamerant",
+   "name": "Game Rant: silo bunkers",
+   "url": "https://gamerant.com/mw4-dmz-silo-bunkers-locations-how-to-open/"
+  },
+  {
+   "id": "gamerantbank",
+   "name": "Game Rant: Hanex bank vault puzzle",
+   "url": "https://gamerant.com/mw4-dmz-hanex-branch-bank-vault-puzzle/"
+  },
+  {
+   "id": "gamesgg",
+   "name": "games.gg: Hanex bank vault guide",
+   "url": "https://games.gg/call-of-duty-modern-warfare-4/guides/hanex-bank-vault-puzzle-mw4-dmz-guide/"
+  },
+  {
+   "id": "gamesggboss",
+   "name": "games.gg: DMZ bosses",
+   "url": "https://games.gg/call-of-duty-modern-warfare-4/guides/dmz-boss-locations-commanders-lieutenants/"
+  },
+  {
+   "id": "gamerfuzion",
+   "name": "GamerFuzion / LaserBolt 5-vault gold route",
+   "url": "https://www.gamerfuzion.com/modern-warfare-4-dmz-gold-bar-route-bank-vaults-keycard-codes-solo/"
+  },
+  {
+   "id": "laserbolt",
+   "name": "LaserBolt YouTube route video (EfuVmIAXwak)",
+   "url": "https://www.youtube.com/watch?v=EfuVmIAXwak"
+  },
+  {
+   "id": "ggranked",
+   "name": "GGRanked Hajin container data",
+   "url": "https://ggranked.com/games/call-of-duty-modern-warfare-4/modes/dmz/maps/hajin/containers/hidden-cache"
+  },
+  {
+   "id": "dmztrackerg",
+   "name": "dmztracker.gg keep/sell guide",
+   "url": "https://dmztracker.gg/guides/what-to-keep-sell/"
+  },
+  {
+   "id": "dmzwiki",
+   "name": "dmzwiki.com loot guide",
+   "url": "https://dmzwiki.com/guides/loot"
+  },
+  {
+   "id": "hajinkeys",
+   "name": "hajindmzkeys.com exfils",
+   "url": "https://hajindmzkeys.com/exfils/"
+  },
+  {
+   "id": "colossus",
+   "name": "dmztracker Colossus page",
+   "url": "https://dmztracker.com/bosses/colossus/"
+  },
+  {
+   "id": "mw4meta",
+   "name": "mw4meta.com DMZ news",
+   "url": "https://mw4meta.com/news/mw4-dmz-safes-cash-farm-train-jang-ui"
+  },
+  {
+   "id": "x",
+   "name": "X (Twitter) player posts, Oct 2026",
+   "url": "https://x.com/"
+  },
+  {
+   "id": "dmzcodex",
+   "name": "DMZ Codex",
+   "url": "https://dmzcodex.com/orders/the-vault/"
+  }
+ ],
+ "gaps": [
+  "Dead drops: 42 spawn points exist (GGRanked) but individual coordinates were not transcribed, so they are not on the map.",
+  "Hidden caches: only 12 of ~59 spawn points are pinned.",
+  "Key positions marked \"approx.\" are placed at the parent POI, not the exact door.",
+  "NuriGO West and Songdo bank panel/door spots are undocumented; Grid tower vault code lock unconfirmed.",
+  "Exfil pins are community positions; only 3-4 are live per match.",
+  "Main NK Battle Tank location unknown; Bale, Warden, Jin-Tae, Chemist, Iskra positions are at their home POI.",
+  "X01 (Season 1, Nov 5, 11 PM CT) not included.",
+  "The coastline/playable outline is a coarse low-resolution trace and the grid is estimated."
+ ]
+}

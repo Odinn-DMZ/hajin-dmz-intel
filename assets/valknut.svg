@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="#c9a227" stroke-width="5" stroke-linejoin="miter">
+  <!-- Original Valknut-inspired mark: three interlocked triangles (hand-made for this fan site) -->
+  <polygon points="50,12 78,62 22,62"/>
+  <polygon points="36,30 64,80 8,80" transform="translate(4,-2)"/>
+  <polygon points="64,30 92,80 36,80" transform="translate(-4,-2)"/>
+</svg>

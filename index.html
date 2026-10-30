@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>ODIN'S INTEL // HAJIN DMZ</title>
+<meta name="description" content="Fan-made interactive Hajin DMZ intel map: banks, keys, compounds, caches, bosses, exfils. Not affiliated with Activision.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;800&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="hud-top">
+  <img src="assets/raven.svg" class="raven" alt="">
+  <div class="brand">
+    <h1>ODIN'S INTEL <span class="slash">//</span> HAJIN DMZ</h1>
+    <div class="sub mono">FIELD MAP · MW4 DMZ (2026) · <span id="updated"></span></div>
+  </div>
+  <img src="assets/valknut.svg" class="valknut" alt="">
+  <button id="menuBtn" class="menu-btn" aria-label="Toggle layers">☰ LAYERS</button>
+</header>
+<nav class="tabs" role="tablist">
+  <button class="tab active" data-tab="map">ᚱ Map</button>
+  <button class="tab" data-tab="keys">ᚲ Keys</button>
+  <button class="tab" data-tab="banks">ᚠ Banks</button>
+  <button class="tab" data-tab="money">ᛟ Money</button>
+  <button class="tab" data-tab="loot">ᚷ Keep / Sell</button>
+  <button class="tab" data-tab="about">ᚨ Sources</button>
+</nav>
+<main>
+  <section id="tab-map" class="panel active">
+    <aside id="sidebar" class="sidebar">
+      <input id="search" class="search" type="search" placeholder="Search: key, bank, POI, grid (e.g. G6)…" autocomplete="off">
+      <ul id="results" class="results"></ul>
+      <div class="rune-div">ᚠᚢᚦᚨᚱᚲ</div>
+      <h3>Layers</h3>
+      <div class="layer-btns"><button id="allOn">All</button><button id="allOff">None</button><button id="defaults">Default</button></div>
+      <div id="layers" class="layers"></div>
+      <div class="rune-div">ᚷᚹᚺᚾᛁᛃ</div>
+      <h3>Map</h3>
+      <label class="chk"><input type="checkbox" id="optGrid" checked> Estimated grid</label>
+      <label class="chk"><input type="checkbox" id="optOutline" checked> Coarse outline</label>
+      <label class="chk"><input type="checkbox" id="optLabels" checked> POI labels</label>
+      <label class="chk"><input type="checkbox" id="optRoutes" checked> Money routes</label>
+      <label class="chk"><input type="checkbox" id="optImage"> Local map image</label>
+      <div class="imgctl">
+        <label class="filebtn">Load image from this device<input type="file" id="imgFile" accept="image/*"></label>
+        <label class="range">Opacity <input type="range" id="imgOpacity" min="0" max="1" step="0.05" value="0.7"></label>
+        <p class="tiny">Image stays in your browser. It must cover the full 4096×4096 Tac Map area (or set <code>basemap.imageBounds</code> in data.json). See README.</p>
+      </div>
+      <div class="legend" id="legend"></div>
+    </aside>
+    <div class="mapwrap">
+      <svg id="map" xmlns="http://www.w3.org/2000/svg" aria-label="Hajin map"></svg>
+      <div class="hud-corner mono" id="coords">X ---- Y ---- · --</div>
+      <div class="zoom">
+        <button id="zIn" aria-label="Zoom in">+</button><button id="zOut" aria-label="Zoom out">−</button><button id="zReset" aria-label="Reset view">⟲</button>
+      </div>
+      <article id="details" class="details hidden" aria-live="polite"></article>
+    </div>
+  </section>
+  <section id="tab-keys" class="panel">
+    <div class="tablebar">
+      <input id="keySearch" class="search" type="search" placeholder="Filter keys…">
+      <select id="keyRarity"><option value="">All rarities</option></select>
+      <select id="keyWorth"><option value="">Any worth</option><option>Yes</option><option>Situational</option><option>No</option></select>
+      <span class="mono tiny" id="keyCount"></span>
+    </div>
+    <div class="tablewrap"><table id="keyTable" class="grid-table"><thead><tr><th>Key</th><th>Rarity</th><th>Grid</th><th>Door / location</th><th>Inside</th><th>Worth it</th><th>Conf.</th><th></th></tr></thead><tbody></tbody></table></div>
+  </section>
+  <section id="tab-banks" class="panel scroll"><div id="banksView"></div></section>
+  <section id="tab-money" class="panel scroll"><div id="moneyView"></div></section>
+  <section id="tab-loot" class="panel scroll"><div id="lootView"></div></section>
+  <section id="tab-about" class="panel scroll"><div id="aboutView"></div></section>
+</main>
+<footer class="foot">
+  <span class="rune">ᛟ</span> <strong>Fan-made, not affiliated with Activision.</strong> <span id="disclaimer"></span> No weapon builds here: they change every patch.
+</footer>
+<script src="js/app.js"></script>
+</body>
+</html>
