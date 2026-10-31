@@ -98,8 +98,6 @@ The default basemap is drawn **only from coordinates**:
 - an **estimated** 10×10 grid (A–J, rows numbered north→south; the official map has no grid)
 - a coarse low-resolution outline of the playable area
 
-It contains no game artwork, so it is safe to publish.
-
 The default background is the tactical grid. This repo does not include a map picture. Each visitor supplies their own image:
 
 - Click **Load map image**, pick a file on that device, and it draws **under the grid and pins**.
