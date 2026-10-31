@@ -455,6 +455,18 @@
    4096,
    4096
   ],
+  "imagePresets": [
+   {
+    "width": 1160,
+    "height": 1080,
+    "bounds": [
+     608.3,
+     481,
+     2730.2,
+     3197.1
+    ]
+   }
+  ],
   "view": [
    700,
    760,
@@ -6990,6 +7002,11 @@
    "url": "https://www.callofduty.com/blog/2026/10/call-of-duty-modern-warfare-4-dmz-deep-dive-hajin"
   },
   {
+   "id": "codmunity",
+   "name": "CODMunity Hajin map — zone threat levels and which side of the border",
+   "url": "https://codmunity.gg/dmz/map"
+  },
+  {
    "id": "dmzradar",
    "name": "DMZ Radar interactive map",
    "url": "https://dmzradar.com/map.html"
@@ -7129,5 +7146,244 @@
   "Main NK Battle Tank location unknown; Bale, Warden, Jin-Tae, Chemist, Iskra positions are at their home POI.",
   "X01 (Season 1, Nov 5, 11 PM CT) not included.",
   "The coastline/playable outline is a coarse low-resolution trace and the grid is estimated."
- ]
+ ],
+ "threatCrosscheck": {
+  "credit": "CODMunity",
+  "url": "https://codmunity.gg/dmz/map",
+  "checked": "2026-10-30",
+  "note": "Side of the border and the per-zone list are CODMunity's. The threat field on each POI is unchanged. A conflict entry keeps both accounts.",
+  "locations": [
+   {
+    "id": "poi-14th-political-prison",
+    "side": "North Korea",
+    "zones": [
+     {
+      "name": "14th Political Prison",
+      "level": "High"
+     },
+     {
+      "name": "The Citadel",
+      "level": "Critical"
+     },
+     {
+      "name": "Fortress Prison Yard",
+      "level": "High"
+     }
+    ],
+    "conflict": null
+   },
+   {
+    "id": "poi-chang-san-air-base",
+    "side": "North Korea",
+    "zones": [
+     {
+      "name": "Air Base Exterior",
+      "level": "Critical"
+     },
+     {
+      "name": "Chang-san Air Base Bunker",
+      "level": "Extreme"
+     }
+    ],
+    "conflict": null
+   },
+   {
+    "id": "poi-deadtown",
+    "side": "North Korea",
+    "zones": [
+     {
+      "name": "Deadtown Exterior",
+      "level": "Low"
+     },
+     {
+      "name": "Re-Education Center",
+      "level": "Medium"
+     }
+    ],
+    "conflict": null
+   },
+   {
+    "id": "poi-imjin-farmland",
+    "side": "South Korea",
+    "zones": [
+     {
+      "name": "Farmland Exterior",
+      "level": "Low"
+     },
+     {
+      "name": "Rice Mill",
+      "level": "Medium"
+     },
+     {
+      "name": "Jeong Loading Dock",
+      "level": "Low"
+     }
+    ],
+    "conflict": null
+   },
+   {
+    "id": "poi-cheongun-village",
+    "side": "South Korea",
+    "zones": [
+     {
+      "name": "Cheongun Village",
+      "level": "Low"
+     },
+     {
+      "name": "Heavenly Luck Casino",
+      "level": "High"
+     },
+     {
+      "name": "Russian Border Crossing",
+      "level": "Low"
+     },
+     {
+      "name": "Cheongun Outskirts",
+      "level": "Low"
+     },
+     {
+      "name": "Russian Border",
+      "level": "Low"
+     }
+    ],
+    "conflict": "Our threat string already keeps both accounts of the village: Low (metaradar) and High (dmzmap), plus Casino High. CODMunity rates Cheongun Village Low and Heavenly Luck Casino High, so it agrees with metaradar and disagrees with dmzmap's High for the village."
+   },
+   {
+    "id": "poi-haneul-nuclear-reactor",
+    "side": "South Korea",
+    "zones": [
+     {
+      "name": "Haneul Nuclear Reactor",
+      "level": "High"
+     },
+     {
+      "name": "South Korean Border Zone",
+      "level": "Medium"
+     }
+    ],
+    "conflict": null
+   },
+   {
+    "id": "poi-mirae-general-hospital",
+    "side": "South Korea",
+    "zones": [
+     {
+      "name": "Mirae General Hospital",
+      "level": "Low"
+     }
+    ],
+    "conflict": null
+   },
+   {
+    "id": "poi-nurigo-mall",
+    "side": "South Korea",
+    "zones": [
+     {
+      "name": "NuriGO West",
+      "level": "High"
+     },
+     {
+      "name": "NuriGO East",
+      "level": "Medium"
+     }
+    ],
+    "conflict": "Our data rates NuriGo Mall as High. CODMunity splits it: NuriGO West High and NuriGO East Medium."
+   },
+   {
+    "id": "poi-cheonwang-peak-array",
+    "side": "South Korea",
+    "zones": [
+     {
+      "name": "Cheonwang Peak Array",
+      "level": "Medium"
+     }
+    ],
+    "conflict": null
+   },
+   {
+    "id": "poi-the-grid",
+    "side": "South Korea",
+    "zones": [
+     {
+      "name": "The Grid",
+      "level": "Critical"
+     },
+     {
+      "name": "Nenshin Tech Complex",
+      "level": "Extreme"
+     },
+     {
+      "name": "DBN Headquarters",
+      "level": "Critical"
+     },
+     {
+      "name": "Hanex Bank",
+      "level": "Critical"
+     },
+     {
+      "name": "Minsok Art School",
+      "level": "Critical"
+     },
+     {
+      "name": "Construction Zone",
+      "level": "Critical"
+     }
+    ],
+    "conflict": "Both rate the tech complex Extreme. Our data spells it Netshin Tech Complex. CODMunity spells it Nenshin Tech Complex."
+   },
+   {
+    "id": "poi-songdo-wharf",
+    "side": "South Korea",
+    "zones": [
+     {
+      "name": "Songdo Wharf",
+      "level": "Low"
+     },
+     {
+      "name": "Oamsik Turtle Island",
+      "level": "Low"
+     },
+     {
+      "name": "Shoreline Station",
+      "level": "Low"
+     }
+    ],
+    "conflict": null
+   },
+   {
+    "id": "poi-wolves-stadium",
+    "side": "South Korea",
+    "zones": [
+     {
+      "name": "Wolves Stadium",
+      "level": "Medium"
+     },
+     {
+      "name": "Theatre",
+      "level": "Medium"
+     }
+    ],
+    "conflict": null
+   },
+   {
+    "id": "poi-hajin-river-heights",
+    "side": "South Korea",
+    "zones": [
+     {
+      "name": "Hajin River Heights",
+      "level": "Medium"
+     },
+     {
+      "name": "South Island",
+      "level": "Medium"
+     },
+     {
+      "name": "Jinseo Park Towers",
+      "level": "Medium"
+     }
+    ],
+    "conflict": null
+   }
+  ]
+ }
 }

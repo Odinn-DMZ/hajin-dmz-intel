@@ -3,6 +3,9 @@
 A fan-made, interactive intel map for **Call of Duty: Modern Warfare 4 (2026) DMZ, map Hajin**.
 It's plain HTML/CSS/JS with no build step, so it runs as-is on GitHub Pages.
 
+Live site: https://odinn-dmz.github.io/hajin-dmz-intel/
+Source: https://github.com/Odinn-DMZ/hajin-dmz-intel
+
 > **Fan-made, not affiliated with Activision.** It is not endorsed or sponsored by Activision, Infinity Ward, or Call of Duty. All trademarks belong to their owners. Locations are approximate and can change with any patch.
 
 There are **no weapon builds or meta** here on purpose. They change every patch.
@@ -17,6 +20,10 @@ There are **no weapon builds or meta** here on purpose. They change every patch.
 | **Money** | Money routes and cash facts. The compound run, 5-vault bank run, and silo loop are also drawn on the map. |
 | **Keep / Sell** | Loot keep-vs-sell guidance. |
 | **Sources** | Confidence levels, known gaps, credits, and the disclaimer. |
+
+Threat shading uses the level words already in each major location's `threat` text (Extreme, Critical, High, Medium, Low). A place with no level is unrated. [CODMunity's Hajin map](https://codmunity.gg/dmz/map) was used only to cross-check those levels and which side of the border each of the 13 locations is on. Where it disagrees, both accounts stay on the Sources tab.
+
+There is no roads layer. The repo has no public road geometry, and roads were not traced from map art.
 
 Map layers:
 - POIs
@@ -81,11 +88,11 @@ python3 -m http.server 8000
    cd hajin-dmz-intel
    git init && git add . && git commit -m "Odin's Intel: Hajin DMZ map"
    git branch -M main
-   git remote add origin https://github.com/<you>/hajin-dmz-intel.git
+   git remote add origin https://github.com/Odinn-DMZ/hajin-dmz-intel.git
    git push -u origin main
    ```
-3. Go to repo **Settings → Pages**. Under **Build and deployment**, set **Source** to **Deploy from a branch**, then choose branch `main` and folder `/ (root)`. Click **Save**.
-4. Wait about 1 minute. Your site is at `https://<you>.github.io/hajin-dmz-intel/`. Share that link with your squad.
+3. This repo deploys with GitHub Actions (`.github/workflows/pages.yml`) on every push to `main`. In **Settings → Pages**, set **Source** to **GitHub Actions**.
+4. The site is at `https://odinn-dmz.github.io/hajin-dmz-intel/`.
 5. To update, edit `data.json` (or anything else), then commit and push. Pages redeploys automatically.
 
 ## Basemap and the optional map image
@@ -97,13 +104,15 @@ The default basemap is drawn **only from coordinates**:
 
 It contains no game artwork, so it is safe to publish.
 
-You can also show a real map image underneath, in either of two ways:
-- **Per visitor:** in the Map sidebar, tick **Local map image** and click **Load image from this device**. The image stays in that visitor's browser and is never uploaded.
-- **For everyone:** put an image in `assets/` (for example `assets/map.jpg`) and set this in `data.json`:
-  ```json
-  "basemap": { "image": "assets/map.jpg", "imageBounds": [0, 0, 4096, 4096], ... }
-  ```
-  `imageBounds` is `[x, y, width, height]` in the map's 4096-unit coordinate space. A full official Tac Map render covers `[0,0,4096,4096]`. For a cropped screenshot, adjust the four numbers until the pins line up.
+The default background is the tactical grid. This repo does not include a map picture. Each visitor supplies their own image:
+
+- Click **Load map image**, pick a file on that device, and it draws **under the grid and pins**.
+- It stays in the browser. It is never uploaded.
+- **Show map image** hides or shows it. The **Opacity** slider fades it.
+- A file whose pixel size is exactly **1160×1080** uses the numeric preset in `data.json` → `basemap.imagePresets` (`bounds` is `[x, y, width, height]` in tac-map units: `[608.3, 481, 2730.2, 3197.1]`). That scale and offset was fitted so the prison, Haneul reactor, Cheongun (Heavenly Luck Casino), and Mirae stronghold pins sit on that layout's icons. Only those numbers are stored — no map image.
+- Any other size uses `basemap.imageBounds` (the full 4096×4096 frame unless you change it).
+
+To ship one image for every visitor, put a file you have the right to share in `assets/` and set `basemap.image` in `data.json`. The same size check applies.
 
 > ⚠️ **Copyright warning:** Tac Map renders, screenshots, and map tiles from the game or callofduty.com are Activision's copyrighted artwork. Publishing one in a public repo may infringe that copyright, even for a fan site. Keep such images local, or only use images you have the right to share. The default vector map avoids this issue.
 

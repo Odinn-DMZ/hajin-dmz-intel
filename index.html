@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0c0e12">
 <title>ODIN'S INTEL // HAJIN DMZ</title>
 <meta name="description" content="Fan-made interactive Hajin DMZ intel map: banks, keys, compounds, caches, bosses, exfils. Not affiliated with Activision.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
@@ -12,31 +13,59 @@
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div id="boot" class="boot" role="status" aria-live="polite">
+  <div class="boot-fog" aria-hidden="true"></div>
+  <div class="boot-embers" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+  <img class="boot-mark" src="assets/valknut.svg" alt="">
+  <p class="boot-kicker mono">NORSE FIELD INTEL</p>
+  <h1 class="boot-title"><span>ODIN'S INTEL</span></h1>
+  <p class="boot-sub mono">HAJIN DMZ</p>
+  <div class="boot-bar" aria-hidden="true"><span></span></div>
+  <p class="boot-status mono" data-boot-status>ESTABLISHING UPLINK</p>
+  <p class="boot-fan">Fan-made. Not affiliated with Activision.</p>
+</div>
 <header class="hud-top">
+  <div class="hero-fx" aria-hidden="true">
+    <div class="fog"></div>
+    <div class="embers"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+    <div class="hero-scan"></div>
+  </div>
   <img src="assets/raven.svg" class="raven" alt="">
   <div class="brand">
-    <h1>ODIN'S INTEL <span class="slash">//</span> HAJIN DMZ</h1>
+    <div class="kicker mono">NORSE FIELD INTEL</div>
+    <h1><span class="title-metal">ODIN'S INTEL</span> <span class="slash">//</span> <span class="title-metal">HAJIN DMZ</span></h1>
     <div class="sub mono">FIELD MAP · MW4 DMZ (2026) · <span id="updated"></span></div>
   </div>
   <img src="assets/valknut.svg" class="valknut" alt="">
-  <button id="menuBtn" class="menu-btn" aria-label="Toggle layers">☰ LAYERS</button>
+  <button id="menuBtn" class="menu-btn" type="button" aria-label="Toggle layers" aria-expanded="false"><span class="menu-ico" aria-hidden="true">☰</span><span class="menu-label">LAYERS</span></button>
 </header>
 <nav class="tabs" role="tablist">
-  <button class="tab active" data-tab="map">ᚱ Map</button>
-  <button class="tab" data-tab="keys">ᚲ Keys</button>
-  <button class="tab" data-tab="banks">ᚠ Banks</button>
-  <button class="tab" data-tab="money">ᛟ Money</button>
-  <button class="tab" data-tab="loot">ᚷ Keep / Sell</button>
-  <button class="tab" data-tab="about">ᚨ Sources</button>
+  <button class="tab active" data-tab="map" type="button">ᚱ Map</button>
+  <button class="tab" data-tab="keys" type="button">ᚲ Keys</button>
+  <button class="tab" data-tab="banks" type="button">ᚠ Banks</button>
+  <button class="tab" data-tab="money" type="button">ᛟ Money</button>
+  <button class="tab" data-tab="loot" type="button">ᚷ Keep / Sell</button>
+  <button class="tab" data-tab="about" type="button">ᚨ Sources</button>
 </nav>
 <main>
   <section id="tab-map" class="panel active">
+    <div id="scrim" class="scrim" hidden></div>
     <aside id="sidebar" class="sidebar">
       <input id="search" class="search" type="search" placeholder="Search: key, bank, POI, grid (e.g. G6)…" autocomplete="off">
       <ul id="results" class="results"></ul>
+      <div class="imgctl">
+        <label class="load-map">
+          <span class="load-kicker mono">ON THIS DEVICE</span>
+          <span class="load-title">Load map image</span>
+          <input type="file" id="imgFile" accept="image/*">
+        </label>
+        <label class="chk"><input type="checkbox" id="optImage"> Show map image</label>
+        <label class="range">Opacity <input type="range" id="imgOpacity" min="0" max="1" step="0.05" value="0.7"></label>
+        <p class="tiny" id="imgNote">Your image stays in this browser and is never uploaded. It draws under the grid and pins. A 1160×1080 file uses the alignment preset. The grid stays the default background.</p>
+      </div>
       <div class="rune-div">ᚠᚢᚦᚨᚱᚲ</div>
       <h3>Layers</h3>
-      <div class="layer-btns"><button id="allOn">All</button><button id="allOff">None</button><button id="defaults">Default</button></div>
+      <div class="layer-btns"><button id="allOn" type="button">All</button><button id="allOff" type="button">None</button><button id="defaults" type="button">Default</button></div>
       <div id="layers" class="layers"></div>
       <div class="rune-div">ᚷᚹᚺᚾᛁᛃ</div>
       <h3>Map</h3>
@@ -44,19 +73,17 @@
       <label class="chk"><input type="checkbox" id="optOutline" checked> Coarse outline</label>
       <label class="chk"><input type="checkbox" id="optLabels" checked> POI labels</label>
       <label class="chk"><input type="checkbox" id="optRoutes" checked> Money routes</label>
-      <label class="chk"><input type="checkbox" id="optImage"> Local map image</label>
-      <div class="imgctl">
-        <label class="filebtn">Load image from this device<input type="file" id="imgFile" accept="image/*"></label>
-        <label class="range">Opacity <input type="range" id="imgOpacity" min="0" max="1" step="0.05" value="0.7"></label>
-        <p class="tiny">Image stays in your browser. It must cover the full 4096×4096 Tac Map area (or set <code>basemap.imageBounds</code> in data.json). See README.</p>
-      </div>
+      <label class="chk"><input type="checkbox" id="optThreat" checked> Threat zones</label>
+      <div class="legend" id="threatLegend"></div>
       <div class="legend" id="legend"></div>
     </aside>
     <div class="mapwrap">
-      <svg id="map" xmlns="http://www.w3.org/2000/svg" aria-label="Hajin map"></svg>
+      <svg id="map" xmlns="http://www.w3.org/2000/svg" aria-label="Hajin tactical grid"></svg>
       <div class="hud-corner mono" id="coords">X ---- Y ---- · --</div>
       <div class="zoom">
-        <button id="zIn" aria-label="Zoom in">+</button><button id="zOut" aria-label="Zoom out">−</button><button id="zReset" aria-label="Reset view">⟲</button>
+        <button id="zIn" type="button" aria-label="Zoom in">+</button>
+        <button id="zOut" type="button" aria-label="Zoom out">−</button>
+        <button id="zReset" type="button" aria-label="Reset view">⟲</button>
       </div>
       <article id="details" class="details hidden" aria-live="polite"></article>
     </div>
