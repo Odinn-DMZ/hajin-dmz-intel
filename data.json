@@ -6954,31 +6954,1547 @@
   "Dynamic Ops pay 6,800-14,880 each (raised Oct 29)"
  ],
  "loot": {
-  "keep": [
-   "Rigid Synthetics (in the 3 cheapest upgrades)",
-   "Reactive Metals, Biomaterials, Binding Catalyst",
-   "Electronic Sensors, CPU, Printed Circuit Boards, Comms Modules, Power Regulators, Control Units",
-   "Military Composites / Experimental Compounds (legendary, $3,500 sell)",
-   "Intel: 15 Nuclear Program Files + 15 Degraded Execution Footage (Bank Upgrades III-VI + MIA Recovery I-IV); 5 Regional Combat Notes (MIA Recovery I)",
-   "Gold Bars: Stash Weapon Upgrade III needs 5",
-   "Keys until used"
-  ],
-  "sell": [
-   "Gold Skull ($25k, no known recipe use)",
-   "Spare gear: Large Backpack $8,000, 3-Plate Vest $7,500 (keep one each)",
-   "Duplicate valuables",
-   "Lieutenant dog tags pay on extraction ($25k), not by selling"
+  "items": [
+   {
+    "name": "Basic Pack",
+    "cat": "Backpacks",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Large Backpack",
+    "cat": "Backpacks",
+    "call": "keep",
+    "value": 8000,
+    "why": "MetaRadar: keep one, sell spares"
+   },
+   {
+    "name": "Large Scavenger Backpack",
+    "cat": "Backpacks",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Large Secure Backpack",
+    "cat": "Backpacks",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Medium Backpack",
+    "cat": "Backpacks",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Medium Scavenger Backpack",
+    "cat": "Backpacks",
+    "call": "unclear",
+    "value": 2500,
+    "why": ""
+   },
+   {
+    "name": "Medium Secure Backpack",
+    "cat": "Backpacks",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Medium Weapon Backpack",
+    "cat": "Backpacks",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Secure Scavenger Backpack",
+    "cat": "Backpacks",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Small Backpack",
+    "cat": "Backpacks",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Small Secure Backpack",
+    "cat": "Backpacks",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Advanced SERE Kit",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Bandage",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Basic Armor Kit",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Basic Triage Kit",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Door Breacher Charge",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": 600,
+    "why": ""
+   },
+   {
+    "name": "Energy Drink",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": 200,
+    "why": ""
+   },
+   {
+    "name": "Explosives Equipment Kit",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Medkit",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": 2000,
+    "why": ""
+   },
+   {
+    "name": "Pain Killers",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": 250,
+    "why": ""
+   },
+   {
+    "name": "Radiation Blockers",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": 300,
+    "why": ""
+   },
+   {
+    "name": "Recon Equipment Kit",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Restock Kit",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Sedative Inhaler",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": 100,
+    "why": ""
+   },
+   {
+    "name": "Self-Revive Kit",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": 4000,
+    "why": ""
+   },
+   {
+    "name": "Smelling Salts",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": 500,
+    "why": ""
+   },
+   {
+    "name": "Tourniquet",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Trap Equipment Kit",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Triage Kit",
+    "cat": "Consumables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Ammo Box",
+    "cat": "Field Upgrades",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Armor Box",
+    "cat": "Field Upgrades",
+    "call": "unclear",
+    "value": 300,
+    "why": ""
+   },
+   {
+    "name": "Fulton Drop Marker",
+    "cat": "Field Upgrades",
+    "call": "unclear",
+    "value": 2500,
+    "why": ""
+   },
+   {
+    "name": "Inflatable Decoy",
+    "cat": "Field Upgrades",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Portable Radar",
+    "cat": "Field Upgrades",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Recon Drone",
+    "cat": "Field Upgrades",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Revive Pistol",
+    "cat": "Field Upgrades",
+    "call": "unclear",
+    "value": 2500,
+    "why": ""
+   },
+   {
+    "name": "Shock Stick",
+    "cat": "Field Upgrades",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Advanced UAV",
+    "cat": "Fire Support",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Artillery Beacon",
+    "cat": "Fire Support",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Bombing Run",
+    "cat": "Fire Support",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Care Package",
+    "cat": "Fire Support",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Combat Drone",
+    "cat": "Fire Support",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Crossfire",
+    "cat": "Fire Support",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Impact Warhead",
+    "cat": "Fire Support",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "UAV",
+    "cat": "Fire Support",
+    "call": "unclear",
+    "value": 2500,
+    "why": ""
+   },
+   {
+    "name": "Disposable Parachute",
+    "cat": "Gear",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Durable Gas Mask",
+    "cat": "Gear",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Elite Night Vision Goggles",
+    "cat": "Gear",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Gas Mask",
+    "cat": "Gear",
+    "call": "unclear",
+    "value": 1200,
+    "why": ""
+   },
+   {
+    "name": "Hazmat Suit",
+    "cat": "Gear",
+    "call": "use",
+    "value": null,
+    "why": "DMZ Codex: discarded on exfil"
+   },
+   {
+    "name": "NVGs",
+    "cat": "Gear",
+    "call": "unclear",
+    "value": 3000,
+    "why": ""
+   },
+   {
+    "name": "Parachute",
+    "cat": "Gear",
+    "call": "unclear",
+    "value": 5000,
+    "why": ""
+   },
+   {
+    "name": "Radiation Gear",
+    "cat": "Gear",
+    "call": "use",
+    "value": null,
+    "why": "DMZ Codex: discarded on exfil"
+   },
+   {
+    "name": "Weak Night Vision Goggles",
+    "cat": "Gear",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Alloyed Plating",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": null,
+    "why": "Stash Item IV uses 30"
+   },
+   {
+    "name": "Ballistic Fabric",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 1500,
+    "why": "MIA Recovery IV uses 30"
+   },
+   {
+    "name": "Binding Catalyst",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": null,
+    "why": "MIA Recovery II uses 10; Epic Ingredient Printing uses 10"
+   },
+   {
+    "name": "Biomaterials",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": null,
+    "why": "Dog Tag Case I uses 10; Uncommon Ingredient Printing uses 20"
+   },
+   {
+    "name": "CPU",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 500,
+    "why": "Gunsmith I uses 10; Vendor Item I uses 10; Dog Tag Case IV uses 20"
+   },
+   {
+    "name": "Comms Module",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 1500,
+    "why": "Stash Weapon I uses 5; MIA Recovery III uses 10"
+   },
+   {
+    "name": "Control Unit",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": null,
+    "why": "MIA Recovery I uses 10"
+   },
+   {
+    "name": "Detonators",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": null,
+    "why": "Stash Item II and Dog Tag Case II each use 20"
+   },
+   {
+    "name": "Electronic Sensors",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": null,
+    "why": "Stash Item I uses 10; Vendor Item I uses 20"
+   },
+   {
+    "name": "Experimental Compounds",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 3500,
+    "why": "Stash Item IV uses 10; Dog Tag Case IV uses 5"
+   },
+   {
+    "name": "High-Tenacity Fibers",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 500,
+    "why": "Stash Weapon II uses 20; Uncommon Ingredient Printing uses 10"
+   },
+   {
+    "name": "Hydrochloric Acid",
+    "cat": "Ingredients",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Military Composites",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 3500,
+    "why": "Epic Ingredient Printing uses 5"
+   },
+   {
+    "name": "Nano-Structured Alloy",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 3500,
+    "why": "Stash Weapon III uses 10"
+   },
+   {
+    "name": "Nitro Compounds",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 500,
+    "why": "MIA Recovery II uses 10"
+   },
+   {
+    "name": "Nylon Cloth",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 500,
+    "why": "Stash Item II and Dog Tag Case II each use 10"
+   },
+   {
+    "name": "Nylon Laminate",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 1500,
+    "why": "MIA Recovery IV uses 30"
+   },
+   {
+    "name": "Power Regulator",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 1500,
+    "why": "Stash Item II, Dog Tag Case II and III, Gunsmith I, and MIA Recovery III use it"
+   },
+   {
+    "name": "Printed Circuit Board",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 500,
+    "why": "Dog Tag Case III uses 10; Epic Ingredient Printing uses 10; Vendor Item I uses 10"
+   },
+   {
+    "name": "Prototype RF Module",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 3500,
+    "why": "MIA Recovery IV uses 10; Vendor Item I uses 2"
+   },
+   {
+    "name": "Reactive Metals",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": null,
+    "why": "Stash Weapon I uses 20; Gunsmith I uses 20"
+   },
+   {
+    "name": "Rigid Synthetics",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 200,
+    "why": "Stash Item I, Dog Tag Case I, and MIA Recovery I each use some"
+   },
+   {
+    "name": "Stabilized Reagents",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 1500,
+    "why": "Stash Weapon III uses 30; Dog Tag Case IV uses 10"
+   },
+   {
+    "name": "Stock Rod",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 500,
+    "why": "Stash Weapon I uses 10"
+   },
+   {
+    "name": "Structural Alloy",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 500,
+    "why": "Stash Weapon II uses 20; Dog Tag Case III uses 10"
+   },
+   {
+    "name": "Turned Components",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 1500,
+    "why": "Stash Item IV uses 30; Stash Weapon II uses 10"
+   },
+   {
+    "name": "Volatile Explosives",
+    "cat": "Ingredients",
+    "call": "keep",
+    "value": 1500,
+    "why": "Stash Weapon III uses 30"
+   },
+   {
+    "name": "Air Base DRC Weapons Locker",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Bank Branch Vault Access",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Black Keycard",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Black Market Weapons Locker Key",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Coin Mining Den",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Commandant Office",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Counting Room Vault",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Executive Arms Auction",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Gas Station Electrical Room",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Gun Store Weapons Locker Key",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Haksan School Armory",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Hanex Guard Station",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Hazard Storehouse",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Hoesik Supply Room",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Imjin Mill Foreman's Office",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Iskra's Control Room",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Jang-ui's Converted Power Room",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Lucera Suite 703 Bedroom",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Mirae Electrical Room",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Netshin IT Room",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Old Barber Shop",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Police Station Key",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Police Weapon Depository",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Re-Education Center Annex",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Reactor 02 Control Room",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Reactor DRC Locker",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Shop Records Room",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Shopping DRC Locker",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Supreme Leader's Bunker Access Card",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "The Chemist's Secure Armory",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "The Citadel South Wing",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Train Depot Storage Room",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Underground Propaganda Store Room",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Vault Armory",
+    "cat": "Keys",
+    "call": "keep",
+    "value": 100,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "Weapons Mod Workshop",
+    "cat": "Keys",
+    "call": "keep",
+    "value": null,
+    "why": "Open the matching room, then it is spent"
+   },
+   {
+    "name": "C4",
+    "cat": "Lethals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Claymore",
+    "cat": "Lethals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Drill Charge",
+    "cat": "Lethals",
+    "call": "unclear",
+    "value": 100,
+    "why": ""
+   },
+   {
+    "name": "Frag Grenade",
+    "cat": "Lethals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Molotov Cocktail",
+    "cat": "Lethals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Proximity Mine",
+    "cat": "Lethals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Sticky Grenade",
+    "cat": "Lethals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Thermite",
+    "cat": "Lethals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Throwing Knife",
+    "cat": "Lethals",
+    "call": "unclear",
+    "value": 100,
+    "why": ""
+   },
+   {
+    "name": "Weapon Manual: .50 GS",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: APOC-338",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Astaroth .57",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Axion",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Cronen Squall",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: FSS Carbon Edge 1095",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: FiNN LMG",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Han 86",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Hyeon Burst",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: ISO Nightshade",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: JOKR",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: KG-7 Vulcan",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Kastov 762",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Krait P68",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: M4",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: MAR-9",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Mojave",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Mosin-Nagant",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Oden",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Oris 8.6",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: PM-40 Anvil",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: PPSh-41",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Patriot XMR",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Pila",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: RPG-8",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Rezi 12",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Sang 9mm",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Signal 50",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Type 73",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: VEL 46",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Warlord",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: Wz.55 Striga",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Weapon Manual: X-58 Nyx",
+    "cat": "Manuals",
+    "call": "extract",
+    "value": 5000,
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+   },
+   {
+    "name": "Pristine K9 Battery Core",
+    "cat": "Mission",
+    "call": "extract",
+    "value": null,
+    "why": "Metka Orders: extract 3 from the NuriGO Mall underground"
+   },
+   {
+    "name": "Armor Plate",
+    "cat": "Other",
+    "call": "unclear",
+    "value": 150,
+    "why": ""
+   },
+   {
+    "name": "Bomb Glider",
+    "cat": "Other",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Car Battery",
+    "cat": "Other",
+    "call": "use",
+    "value": null,
+    "why": "Hanex vault reader needs one"
+   },
+   {
+    "name": "Defibrillator",
+    "cat": "Other",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Dog Tag Case",
+    "cat": "Other",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Encrypted Drive",
+    "cat": "Other",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Gas Can",
+    "cat": "Other",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Irradiated Container",
+    "cat": "Other",
+    "call": "use",
+    "value": null,
+    "why": "Process at Reactor 02 during Operation Fallen Ember"
+   },
+   {
+    "name": "Spark Plug",
+    "cat": "Other",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Survival Kit",
+    "cat": "Other",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Tank Alternator",
+    "cat": "Other",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Tank Water Pump",
+    "cat": "Other",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "1-Plate Armor Vest",
+    "cat": "Plate Carriers",
+    "call": "unclear",
+    "value": 500,
+    "why": ""
+   },
+   {
+    "name": "2-Plate Armor Vest",
+    "cat": "Plate Carriers",
+    "call": "unclear",
+    "value": 1000,
+    "why": ""
+   },
+   {
+    "name": "2-Plate Ballistic Gel Vest",
+    "cat": "Plate Carriers",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "2-Plate Helmet Armor Vest",
+    "cat": "Plate Carriers",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "3-Plate Armor Vest",
+    "cat": "Plate Carriers",
+    "call": "keep",
+    "value": null,
+    "why": "MetaRadar: keep one, sell spares"
+   },
+   {
+    "name": "3-Plate Ballistic Gel Vest",
+    "cat": "Plate Carriers",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "3-Plate Helmet Armor Vest",
+    "cat": "Plate Carriers",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Tempered Armor Vest",
+    "cat": "Plate Carriers",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Chemicals",
+    "cat": "Resources",
+    "call": "keep",
+    "value": null,
+    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell"
+   },
+   {
+    "name": "Electronics",
+    "cat": "Resources",
+    "call": "keep",
+    "value": null,
+    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell"
+   },
+   {
+    "name": "Metals",
+    "cat": "Resources",
+    "call": "keep",
+    "value": null,
+    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell"
+   },
+   {
+    "name": "Synthetics",
+    "cat": "Resources",
+    "call": "keep",
+    "value": null,
+    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell"
+   },
+   {
+    "name": "Concussion Grenade",
+    "cat": "Tacticals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Decoy Grenade",
+    "cat": "Tacticals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Flash Grenade",
+    "cat": "Tacticals",
+    "call": "unclear",
+    "value": 100,
+    "why": ""
+   },
+   {
+    "name": "Heartbeat Sensor",
+    "cat": "Tacticals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Screamer Mine",
+    "cat": "Tacticals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Smoke Grenade",
+    "cat": "Tacticals",
+    "call": "unclear",
+    "value": 200,
+    "why": ""
+   },
+   {
+    "name": "Snapshot Grenade",
+    "cat": "Tacticals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Spotter Scope",
+    "cat": "Tacticals",
+    "call": "unclear",
+    "value": 100,
+    "why": ""
+   },
+   {
+    "name": "Stim",
+    "cat": "Tacticals",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Bale's Dog Tag",
+    "cat": "Valuables",
+    "call": "extract",
+    "value": null,
+    "why": "Lieutenant dog tag for the Boss Board"
+   },
+   {
+    "name": "Ballistic Flight Logs",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": 1000,
+    "why": "Bank IV uses 5"
+   },
+   {
+    "name": "Bronze Dog Tag",
+    "cat": "Valuables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Cash Bag",
+    "cat": "Valuables",
+    "call": "extract",
+    "value": 1500,
+    "why": "DMZ Codex: casino vault bag carried out on extract"
+   },
+   {
+    "name": "Cipher Code Ledger",
+    "cat": "Valuables",
+    "call": "sell",
+    "value": 5000,
+    "why": "Metka: the listed valuable that is not used in an FOB upgrade"
+   },
+   {
+    "name": "Damascus Dog Tag",
+    "cat": "Valuables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Degraded Execution Footage",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": 2000,
+    "why": "Bank V uses 10; MIA Recovery II uses 5"
+   },
+   {
+    "name": "Encrypted Archive",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": null,
+    "why": "Bank VI uses 10"
+   },
+   {
+    "name": "Foreign Intelligence Targets",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": 5000,
+    "why": "MIA Recovery III uses 5"
+   },
+   {
+    "name": "Gold Bar",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": 25000,
+    "why": "Stash Weapon III uses 5"
+   },
+   {
+    "name": "Gold Dog Tag",
+    "cat": "Valuables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Gold Skull",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": 25000,
+    "why": "Stash Item IV uses 5"
+   },
+   {
+    "name": "Gorani's Dog Tag",
+    "cat": "Valuables",
+    "call": "extract",
+    "value": null,
+    "why": "Lieutenant dog tag for the Boss Board"
+   },
+   {
+    "name": "Infantry Invasion Plans",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": null,
+    "why": "Bank III uses 5"
+   },
+   {
+    "name": "Iskra's Dog Tag",
+    "cat": "Valuables",
+    "call": "extract",
+    "value": null,
+    "why": "DMZ Codex: Lieutenant dog tag, extracted for the Boss Board"
+   },
+   {
+    "name": "Jin-Tae's Dog Tag",
+    "cat": "Valuables",
+    "call": "extract",
+    "value": null,
+    "why": "DMZ Codex: Lieutenant dog tag, extracted for the Boss Board"
+   },
+   {
+    "name": "Nuclear Program Files",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": 2000,
+    "why": "Bank VI uses 10; MIA Recovery II uses 5"
+   },
+   {
+    "name": "Onyx Dog Tag",
+    "cat": "Valuables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Regional Combat Notes",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": 1000,
+    "why": "Bank IV uses 5"
+   },
+   {
+    "name": "Roze's Dog Tag",
+    "cat": "Valuables",
+    "call": "extract",
+    "value": null,
+    "why": "Lieutenant dog tag for the Boss Board"
+   },
+   {
+    "name": "Sanctioned Assassination List",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": 10000,
+    "why": "MIA Recovery IV uses 5"
+   },
+   {
+    "name": "Scavenger's Dog Tag",
+    "cat": "Valuables",
+    "call": "extract",
+    "value": null,
+    "why": "Lieutenant dog tag for the Boss Board"
+   },
+   {
+    "name": "Silver Dog Tag",
+    "cat": "Valuables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "Steel Dog Tag",
+    "cat": "Valuables",
+    "call": "unclear",
+    "value": null,
+    "why": ""
+   },
+   {
+    "name": "The Doctor's Dog Tag",
+    "cat": "Valuables",
+    "call": "extract",
+    "value": null,
+    "why": "DMZ Codex: Lieutenant dog tag, extracted for the Boss Board"
+   },
+   {
+    "name": "W.M.D Manifest",
+    "cat": "Valuables",
+    "call": "keep",
+    "value": 5000,
+    "why": "MIA Recovery III uses 5"
+   }
   ],
   "notes": [
-   "Resources (Synthetics, Electronics, Chemicals, Metals) auto-convert and never take Stash space.",
-   "Secure Slot = free insurance for 1 item (key, manual, recipe, Gold Bar).",
-   "Early upgrades: Bank I 20k; Bank II 50k; Stash Item I 10k + 10 Rigid Synth + 10 Electronic Sensors."
+   "Resources (Synthetics, Electronics, Chemicals, Metals) break down on pickup and do not use a Stash slot.",
+   "Secure Slot holds 1 item through a failed extract (key, manual, recipe, or Gold Bar).",
+   "Bank I is 20,000. Bank II is 50,000. Stash Item I is 10,000 plus 10 Rigid Synthetics and 10 Electronic Sensors."
   ],
   "conf": "guide",
   "src": [
+   "codmunityloot",
+   "metka",
+   "ggrankeddb",
    "metaradarsell",
-   "dmztrackerg",
-   "dmzwiki"
+   "dmzcodex",
+   "atviblog"
   ]
  },
  "heistSteps": [
@@ -7134,6 +8650,16 @@
    "id": "dmzcodex",
    "name": "DMZ Codex",
    "url": "https://dmzcodex.com/orders/the-vault/"
+  },
+  {
+   "id": "codmunityloot",
+   "name": "CODMunity MW4 DMZ loot tracker",
+   "url": "https://codmunity.gg/dmz/loot-tracker"
+  },
+  {
+   "id": "ggrankeddb",
+   "name": "GGRanked MW4 DMZ item database",
+   "url": "https://ggranked.com/games/call-of-duty-modern-warfare-4/modes/dmz/database"
   }
  ],
  "gaps": [

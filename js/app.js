@@ -448,9 +448,40 @@
     h += card('Routes on the map', '<p>Dashed lines on the map (toggle "Money routes"). Click a line for details.</p>' + list(D.routes.map(function (r) { return r.name; })));
     $('#moneyView').innerHTML = h;
   }
+  function moneyLabel(n) {
+    if (n == null || n === '') return '—';
+    return '$' + Number(n).toLocaleString('en-US');
+  }
   function buildLoot() {
-    var L = D.loot;
-    $('#lootView').innerHTML = '<div class="cols">' + card('ᚷ KEEP', list(L.keep)) + card('SELL', list(L.sell), 'warn') + '</div>' + card('Notes', list(L.notes) + '<div class="meta-row">' + badge(L.conf) + '</div><p class="tiny">Sources: ' + srcLinks(L.src) + '</p>');
+    var L = D.loot, items = L.items || [];
+    var calls = ['keep', 'sell', 'extract', 'use', 'unclear'];
+    var callLabel = { keep: 'Keep', sell: 'Sell', extract: 'Extract', use: 'Use', unclear: 'Unclear' };
+    var cats = [];
+    items.forEach(function (it) { if (cats.indexOf(it.cat) < 0) cats.push(it.cat); });
+    cats.sort();
+    var h = '<div class="tablebar">' +
+      '<input id="lootSearch" class="search" type="search" placeholder="Filter loot…">' +
+      '<select id="lootCall"><option value="">All calls</option>' + calls.map(function (c) { return '<option value="' + c + '">' + callLabel[c] + '</option>'; }).join('') + '</select>' +
+      '<select id="lootCat"><option value="">All types</option>' + cats.map(function (c) { return '<option>' + esc(c) + '</option>'; }).join('') + '</select>' +
+      '<span class="mono tiny" id="lootCount"></span></div>' +
+      '<div class="tablewrap"><table id="lootTable" class="grid-table"><thead><tr><th>Item</th><th>Type</th><th>Call</th><th>Value</th><th>Note</th></tr></thead><tbody></tbody></table></div>' +
+      card('Notes', list(L.notes) + '<p class="tiny">Sources: ' + srcLinks(L.src) + '</p>');
+    var v = $('#lootView'); v.innerHTML = h;
+    var tb = v.querySelector('tbody');
+    function render() {
+      var q = norm($('#lootSearch').value), call = $('#lootCall').value, cat = $('#lootCat').value;
+      var rows = items.filter(function (it) {
+        if (call && it.call !== call) return false;
+        if (cat && it.cat !== cat) return false;
+        return !q || norm(it.name + ' ' + (it.why || '') + ' ' + it.cat).indexOf(q) >= 0;
+      }).sort(function (a, b) { return a.name.localeCompare(b.name); });
+      tb.innerHTML = rows.map(function (it) {
+        return '<tr><td><b>' + esc(it.name) + '</b></td><td>' + esc(it.cat) + '</td><td class="loot-' + esc(it.call) + '">' + esc(callLabel[it.call] || it.call) + '</td><td class="mono">' + moneyLabel(it.value) + '</td><td>' + esc(it.why || '') + '</td></tr>';
+      }).join('');
+      $('#lootCount').textContent = rows.length + ' / ' + items.length;
+    }
+    ['#lootSearch', '#lootCall', '#lootCat'].forEach(function (s) { v.querySelector(s).addEventListener('input', render); });
+    render();
   }
   function shown(s) {
     return String(s == null ? '' : s)

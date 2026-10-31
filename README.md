@@ -14,7 +14,7 @@ Source: https://github.com/Odinn-DMZ/hajin-dmz-intel
 | **Keys** | The full 59-key table: rarity, grid, door/location, contents, worth-it, and confidence. It is filterable and each row has a "Map" button. |
 | **Banks** | Hanex heist steps, plus the 6 bank locations with landmarks, threats, and exfils. |
 | **Money** | Money routes and cash facts. The compound run, 5-vault bank run, and silo loop are also drawn on the map. |
-| **Keep / Sell** | Loot keep-vs-sell guidance. |
+| **Keep / Sell** | Searchable loot list: keep, sell, extract, use, or unclear. |
 | **Sources** | Credits and which side of the border each location is on. |
 
 Threat shading uses the level words already in each major location's `threat` text (Extreme, Critical, High, Medium, Low). A place with no level is unrated. [CODMunity's Hajin map](https://codmunity.gg/dmz/map) was used only to cross-check those levels and which side of the border each of the 13 locations is on. Where it disagrees, both accounts stay on the Sources tab.
