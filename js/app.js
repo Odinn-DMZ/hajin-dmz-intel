@@ -9,7 +9,7 @@
   function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
   function el(tag, attrs, parent) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
   function gridOf(x, y) { var g = D.meta.grid; return String.fromCharCode(65 + Math.floor((x - g.x0) / g.size)) + Math.floor((y - g.y0) / g.size); }
-  function badge(c) { return '<span class="badge c-' + esc(c) + '" title="' + esc(D.meta.confidence[c] || '') + '">' + esc(c) + '</span>'; }
+  function badge(c) { return '<span class="badge c-' + esc(c) + '">' + esc(c) + '</span>'; }
   function srcLinks(ids) {
     return (ids || []).map(function (id) { var s = D.sources.find(function (z) { return z.id === id; }); return s ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.name) + '</a>' : esc(id); }).join(' · ');
   }
@@ -48,7 +48,6 @@
 
   function init() {
     $('#updated').textContent = 'UPDATED ' + D.meta.updated;
-    $('#disclaimer').textContent = D.meta.disclaimer;
     svg = $('#map');
     var v = D.basemap.view; vb = { x: v[0], y: v[1], w: v[2], h: v[3] }; home = Object.assign({}, vb);
     gBase = el('g', { id: 'base' }, svg); gImg = el('g', { id: 'img', style: 'display:none' }, svg);
@@ -103,8 +102,6 @@
       var row = el('text', { x: G.x0 + 16, y: G.y0 + (r + 0.62) * G.size, class: 'gridlbl axis', 'font-size': 36, 'stroke-width': 5 }, g);
       row.textContent = String(r); row.style.display = 'none';
     }
-    var n = el('text', { x: G.x0 + 16, y: y1 - 18, class: 'gridlbl caption', 'font-size': 30, 'stroke-width': 5 }, g);
-    n.textContent = 'ESTIMATED GRID · UNOFFICIAL';
   }
   function threatLevels(text) {
     if (!text) return [];
@@ -153,7 +150,7 @@
     var keys = THREAT_LEVELS.concat(['Unrated']);
     box.innerHTML = '<div class="threat-key">' + keys.map(function (k) {
       return '<span><i class="swatch" style="background:' + THREAT_COLOR[k] + '"></i>' + k + '</span>';
-    }).join('') + '</div><p class="tiny">Shaded from each location\'s own threat text. A split fill means the text names two levels. Unrated is for a zone with no level.</p>';
+    }).join('') + '</div>';
   }
   function drawZones() {
     D.items.filter(function (i) { return i.layer === 'poi'; }).forEach(function (i) {
@@ -178,7 +175,6 @@
       el('circle', { r: 10.4, class: 'pin-plate', fill: '#07090c', stroke: 'rgba(255,255,255,.28)', 'stroke-width': .7 }, g);
       var icon = i.layer === 'poi' ? (i.kind === 'major' ? 'poi' : 'dot') : L.icon;
       el('path', { d: ICON[icon] || ICON.dot, class: 'shape', fill: L.color, stroke: '#000', 'stroke-width': 1.2 }, g);
-      if (i.conf === 'rumor' || i.conf === 'low') el('circle', { r: 2, cx: 7, cy: -7, fill: '#ff3b3b' }, g);
       var t = el('title', {}, g); t.textContent = i.name + ' [' + i.grid + ']';
       g.addEventListener('click', function (e) { e.stopPropagation(); select(i.id); });
       pinEls[i.id] = { g: g, item: i };
@@ -220,7 +216,7 @@
     var pts = {}, last = null, pinch = null, moved = false;
     svg.addEventListener('pointerdown', function (e) { pts[e.pointerId] = { x: e.clientX, y: e.clientY }; moved = false; svg.classList.add('drag'); });
     svg.addEventListener('pointermove', function (e) {
-      var p = svgPt(e.clientX, e.clientY); $('#coords').textContent = 'X ' + Math.round(p.x) + ' Y ' + Math.round(p.y) + ' · ' + gridOf(p.x, p.y) + ' (est.)';
+      var p = svgPt(e.clientX, e.clientY); $('#coords').textContent = 'X ' + Math.round(p.x) + ' Y ' + Math.round(p.y) + ' · ' + gridOf(p.x, p.y);
       if (!pts[e.pointerId]) return;
       var prev = pts[e.pointerId]; pts[e.pointerId] = { x: e.clientX, y: e.clientY };
       var ids = Object.keys(pts);
@@ -253,7 +249,7 @@
     $('#allOn').onclick = function () { setAll(function () { return true; }); };
     $('#allOff').onclick = function () { setAll(function () { return false; }); };
     $('#defaults').onclick = function () { setAll(function (L) { return !!L.on; }); };
-    $('#legend').innerHTML = 'Confidence: ' + Object.keys(D.meta.confidence).map(badge).join(' ') + '<br><span>● red dot on a pin = low confidence / rumor</span>';
+    $('#legend').innerHTML = '';
     refreshLayers();
   }
   function refreshLayers() { for (var id in pinEls) pinEls[id].g.style.display = layerOn[pinEls[id].item.layer] ? '' : 'none'; }
@@ -269,11 +265,7 @@
     for (i = 0; i < list.length; i++) if (list[i].width === w && list[i].height === h && list[i].bounds) return list[i];
     return null;
   }
-  function noteImage(w, h, preset) {
-    var note = $('#imgNote'); if (!note) return;
-    if (preset) note.textContent = w + '×' + h + ' layout detected. Alignment preset applied. The image stays on this device, is never uploaded, and sits under the grid and pins.';
-    else note.textContent = 'Showing a ' + w + '×' + h + ' image on the full tac-map frame. It stays on this device and is never uploaded. Use the slider and the checkbox to fade or hide it.';
-  }
+  function noteImage() {}
   function buildImageCtl() {
     var fallback = D.basemap.imageBounds || [0, 0, 4096, 4096];
     var img = el('image', { preserveAspectRatio: 'none', opacity: $('#imgOpacity').value || .72 }, gImg);
@@ -300,7 +292,7 @@
     }
     $('#optImage').onchange = function (e) {
       gImg.style.display = e.target.checked ? '' : 'none';
-      if (e.target.checked && !img.getAttribute('href')) alert('No image yet. Use Load map image — the file stays on this device.');
+      if (e.target.checked && !img.getAttribute('href')) alert('No image yet. Use Load map image.');
     };
     $('#imgOpacity').oninput = function (e) { img.setAttribute('opacity', e.target.value); };
     $('#imgFile').onchange = function (e) {
@@ -362,13 +354,12 @@
     selId = id; var p = pinEls[id]; p.g.classList.add('sel'); gPins.appendChild(p.g);
     var i = p.item, L = layerById(i.layer), h = '';
     h += '<button class="x" aria-label="Close">✕</button><h2>' + esc(i.name) + '</h2>';
-    h += '<div class="meta-row">' + badge(i.conf) + '<span>' + esc(L ? L.name : i.layer) + '</span><span>GRID ' + esc(i.grid) + ' (est.)</span>' + (i.sector ? '<span>dmzradar sector ' + esc(i.sector) + '</span>' : '') + '<span>X ' + i.x + ' Y ' + i.y + '</span></div>';
-    h += '<div class="meta-row">Position: ' + esc(i.precision) + '</div>';
-    if (i.kind === 'major') h += '<p><b>Threat:</b> ' + esc(i.threat) + '<br><b>Lieutenant:</b> ' + esc(i.lieutenant) + '<br><b>Keys in area (approx):</b> ' + esc(i.keys) + '</p>';
+    h += '<div class="meta-row">' + badge(i.conf) + '<span>' + esc(L ? L.name : i.layer) + '</span><span>GRID ' + esc(i.grid) + '</span>' + (i.sector ? '<span>dmzradar sector ' + esc(i.sector) + '</span>' : '') + '<span>X ' + i.x + ' Y ' + i.y + '</span></div>';
+    if (i.kind === 'major') h += '<p><b>Threat:</b> ' + esc(i.threat) + '<br><b>Lieutenant:</b> ' + esc(i.lieutenant) + '<br><b>Keys in area:</b> ' + esc(i.keys) + '</p>';
     h += crossHtml(i);
     h += exfilHtml(i);
     if (i.rarity) h += '<p><b>Rarity:</b> <span class="r-' + esc(i.rarity) + '">' + esc(i.rarity) + '</span> · <b>Worth it:</b> ' + esc(i.worth) + '</p>';
-    if (i.desc) h += '<p>' + esc(i.desc) + '</p>';
+    if (i.desc) h += '<p>' + esc(shown(i.desc)) + '</p>';
     if (i.lootRoom) h += '<p><b>Loot room:</b> ' + esc(i.lootRoom) + '</p>';
     if (i.threats) h += '<p><b>Threats:</b> ' + esc(i.threats) + '<br><b>Exfil:</b> ' + esc(i.exfils) + '</p>';
     if (i.steps) h += '<h3 style="color:var(--gold2);margin:8px 0 0;font-size:14px">HEIST STEPS</h3><ol>' + i.steps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol>';
@@ -397,10 +388,10 @@
     var near = nearestExfils(item, 2);
     drawExfilLink(item, near.length ? near[0].item : null);
     if (!near.length) return '';
-    return '<div class="exfil-note"><b>Straight-line exfils, not a driving route.</b> Only 3–4 exfils are live per match.<ol>' +
+    return '<div class="exfil-note"><b>Nearest exfils</b><ol>' +
       near.map(function (e, idx) {
         return '<li>' + (idx === 0 ? 'Nearest' : 'Second') + ': ' + esc(e.item.name) + ' · grid ' + esc(e.item.grid) + ' · ' + Math.round(e.d) + ' map units</li>';
-      }).join('') + '</ol><p class="tiny">The dashed green line is the nearest pin, measured in a straight line.</p></div>';
+      }).join('') + '</ol></div>';
   }
   function crossHtml(item) {
     var c = crossOf(item.id); if (!c) return '';
@@ -408,13 +399,12 @@
     if (c.zones && c.zones.length) {
       h += '<p class="tiny"><b>CODMunity zones:</b> ' + c.zones.map(function (z) { return esc(z.name) + ' · ' + esc(z.level); }).join('; ') + '</p>';
     }
-    if (c.conflict) h += '<p class="conflict"><b>Conflict, both kept:</b> ' + esc(c.conflict) + '</p>';
     return h;
   }
   function showRoute(r) {
     clearExfilLink();
     var d = $('#details');
-    d.innerHTML = '<button class="x">✕</button><h2>' + esc(r.name) + '</h2><div class="meta-row">' + badge(r.conf) + '<span>Money route</span></div><p>' + esc(r.desc) + '</p><div class="srcs">Sources: ' + srcLinks(r.src) + '</div>';
+    d.innerHTML = '<button class="x">✕</button><h2>' + esc(r.name) + '</h2><div class="meta-row">' + badge(r.conf) + '<span>Money route</span></div><p>' + esc(shown(r.desc)) + '</p><div class="srcs">Sources: ' + srcLinks(r.src) + '</div>';
     d.classList.remove('hidden'); d.querySelector('.x').onclick = closeDetails;
   }
   function closeDetails() { $('#details').classList.add('hidden'); clearExfilLink(); if (selId && pinEls[selId]) pinEls[selId].g.classList.remove('sel'); selId = null; }
@@ -433,7 +423,7 @@
       }).sort(function (a, b) { return order.indexOf(a.rarity) - order.indexOf(b.rarity) || a.name.localeCompare(b.name); });
       tb.innerHTML = rows.map(function (k) {
         var wc = /^Yes/.test(k.worth) ? 'w-Yes' : /^No/.test(k.worth) ? 'w-No' : '';
-        return '<tr><td><b>' + esc(k.name) + '</b></td><td class="r-' + esc(k.rarity) + '">' + esc(k.rarity) + '</td><td class="mono">' + esc(k.grid) + '</td><td>' + esc(k.door) + '<div class="tiny">map: ' + esc(k.mapPrecision) + '</div></td><td>' + esc(k.inside) + '</td><td class="' + wc + '">' + esc(k.worth) + '</td><td>' + badge(k.conf) + '</td><td>' + (firstPin(k) ? '<button class="btn-link" data-key="' + esc(k.id) + '">Map</button>' : '') + '</td></tr>';
+        return '<tr><td><b>' + esc(k.name) + '</b></td><td class="r-' + esc(k.rarity) + '">' + esc(k.rarity) + '</td><td class="mono">' + esc(k.grid) + '</td><td>' + esc(k.door) + '</td><td>' + esc(k.inside) + '</td><td class="' + wc + '">' + esc(k.worth) + '</td><td>' + badge(k.conf) + '</td><td>' + (firstPin(k) ? '<button class="btn-link" data-key="' + esc(k.id) + '">Map</button>' : '') + '</td></tr>';
       }).join('');
       $('#keyCount').textContent = rows.length + ' / ' + D.keys.length + ' keys · source: ' + 'DMZ Tracker + dmzradar pins';
     }
@@ -447,13 +437,13 @@
     var banks = D.items.filter(function (i) { return i.layer === 'banks'; });
     var h = card('ᚠ Hanex bank heist: how it works', '<ol>' + D.heistSteps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol><p class="tiny">Sources: ' + srcLinks(['gamesgg', 'gamerantbank', 'gamerfuzion']) + '</p>');
     h += '<div class="cols">' + banks.map(function (b) {
-      return card(esc(b.name), '<div class="meta-row">' + badge(b.conf) + '<span>GRID ' + esc(b.grid) + ' (est.)</span></div><p>' + esc(b.desc) + '</p><p><b>Threats:</b> ' + esc(b.threats) + '<br><b>Exfil:</b> ' + esc(b.exfils) + '</p><button class="btn-link" data-go="' + esc(b.id) + '">Show on map</button><p class="tiny">Sources: ' + srcLinks(b.src) + '</p>');
+      return card(esc(b.name), '<div class="meta-row">' + badge(b.conf) + '<span>GRID ' + esc(b.grid) + '</span></div><p>' + esc(shown(b.desc)) + '</p><p><b>Threats:</b> ' + esc(b.threats) + '<br><b>Exfil:</b> ' + esc(b.exfils) + '</p><button class="btn-link" data-go="' + esc(b.id) + '">Show on map</button><p class="tiny">Sources: ' + srcLinks(b.src) + '</p>');
     }).join('') + '</div>';
     var v = $('#banksView'); v.innerHTML = h; v.addEventListener('click', goBtn);
   }
   function goBtn(e) { var id = e.target.getAttribute('data-go'); if (id) focusItem(id); }
   function buildMoney() {
-    var h = '<div class="cols">' + D.money.map(function (m) { return card(esc(m.name), '<div class="meta-row">' + badge(m.conf) + '<span>' + esc(m.value) + '</span></div><p>' + esc(m.notes) + '</p><p class="tiny">Sources: ' + srcLinks(m.src) + '</p>'); }).join('') + '</div>';
+    var h = '<div class="cols">' + D.money.map(function (m) { return card(esc(m.name), '<div class="meta-row">' + badge(m.conf) + '<span>' + esc(m.value) + '</span></div><p>' + esc(shown(m.notes)) + '</p><p class="tiny">Sources: ' + srcLinks(m.src) + '</p>'); }).join('') + '</div>';
     h += card('ᛟ Cash facts', list(D.cash));
     h += card('Routes on the map', '<p>Dashed lines on the map (toggle "Money routes"). Click a line for details.</p>' + list(D.routes.map(function (r) { return r.name; })));
     $('#moneyView').innerHTML = h;
@@ -462,21 +452,21 @@
     var L = D.loot;
     $('#lootView').innerHTML = '<div class="cols">' + card('ᚷ KEEP', list(L.keep)) + card('SELL', list(L.sell), 'warn') + '</div>' + card('Notes', list(L.notes) + '<div class="meta-row">' + badge(L.conf) + '</div><p class="tiny">Sources: ' + srcLinks(L.src) + '</p>');
   }
+  function shown(s) {
+    return String(s == null ? '' : s)
+      .replace(/Only 3-4 are active per match \(green smoke\)\.\s*/g, '')
+      .replace(/\s*Creator claims best ~\$285k \(unverified\)\./g, '');
+  }
   function buildAbout() {
-    var C = D.meta.confidence;
-    var h = card('ᚨ About this map', '<p>' + esc(D.meta.game) + '. Data as of ' + esc(D.meta.dataAsOf) + '. ' + esc(D.meta.coords) + '</p><p>' + esc(D.meta.grid.note) + '</p><p>The base map is drawn from coordinates only (no game artwork). The outline is a coarse, low-resolution approximation.</p>');
-    h += card('Confidence levels', '<ul>' + Object.keys(C).map(function (k) { return '<li>' + badge(k) + ' ' + esc(C[k]) + '</li>'; }).join('') + '</ul>');
-    h += card('Known gaps', list(D.gaps), 'warn');
+    var h = card('ᚨ About this map', '<p>' + esc(D.meta.game) + '. Data as of ' + esc(D.meta.dataAsOf) + '. ' + esc(D.meta.coords) + '</p>');
     if (D.threatCrosscheck) {
-      var conflicts = (D.threatCrosscheck.locations || []).filter(function (z) { return z.conflict; });
       var rows = (D.threatCrosscheck.locations || []).map(function (z) {
         var poi = D.items.find(function (i) { return i.id === z.id; });
-        return '<li><b>' + esc(poi ? poi.name : z.id) + '</b> — ' + esc(z.side) + '. Ours: ' + esc(poi && poi.threat ? poi.threat : 'no level') + '.' + (z.conflict ? ' <span class="conflict">' + esc(z.conflict) + '</span>' : '') + '</li>';
+        return '<li><b>' + esc(poi ? poi.name : z.id) + '</b> — ' + esc(z.side) + '</li>';
       }).join('');
-      h += card('ᚨ Border side and threat cross-check', '<p>Side of the border is from <a href="' + esc(D.threatCrosscheck.url) + '" target="_blank" rel="noopener noreferrer">CODMunity</a>. Our threat text is unchanged. ' + conflicts.length + ' location' + (conflicts.length === 1 ? '' : 's') + ' disagree; both accounts are kept.</p><ul>' + rows + '</ul><p class="tiny">No road layer: this project has no public road geometry, and roads were not traced from any map image.</p>');
+      h += card('ᚨ Border side', '<p><a href="' + esc(D.threatCrosscheck.url) + '" target="_blank" rel="noopener noreferrer">CODMunity</a></p><ul>' + rows + '</ul>');
     }
-    h += card('Sources & credits', '<p>Huge thanks to these community and press sources. Go support them.</p><ul>' + D.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.name) + '</a></li>'; }).join('') + '</ul>');
-    h += card('Disclaimer', '<p><b>Fan-made, not affiliated with Activision.</b> ' + esc(D.meta.disclaimer) + '</p><p>Icons (raven, Valknut-style knot) are original drawings for this site.</p>', 'warn');
+    h += card('Sources & credits', '<ul>' + D.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.name) + '</a></li>'; }).join('') + '</ul>');
     $('#aboutView').innerHTML = h;
   }
 })();

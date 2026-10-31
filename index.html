@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#0c0e12">
 <title>ODIN'S INTEL // HAJIN DMZ</title>
-<meta name="description" content="Fan-made interactive Hajin DMZ intel map: banks, keys, compounds, caches, bosses, exfils. Not affiliated with Activision.">
+<meta name="description" content="Interactive Hajin DMZ intel map: banks, keys, compounds, caches, bosses, exfils.">
 <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,7 +22,6 @@
   <p class="boot-sub mono">HAJIN DMZ</p>
   <div class="boot-bar" aria-hidden="true"><span></span></div>
   <p class="boot-status mono" data-boot-status>ESTABLISHING UPLINK</p>
-  <p class="boot-fan">Fan-made. Not affiliated with Activision.</p>
 </div>
 <header class="hud-top">
   <div class="hero-fx" aria-hidden="true">
@@ -55,13 +54,11 @@
       <ul id="results" class="results"></ul>
       <div class="imgctl">
         <label class="load-map">
-          <span class="load-kicker mono">ON THIS DEVICE</span>
           <span class="load-title">Load map image</span>
           <input type="file" id="imgFile" accept="image/*">
         </label>
         <label class="chk"><input type="checkbox" id="optImage"> Show map image</label>
         <label class="range">Opacity <input type="range" id="imgOpacity" min="0" max="1" step="0.05" value="0.7"></label>
-        <p class="tiny" id="imgNote">Your image stays in this browser and is never uploaded. It draws under the grid and pins. A 1160×1080 file uses the alignment preset. The grid stays the default background.</p>
       </div>
       <div class="rune-div">ᚠᚢᚦᚨᚱᚲ</div>
       <h3>Layers</h3>
@@ -69,8 +66,8 @@
       <div id="layers" class="layers"></div>
       <div class="rune-div">ᚷᚹᚺᚾᛁᛃ</div>
       <h3>Map</h3>
-      <label class="chk"><input type="checkbox" id="optGrid" checked> Estimated grid</label>
-      <label class="chk"><input type="checkbox" id="optOutline" checked> Coarse outline</label>
+      <label class="chk"><input type="checkbox" id="optGrid" checked> Grid</label>
+      <label class="chk"><input type="checkbox" id="optOutline" checked> Outline</label>
       <label class="chk"><input type="checkbox" id="optLabels" checked> POI labels</label>
       <label class="chk"><input type="checkbox" id="optRoutes" checked> Money routes</label>
       <label class="chk"><input type="checkbox" id="optThreat" checked> Threat zones</label>
@@ -102,9 +99,7 @@
   <section id="tab-loot" class="panel scroll"><div id="lootView"></div></section>
   <section id="tab-about" class="panel scroll"><div id="aboutView"></div></section>
 </main>
-<footer class="foot">
-  <span class="rune">ᛟ</span> <strong>Fan-made, not affiliated with Activision.</strong> <span id="disclaimer"></span> No weapon builds here: they change every patch.
-</footer>
+<footer class="foot">Fan-made site. Not affiliated with Activision.</footer>
 <script src="js/app.js"></script>
 </body>
 </html>
