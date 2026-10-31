@@ -1,4 +1,4 @@
-/* ODIN'S INTEL // HAJIN DMZ - fan-made map tool. Plain JS, no build step. */
+/* ODIN'S INTEL // HAJIN DMZ. Plain JS, no build step. */
 (function () {
   'use strict';
   var NS = 'http://www.w3.org/2000/svg';

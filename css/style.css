@@ -35,7 +35,6 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .boot-bar{position:relative;width:min(280px,70vw);height:2px;margin-top:14px;background:rgba(224,195,106,.15);overflow:hidden}
 .boot-bar span{display:block;height:100%;width:40%;background:linear-gradient(90deg,transparent,var(--gold2),transparent);animation:load 1.3s ease-in-out infinite}
 .boot-status{position:relative;margin:8px 0 0;letter-spacing:.28em;font-size:12px;color:var(--gold2)}
-.boot-fan{position:relative;margin:10px 16px 0;font-size:12px;color:var(--mut);text-align:center}
 .boot.fail .boot-bar{display:none}
 .boot.fail .boot-status{letter-spacing:.04em;max-width:36rem;text-align:center;line-height:1.4}
 
@@ -203,9 +202,6 @@ input[type=checkbox]{accent-color:var(--gold)}
 .btn-link{background:none;border:1px solid var(--gold);color:var(--gold2);padding:4px 10px;font-size:12px;letter-spacing:.08em}
 .btn-link:hover{background:rgba(224,195,106,.12)}
 .warn{border-left-color:var(--red)}
-.foot{flex-shrink:0;padding:7px 12px;font-size:12px;line-height:1.4;color:var(--mut);border-top:1px solid rgba(196,50,60,.7);background:#0a0c0f}
-.foot strong{color:var(--gold2)}
-.foot .rune{color:var(--red)}
 
 @keyframes ember{0%{transform:translateY(0) scale(1);opacity:0}12%{opacity:.9}100%{transform:translateY(-78px) scale(.4);opacity:0}}
 @keyframes fog{from{transform:translate3d(-2%,0,0)}to{transform:translate3d(2%,-2%,0)}}
@@ -229,7 +225,6 @@ input[type=checkbox]{accent-color:var(--gold)}
   .details{left:8px;right:8px;top:auto;bottom:8px;width:auto;max-height:min(52dvh,420px)}
   .zoom{top:8px;right:8px}
   .zoom button{width:36px;height:36px}
-  .foot{font-size:11px}
   .tab{padding:10px 12px}
 }
 @media (max-width:420px){

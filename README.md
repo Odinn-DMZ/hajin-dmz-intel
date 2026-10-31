@@ -1,14 +1,10 @@
 # ODIN'S INTEL // HAJIN DMZ
 
-A fan-made, interactive intel map for **Call of Duty: Modern Warfare 4 (2026) DMZ, map Hajin**.
+An interactive intel map for **Call of Duty: Modern Warfare 4 (2026) DMZ, map Hajin**.
 It's plain HTML/CSS/JS with no build step, so it runs as-is on GitHub Pages.
 
 Live site: https://odinn-dmz.github.io/hajin-dmz-intel/
 Source: https://github.com/Odinn-DMZ/hajin-dmz-intel
-
-> **Fan-made, not affiliated with Activision.** It is not endorsed or sponsored by Activision, Infinity Ward, or Call of Duty. All trademarks belong to their owners. Locations are approximate and can change with any patch.
-
-There are **no weapon builds or meta** here on purpose. They change every patch.
 
 ## What's inside
 
@@ -19,7 +15,7 @@ There are **no weapon builds or meta** here on purpose. They change every patch.
 | **Banks** | Hanex heist steps, plus the 6 bank locations with landmarks, threats, and exfils. |
 | **Money** | Money routes and cash facts. The compound run, 5-vault bank run, and silo loop are also drawn on the map. |
 | **Keep / Sell** | Loot keep-vs-sell guidance. |
-| **Sources** | Confidence levels, known gaps, credits, and the disclaimer. |
+| **Sources** | Credits and which side of the border each location is on. |
 
 Threat shading uses the level words already in each major location's `threat` text (Extreme, Critical, High, Medium, Low). A place with no level is unrated. [CODMunity's Hajin map](https://codmunity.gg/dmz/map) was used only to cross-check those levels and which side of the border each of the 13 locations is on. Where it disagrees, both accounts stay on the Sources tab.
 
@@ -112,9 +108,7 @@ The default background is the tactical grid. This repo does not include a map pi
 - A file whose pixel size is exactly **1160×1080** uses the numeric preset in `data.json` → `basemap.imagePresets` (`bounds` is `[x, y, width, height]` in tac-map units: `[608.3, 481, 2730.2, 3197.1]`). That scale and offset was fitted so the prison, Haneul reactor, Cheongun (Heavenly Luck Casino), and Mirae stronghold pins sit on that layout's icons. Only those numbers are stored — no map image.
 - Any other size uses `basemap.imageBounds` (the full 4096×4096 frame unless you change it).
 
-To ship one image for every visitor, put a file you have the right to share in `assets/` and set `basemap.image` in `data.json`. The same size check applies.
-
-> ⚠️ **Copyright warning:** Tac Map renders, screenshots, and map tiles from the game or callofduty.com are Activision's copyrighted artwork. Publishing one in a public repo may infringe that copyright, even for a fan site. Keep such images local, or only use images you have the right to share. The default vector map avoids this issue.
+To ship one image for every visitor, put a file in `assets/` and set `basemap.image` in `data.json`. The same size check applies.
 
 ## Editing data.json
 
@@ -162,6 +156,6 @@ Data compiled from the following. Please support them:
 
 Full links are in `data.json → sources` and on the **Sources** tab.
 
-The raven and Valknut-style icons are original drawings for this project. No Call of Duty logos or Activision art are included.
+The raven and Valknut-style icons are original drawings for this project.
 
 Fonts: Cinzel, Rajdhani, and Share Tech Mono via Google Fonts (SIL Open Font License).
