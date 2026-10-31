@@ -171,11 +171,9 @@
   }
   function layerById(id) { return D.layers.find(function (l) { return l.id === id; }); }
   function drawPins() {
-    D.items.forEach(function (i, idx) {
+    D.items.forEach(function (i) {
       var L = layerById(i.layer); if (!L) return;
       var g = el('g', { class: 'pin', 'data-id': i.id, 'data-layer': i.layer }, gPins);
-      var pulse = el('circle', { r: 11, class: 'pulse', fill: 'none', stroke: L.color, 'stroke-width': 1.15 }, g);
-      pulse.style.animationDelay = ((idx % 8) * 0.22) + 's';
       el('circle', { r: 13, class: 'ring', 'stroke-width': 1.5 }, g);
       el('circle', { r: 10.4, class: 'pin-plate', fill: '#07090c', stroke: 'rgba(255,255,255,.28)', 'stroke-width': .7 }, g);
       var icon = i.layer === 'poi' ? (i.kind === 'major' ? 'poi' : 'dot') : L.icon;
