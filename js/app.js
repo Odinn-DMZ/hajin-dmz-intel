@@ -10,9 +10,6 @@
   function el(tag, attrs, parent) { var e = document.createElementNS(NS, tag); for (var k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
   function gridOf(x, y) { var g = D.meta.grid; return String.fromCharCode(65 + Math.floor((x - g.x0) / g.size)) + Math.floor((y - g.y0) / g.size); }
   function badge(c) { return '<span class="badge c-' + esc(c) + '">' + esc(c) + '</span>'; }
-  function srcLinks(ids) {
-    return (ids || []).map(function (id) { var s = D.sources.find(function (z) { return z.id === id; }); return s ? '<a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.name) + '</a>' : esc(id); }).join(' · ');
-  }
   var ICON = { // unit icons, ~radius 9 screen px
     poi: 'M0-7L7 0 0 7-7 0Z', fort: 'M-7 7V-3L-4-6V-3H-1V-7H1V-3H4V-6L7-3V7Z', bank: 'M-8 7H8V4H-8ZM-6 3H-3V-3H-6ZM-1.5 3H1.5V-3H-1.5ZM3 3H6V-3H3ZM-8-4H8L0-9Z',
     comp: 'M-7-7H7V7H-7ZM-3-3V3H3V-3Z', key: 'M-3-6A4 4 0 1 1-3 2V8H0V6H2V4H0V2A4 4 0 0 1-3-6ZM-3-4A1.6 1.6 0 1 0-3-0.8 1.6 1.6 0 0 0-3-4Z',
@@ -354,7 +351,7 @@
     selId = id; var p = pinEls[id]; p.g.classList.add('sel'); gPins.appendChild(p.g);
     var i = p.item, L = layerById(i.layer), h = '';
     h += '<button class="x" aria-label="Close">✕</button><h2>' + esc(i.name) + '</h2>';
-    h += '<div class="meta-row">' + badge(i.conf) + '<span>' + esc(L ? L.name : i.layer) + '</span><span>GRID ' + esc(i.grid) + '</span>' + (i.sector ? '<span>dmzradar sector ' + esc(i.sector) + '</span>' : '') + '<span>X ' + i.x + ' Y ' + i.y + '</span></div>';
+    h += '<div class="meta-row">' + badge(i.conf) + '<span>' + esc(L ? L.name : i.layer) + '</span><span>GRID ' + esc(i.grid) + '</span><span>X ' + i.x + ' Y ' + i.y + '</span></div>';
     if (i.kind === 'major') h += '<p><b>Threat:</b> ' + esc(i.threat) + '<br><b>Lieutenant:</b> ' + esc(i.lieutenant) + '<br><b>Keys in area:</b> ' + esc(i.keys) + '</p>';
     h += crossHtml(i);
     h += exfilHtml(i);
@@ -363,7 +360,6 @@
     if (i.lootRoom) h += '<p><b>Loot room:</b> ' + esc(i.lootRoom) + '</p>';
     if (i.threats) h += '<p><b>Threats:</b> ' + esc(i.threats) + '<br><b>Exfil:</b> ' + esc(i.exfils) + '</p>';
     if (i.steps) h += '<h3 style="color:var(--gold2);margin:8px 0 0;font-size:14px">HEIST STEPS</h3><ol>' + i.steps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol>';
-    h += '<div class="srcs">Sources: ' + srcLinks(i.src) + '</div>';
     h += '<div class="srcs"><a href="#item=' + encodeURIComponent(i.id) + '">Link to this pin</a></div>';
     var d = $('#details'); d.innerHTML = h; d.classList.remove('hidden'); d.querySelector('.x').onclick = closeDetails;
   }
@@ -395,16 +391,16 @@
   }
   function crossHtml(item) {
     var c = crossOf(item.id); if (!c) return '';
-    var h = '<p><b>Side of the border:</b> ' + esc(c.side) + ' <span class="tiny">(CODMunity)</span></p>';
+    var h = '<p><b>Side of the border:</b> ' + esc(c.side) + '</p>';
     if (c.zones && c.zones.length) {
-      h += '<p class="tiny"><b>CODMunity zones:</b> ' + c.zones.map(function (z) { return esc(z.name) + ' · ' + esc(z.level); }).join('; ') + '</p>';
+      h += '<p class="tiny"><b>Zones:</b> ' + c.zones.map(function (z) { return esc(z.name) + ' · ' + esc(z.level); }).join('; ') + '</p>';
     }
     return h;
   }
   function showRoute(r) {
     clearExfilLink();
     var d = $('#details');
-    d.innerHTML = '<button class="x">✕</button><h2>' + esc(r.name) + '</h2><div class="meta-row">' + badge(r.conf) + '<span>Money route</span></div><p>' + esc(shown(r.desc)) + '</p><div class="srcs">Sources: ' + srcLinks(r.src) + '</div>';
+    d.innerHTML = '<button class="x">✕</button><h2>' + esc(r.name) + '</h2><div class="meta-row">' + badge(r.conf) + '<span>Money route</span></div><p>' + esc(shown(r.desc)) + '</p>';
     d.classList.remove('hidden'); d.querySelector('.x').onclick = closeDetails;
   }
   function closeDetails() { $('#details').classList.add('hidden'); clearExfilLink(); if (selId && pinEls[selId]) pinEls[selId].g.classList.remove('sel'); selId = null; }
@@ -425,7 +421,7 @@
         var wc = /^Yes/.test(k.worth) ? 'w-Yes' : /^No/.test(k.worth) ? 'w-No' : '';
         return '<tr><td><b>' + esc(k.name) + '</b></td><td class="r-' + esc(k.rarity) + '">' + esc(k.rarity) + '</td><td class="mono">' + esc(k.grid) + '</td><td>' + esc(k.door) + '</td><td>' + esc(k.inside) + '</td><td class="' + wc + '">' + esc(k.worth) + '</td><td>' + badge(k.conf) + '</td><td>' + (firstPin(k) ? '<button class="btn-link" data-key="' + esc(k.id) + '">Map</button>' : '') + '</td></tr>';
       }).join('');
-      $('#keyCount').textContent = rows.length + ' / ' + D.keys.length + ' keys · source: ' + 'DMZ Tracker + dmzradar pins';
+      $('#keyCount').textContent = rows.length + ' / ' + D.keys.length + ' keys';
     }
     tb.addEventListener('click', function (e) { var id = e.target.getAttribute('data-key'); if (id) { var p = firstPin(D.keys.find(function (k) { return k.id === id; })); if (p) focusItem(p.id); } });
     ['#keySearch', '#keyRarity', '#keyWorth'].forEach(function (s) { $(s).addEventListener('input', render); });
@@ -435,15 +431,15 @@
   function list(a) { return '<ul>' + a.map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>'; }
   function buildBanks() {
     var banks = D.items.filter(function (i) { return i.layer === 'banks'; });
-    var h = card('ᚠ Hanex bank heist: how it works', '<ol>' + D.heistSteps.map(function (s) { return '<li>' + esc(s) + '</li>'; }).join('') + '</ol><p class="tiny">Sources: ' + srcLinks(['gamesgg', 'gamerantbank', 'gamerfuzion']) + '</p>');
+    var h = card('ᚠ Hanex bank heist: how it works', '<ol>' + D.heistSteps.map(function (s) { return '<li>' + esc(shown(s)) + '</li>'; }).join('') + '</ol>');
     h += '<div class="cols">' + banks.map(function (b) {
-      return card(esc(b.name), '<div class="meta-row">' + badge(b.conf) + '<span>GRID ' + esc(b.grid) + '</span></div><p>' + esc(shown(b.desc)) + '</p><p><b>Threats:</b> ' + esc(b.threats) + '<br><b>Exfil:</b> ' + esc(b.exfils) + '</p><button class="btn-link" data-go="' + esc(b.id) + '">Show on map</button><p class="tiny">Sources: ' + srcLinks(b.src) + '</p>');
+      return card(esc(b.name), '<div class="meta-row">' + badge(b.conf) + '<span>GRID ' + esc(b.grid) + '</span></div><p>' + esc(shown(b.desc)) + '</p><p><b>Threats:</b> ' + esc(b.threats) + '<br><b>Exfil:</b> ' + esc(b.exfils) + '</p><button class="btn-link" data-go="' + esc(b.id) + '">Show on map</button>');
     }).join('') + '</div>';
     var v = $('#banksView'); v.innerHTML = h; v.addEventListener('click', goBtn);
   }
   function goBtn(e) { var id = e.target.getAttribute('data-go'); if (id) focusItem(id); }
   function buildMoney() {
-    var h = '<div class="cols">' + D.money.map(function (m) { return card(esc(m.name), '<div class="meta-row">' + badge(m.conf) + '<span>' + esc(m.value) + '</span></div><p>' + esc(shown(m.notes)) + '</p><p class="tiny">Sources: ' + srcLinks(m.src) + '</p>'); }).join('') + '</div>';
+    var h = '<div class="cols">' + D.money.map(function (m) { return card(esc(m.name), '<div class="meta-row">' + badge(m.conf) + '<span>' + esc(m.value) + '</span></div><p>' + esc(shown(m.notes)) + '</p>'); }).join('') + '</div>';
     h += card('ᛟ Cash facts', list(D.cash));
     h += card('Routes on the map', '<p>Dashed lines on the map (toggle "Money routes"). Click a line for details.</p>' + list(D.routes.map(function (r) { return r.name; })));
     $('#moneyView').innerHTML = h;
@@ -465,7 +461,7 @@
       '<select id="lootCat"><option value="">All types</option>' + cats.map(function (c) { return '<option>' + esc(c) + '</option>'; }).join('') + '</select>' +
       '<span class="mono tiny" id="lootCount"></span></div>' +
       '<div class="tablewrap"><table id="lootTable" class="grid-table"><thead><tr><th>Item</th><th>Type</th><th>Call</th><th>Value</th><th>Note</th></tr></thead><tbody></tbody></table></div>' +
-      card('Notes', list(L.notes) + '<p class="tiny">Sources: ' + srcLinks(L.src) + '</p>');
+      card('Notes', list(L.notes));
     var v = $('#lootView'); v.innerHTML = h;
     var tb = v.querySelector('tbody');
     function render() {
@@ -495,9 +491,8 @@
         var poi = D.items.find(function (i) { return i.id === z.id; });
         return '<li><b>' + esc(poi ? poi.name : z.id) + '</b> — ' + esc(z.side) + '</li>';
       }).join('');
-      h += card('ᚨ Border side', '<p><a href="' + esc(D.threatCrosscheck.url) + '" target="_blank" rel="noopener noreferrer">CODMunity</a></p><ul>' + rows + '</ul>');
+      h += card('ᚨ Border side', '<ul>' + rows + '</ul>');
     }
-    h += card('Sources & credits', '<ul>' + D.sources.map(function (s) { return '<li><a href="' + esc(s.url) + '" target="_blank" rel="noopener noreferrer">' + esc(s.name) + '</a></li>'; }).join('') + '</ul>');
     $('#aboutView').innerHTML = h;
   }
 })();

@@ -688,7 +688,7 @@
    "precision": "exact",
    "desc": "Hanex branch bank, casino vaults, gun store.",
    "kind": "major",
-   "threat": "Low (metaradar) vs High (dmzmap); Casino High",
+   "threat": "Low vs High; Casino High",
    "lieutenant": "Jin-Tae (casino)",
    "keys": 7
   },
@@ -2623,7 +2623,7 @@
     "Insert the battery at the sparking electrical panel inside the branch.",
     "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
     "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
-    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. The 4th digit has not matched one of the first three in reported runs, so try the other 7 first.",
     "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
    ],
    "threats": "Casino (Jin-Tae, High threat) close by.",
@@ -2644,13 +2644,13 @@
     "gamerantbank"
    ],
    "precision": "pin (+/-20 map units)",
-   "desc": "NuriGO West, G6. Only shown in one creator route (filmed); not pinned on dmzradar/COD Central. Panel/door spots not documented.",
+   "desc": "NuriGO West, G6. Panel and door spots are not on this map.",
    "steps": [
     "Bring a Car Battery (gas stations; one may spawn in or around the bank). The reader says \"READER LACKS POWER\" until it is powered.",
     "Insert the battery at the sparking electrical panel inside the branch.",
     "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
     "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
-    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. The 4th digit has not matched one of the first three in reported runs, so try the other 7 first.",
     "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
    ],
    "threats": "Heavy AI incl. riot shields; Deathstalker heli seen at NuriGO Mall.",
@@ -2678,7 +2678,7 @@
     "Insert the battery at the sparking electrical panel inside the branch.",
     "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
     "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
-    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. The 4th digit has not matched one of the first three in reported runs, so try the other 7 first.",
     "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
    ],
    "threats": "Low-threat area.",
@@ -2700,13 +2700,13 @@
     "gamerantbank"
    ],
    "precision": "pin (+/-20 map units)",
-   "desc": "Small dark-fronted building with a \"HANEX BANK\" sign, S side of the road NE of the stadium, ~100 units N of the Wolves police station, SE edge of The Grid; seen across a grassy slope + iron fence. Fuse box + 3-digit note by the stairs; card on teller counter (COD Central). Battery: Construction Zone gas station.",
+   "desc": "Small dark-fronted building with a \"HANEX BANK\" sign, S side of the road NE of the stadium, ~100 units N of the Wolves police station, SE edge of The Grid; seen across a grassy slope + iron fence. Fuse box + 3-digit note by the stairs; card on teller counter. Battery: Construction Zone gas station.",
    "steps": [
     "Bring a Car Battery (gas stations; one may spawn in or around the bank). The reader says \"READER LACKS POWER\" until it is powered.",
     "Insert the battery at the sparking electrical panel inside the branch.",
     "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
     "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
-    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. The 4th digit has not matched one of the first three in reported runs, so try the other 7 first.",
     "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
    ],
    "threats": "The Scavenger roams Wolves Stadium / River Heights.",
@@ -2734,7 +2734,7 @@
     "Insert the battery at the sparking electrical panel inside the branch.",
     "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
     "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
-    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. The 4th digit has not matched one of the first three in reported runs, so try the other 7 first.",
     "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
    ],
    "threats": "UAV tower side op next door (announces you).",
@@ -2756,13 +2756,13 @@
     "gamerantbank"
    ],
    "precision": "exact",
-   "desc": "Official \"Hanex Bank\" marker. Two vault rooms on floor 17 (one below the roof) with a separate code lock; Hanex Guard Station (Epic key) between them: 2 weapon lockers, safe, equipment case. How the tower code lock works is NOT confirmed (COD Central says same card + note + 1-guess system).",
+   "desc": "Official \"Hanex Bank\" marker. Two vault rooms on floor 17 (one below the roof) with a separate code lock; Hanex Guard Station (Epic key) between them: 2 weapon lockers, safe, equipment case. How the tower code lock works is not confirmed.",
    "steps": [
     "Bring a Car Battery (gas stations; one may spawn in or around the bank). The reader says \"READER LACKS POWER\" until it is powered.",
     "Insert the battery at the sparking electrical panel inside the branch.",
     "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
     "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
-    "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+    "Use the card on the access door, enter the 3 digits, then guess the 4th. The 4th digit has not matched one of the first three in reported runs, so try the other 7 first.",
     "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
    ],
    "threats": "Critical-threat Grid; Roze and Jang-ui next door; Deathstalker seen.",
@@ -5058,7 +5058,7 @@
     "codcentral"
    ],
    "precision": "community pin",
-   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+   "desc": "Side Op: lost supply drop."
   },
   {
    "id": "caches-lost-supply-drop-2",
@@ -5073,7 +5073,7 @@
     "codcentral"
    ],
    "precision": "community pin",
-   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+   "desc": "Side Op: lost supply drop."
   },
   {
    "id": "caches-lost-supply-drop-3",
@@ -5088,7 +5088,7 @@
     "codcentral"
    ],
    "precision": "community pin",
-   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+   "desc": "Side Op: lost supply drop."
   },
   {
    "id": "caches-lost-supply-drop-4",
@@ -5103,7 +5103,7 @@
     "codcentral"
    ],
    "precision": "community pin",
-   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+   "desc": "Side Op: lost supply drop."
   },
   {
    "id": "caches-lost-supply-drop-5",
@@ -5118,7 +5118,7 @@
     "codcentral"
    ],
    "precision": "community pin",
-   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+   "desc": "Side Op: lost supply drop."
   },
   {
    "id": "caches-lost-supply-drop-6",
@@ -5133,7 +5133,7 @@
     "codcentral"
    ],
    "precision": "community pin",
-   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+   "desc": "Side Op: lost supply drop."
   },
   {
    "id": "caches-lost-supply-drop-7",
@@ -5148,7 +5148,7 @@
     "codcentral"
    ],
    "precision": "community pin",
-   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+   "desc": "Side Op: lost supply drop."
   },
   {
    "id": "caches-lost-supply-drop-8",
@@ -5163,7 +5163,7 @@
     "codcentral"
    ],
    "precision": "community pin",
-   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+   "desc": "Side Op: lost supply drop."
   },
   {
    "id": "caches-lost-supply-drop-9",
@@ -5178,7 +5178,7 @@
     "codcentral"
    ],
    "precision": "community pin",
-   "desc": "Side Op: lost supply drop (11 on map per COD Central)."
+   "desc": "Side Op: lost supply drop."
   },
   {
    "id": "caches-safe",
@@ -5192,7 +5192,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Safe (21 on map per COD Central; only some are pinned)."
+   "desc": "Safe."
   },
   {
    "id": "caches-safe-2",
@@ -5206,7 +5206,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Safe (21 on map per COD Central; only some are pinned)."
+   "desc": "Safe."
   },
   {
    "id": "secrets-dead-body",
@@ -5220,7 +5220,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Lootable body pinned by dmzradar."
+   "desc": "Lootable body."
   },
   {
    "id": "secrets-dead-body-2",
@@ -5234,7 +5234,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Lootable body pinned by dmzradar."
+   "desc": "Lootable body."
   },
   {
    "id": "secrets-dead-body-3",
@@ -5248,7 +5248,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Lootable body pinned by dmzradar."
+   "desc": "Lootable body."
   },
   {
    "id": "secrets-dead-body-4",
@@ -5262,7 +5262,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Lootable body pinned by dmzradar."
+   "desc": "Lootable body."
   },
   {
    "id": "secrets-crashed-drone",
@@ -5276,7 +5276,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Lootable crashed drone (dmzradar pin)."
+   "desc": "Lootable crashed drone."
   },
   {
    "id": "secrets-crashed-drone-2",
@@ -5290,7 +5290,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Lootable crashed drone (dmzradar pin)."
+   "desc": "Lootable crashed drone."
   },
   {
    "id": "secrets-crashed-drone-3",
@@ -5304,7 +5304,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Lootable crashed drone (dmzradar pin)."
+   "desc": "Lootable crashed drone."
   },
   {
    "id": "secrets-crashed-drone-4",
@@ -5318,7 +5318,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Lootable crashed drone (dmzradar pin)."
+   "desc": "Lootable crashed drone."
   },
   {
    "id": "secrets-crashed-drone-5",
@@ -5332,7 +5332,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Lootable crashed drone (dmzradar pin)."
+   "desc": "Lootable crashed drone."
   },
   {
    "id": "secrets-unexploded-rocket",
@@ -5346,7 +5346,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Unexploded rocket (dmzradar pin)."
+   "desc": "Unexploded rocket."
   },
   {
    "id": "secrets-unexploded-rocket-2",
@@ -5360,7 +5360,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Unexploded rocket (dmzradar pin)."
+   "desc": "Unexploded rocket."
   },
   {
    "id": "secrets-unexploded-rocket-3",
@@ -5374,7 +5374,7 @@
     "dmzradar"
    ],
    "precision": "community pin",
-   "desc": "Unexploded rocket (dmzradar pin)."
+   "desc": "Unexploded rocket."
   },
   {
    "id": "secrets-keypad-door",
@@ -5907,7 +5907,7 @@
     "x"
    ],
    "precision": "approx. (area)",
-   "desc": "One of the secret rooms shown by a creator (also Gangbyeon Apt B, Hanex Guard Station, a side door at The Grid)."
+   "desc": "Secret room. Related spots: Gangbyeon Apt B, Hanex Guard Station, and a side door at The Grid."
   },
   {
    "id": "secrets-secret-side-door-the-grid",
@@ -5921,7 +5921,7 @@
     "x"
    ],
    "precision": "approx. (area)",
-   "desc": "Creator-shown side door at The Grid. Exact door not documented."
+   "desc": "Side door at The Grid."
   }
  ],
  "routes": [
@@ -6967,7 +6967,7 @@
     "cat": "Backpacks",
     "call": "keep",
     "value": 8000,
-    "why": "MetaRadar: keep one, sell spares"
+    "why": "Keep one, sell spares"
    },
    {
     "name": "Large Scavenger Backpack",
@@ -7303,7 +7303,7 @@
     "cat": "Gear",
     "call": "use",
     "value": null,
-    "why": "DMZ Codex: discarded on exfil"
+    "why": "Discarded on exfil"
    },
    {
     "name": "NVGs",
@@ -7324,7 +7324,7 @@
     "cat": "Gear",
     "call": "use",
     "value": null,
-    "why": "DMZ Codex: discarded on exfil"
+    "why": "Discarded on exfil"
    },
    {
     "name": "Weak Night Vision Goggles",
@@ -8066,7 +8066,7 @@
     "cat": "Mission",
     "call": "extract",
     "value": null,
-    "why": "Metka Orders: extract 3 from the NuriGO Mall underground"
+    "why": "Extract 3 from the NuriGO Mall underground"
    },
    {
     "name": "Armor Plate",
@@ -8185,7 +8185,7 @@
     "cat": "Plate Carriers",
     "call": "keep",
     "value": null,
-    "why": "MetaRadar: keep one, sell spares"
+    "why": "Keep one, sell spares"
    },
    {
     "name": "3-Plate Ballistic Gel Vest",
@@ -8325,14 +8325,14 @@
     "cat": "Valuables",
     "call": "extract",
     "value": 1500,
-    "why": "DMZ Codex: casino vault bag carried out on extract"
+    "why": "Casino vault bag carried out on extract"
    },
    {
     "name": "Cipher Code Ledger",
     "cat": "Valuables",
     "call": "sell",
     "value": 5000,
-    "why": "Metka: the listed valuable that is not used in an FOB upgrade"
+    "why": "Not used in an FOB upgrade"
    },
    {
     "name": "Damascus Dog Tag",
@@ -8402,14 +8402,14 @@
     "cat": "Valuables",
     "call": "extract",
     "value": null,
-    "why": "DMZ Codex: Lieutenant dog tag, extracted for the Boss Board"
+    "why": "Lieutenant dog tag, extracted for the Boss Board"
    },
    {
     "name": "Jin-Tae's Dog Tag",
     "cat": "Valuables",
     "call": "extract",
     "value": null,
-    "why": "DMZ Codex: Lieutenant dog tag, extracted for the Boss Board"
+    "why": "Lieutenant dog tag, extracted for the Boss Board"
    },
    {
     "name": "Nuclear Program Files",
@@ -8472,7 +8472,7 @@
     "cat": "Valuables",
     "call": "extract",
     "value": null,
-    "why": "DMZ Codex: Lieutenant dog tag, extracted for the Boss Board"
+    "why": "Lieutenant dog tag, extracted for the Boss Board"
    },
    {
     "name": "W.M.D Manifest",
@@ -8502,7 +8502,7 @@
   "Insert the battery at the sparking electrical panel inside the branch.",
   "Find the Rare \"Bank Branch Vault Access\" keycard (random spawn: teller counter, floor, shelves, tables).",
   "Find the paper note with the first 3 digits of the 4-digit code (random spawn; codes change every match).",
-  "Use the card on the access door, enter the 3 digits, then guess the 4th. Creator tip [CREATOR]: the 4th digit has never matched one of the first three, so try the other 7 first.",
+  "Use the card on the access door, enter the 3 digits, then guess the 4th. The 4th digit has not matched one of the first three in reported runs, so try the other 7 first.",
   "Inside: 2-3 safes + loose cash; Gold Bars / Gold Skulls ($25k each), intel, sometimes a recipe. Put gold in your Secure Slot."
  ],
  "sources": [
