@@ -457,26 +457,41 @@
     cats.sort();
     var h = '<div class="tablebar">' +
       '<input id="lootSearch" class="search" type="search" placeholder="Filter loot…">' +
+      '<select id="lootSort"><option value="rarity">Sort: Rarity</option><option value="value">Sort: Value</option></select>' +
       '<select id="lootCall"><option value="">All calls</option>' + calls.map(function (c) { return '<option value="' + c + '">' + callLabel[c] + '</option>'; }).join('') + '</select>' +
       '<select id="lootCat"><option value="">All types</option>' + cats.map(function (c) { return '<option>' + esc(c) + '</option>'; }).join('') + '</select>' +
       '<span class="mono tiny" id="lootCount"></span></div>' +
-      '<div class="tablewrap"><table id="lootTable" class="grid-table"><thead><tr><th>Item</th><th>Type</th><th>Call</th><th>Value</th><th>Note</th></tr></thead><tbody></tbody></table></div>' +
+      '<div class="tablewrap"><table id="lootTable" class="grid-table"><thead><tr><th>Item</th><th>Rarity</th><th>Type</th><th>Call</th><th>Value</th><th>Note</th></tr></thead><tbody></tbody></table></div>' +
       card('Notes', list(L.notes));
     var v = $('#lootView'); v.innerHTML = h;
     var tb = v.querySelector('tbody');
+    var rarityRank = { Ultra: 6, Legendary: 5, Epic: 4, Rare: 3, Uncommon: 2, Common: 1 };
+    function rarityOf(it) { return rarityRank[it.rarity] || 0; }
+    function valueOf(it) { return it.value == null || it.value === '' ? -1 : Number(it.value); }
     function render() {
-      var q = norm($('#lootSearch').value), call = $('#lootCall').value, cat = $('#lootCat').value;
+      var q = norm($('#lootSearch').value), call = $('#lootCall').value, cat = $('#lootCat').value, mode = $('#lootSort').value;
       var rows = items.filter(function (it) {
         if (call && it.call !== call) return false;
         if (cat && it.cat !== cat) return false;
-        return !q || norm(it.name + ' ' + (it.why || '') + ' ' + it.cat).indexOf(q) >= 0;
-      }).sort(function (a, b) { return a.name.localeCompare(b.name); });
+        return !q || norm(it.name + ' ' + (it.why || '') + ' ' + it.cat + ' ' + (it.rarity || '')).indexOf(q) >= 0;
+      }).sort(function (a, b) {
+        var rv = rarityOf(b) - rarityOf(a), vv = valueOf(b) - valueOf(a);
+        if (mode === 'value') {
+          if (vv) return vv;
+          if (rv) return rv;
+        } else {
+          if (rv) return rv;
+          if (vv) return vv;
+        }
+        return a.name.localeCompare(b.name);
+      });
       tb.innerHTML = rows.map(function (it) {
-        return '<tr><td><b>' + esc(it.name) + '</b></td><td>' + esc(it.cat) + '</td><td class="loot-' + esc(it.call) + '">' + esc(callLabel[it.call] || it.call) + '</td><td class="mono">' + moneyLabel(it.value) + '</td><td>' + esc(it.why || '') + '</td></tr>';
+        var rar = it.rarity ? '<span class="r-' + esc(it.rarity) + '">' + esc(it.rarity) + '</span>' : '—';
+        return '<tr><td><b>' + esc(it.name) + '</b></td><td>' + rar + '</td><td>' + esc(it.cat) + '</td><td class="loot-' + esc(it.call) + '">' + esc(callLabel[it.call] || it.call) + '</td><td class="mono">' + moneyLabel(it.value) + '</td><td>' + esc(it.why || '') + '</td></tr>';
       }).join('');
       $('#lootCount').textContent = rows.length + ' / ' + items.length;
     }
-    ['#lootSearch', '#lootCall', '#lootCat'].forEach(function (s) { v.querySelector(s).addEventListener('input', render); });
+    ['#lootSearch', '#lootCall', '#lootCat', '#lootSort'].forEach(function (s) { v.querySelector(s).addEventListener('input', render); });
     render();
   }
   function shown(s) {

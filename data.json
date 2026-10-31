@@ -6960,1526 +6960,1744 @@
     "cat": "Backpacks",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Large Backpack",
     "cat": "Backpacks",
     "call": "keep",
     "value": 8000,
-    "why": "Keep one, sell spares"
+    "why": "Keep one, sell spares",
+    "rarity": null
    },
    {
     "name": "Large Scavenger Backpack",
     "cat": "Backpacks",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "Large Secure Backpack",
     "cat": "Backpacks",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Ultra"
    },
    {
     "name": "Medium Backpack",
     "cat": "Backpacks",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Rare"
    },
    {
     "name": "Medium Scavenger Backpack",
     "cat": "Backpacks",
     "call": "unclear",
     "value": 2500,
-    "why": ""
+    "why": "",
+    "rarity": "Epic"
    },
    {
     "name": "Medium Secure Backpack",
     "cat": "Backpacks",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Medium Weapon Backpack",
     "cat": "Backpacks",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Epic"
    },
    {
     "name": "Secure Scavenger Backpack",
     "cat": "Backpacks",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Ultra"
    },
    {
     "name": "Small Backpack",
     "cat": "Backpacks",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Small Secure Backpack",
     "cat": "Backpacks",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Epic"
    },
    {
     "name": "Advanced SERE Kit",
     "cat": "Consumables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "Bandage",
     "cat": "Consumables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Basic Armor Kit",
     "cat": "Consumables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Basic Triage Kit",
     "cat": "Consumables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Door Breacher Charge",
     "cat": "Consumables",
     "call": "unclear",
     "value": 600,
-    "why": ""
+    "why": "",
+    "rarity": "Ultra"
    },
    {
     "name": "Energy Drink",
     "cat": "Consumables",
     "call": "unclear",
     "value": 200,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Explosives Equipment Kit",
     "cat": "Consumables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Medkit",
     "cat": "Consumables",
     "call": "unclear",
     "value": 2000,
-    "why": ""
+    "why": "",
+    "rarity": "Epic"
    },
    {
     "name": "Pain Killers",
     "cat": "Consumables",
     "call": "unclear",
     "value": 250,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Radiation Blockers",
     "cat": "Consumables",
     "call": "unclear",
     "value": 300,
-    "why": ""
+    "why": "",
+    "rarity": "Rare"
    },
    {
     "name": "Recon Equipment Kit",
     "cat": "Consumables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Restock Kit",
     "cat": "Consumables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Sedative Inhaler",
     "cat": "Consumables",
     "call": "unclear",
     "value": 100,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Self-Revive Kit",
     "cat": "Consumables",
     "call": "unclear",
     "value": 4000,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "Smelling Salts",
     "cat": "Consumables",
     "call": "unclear",
     "value": 500,
-    "why": ""
+    "why": "",
+    "rarity": "Rare"
    },
    {
     "name": "Tourniquet",
     "cat": "Consumables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Trap Equipment Kit",
     "cat": "Consumables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Triage Kit",
     "cat": "Consumables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Epic"
    },
    {
     "name": "Ammo Box",
     "cat": "Field Upgrades",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Armor Box",
     "cat": "Field Upgrades",
     "call": "unclear",
     "value": 300,
-    "why": ""
+    "why": "",
+    "rarity": "Rare"
    },
    {
     "name": "Fulton Drop Marker",
     "cat": "Field Upgrades",
     "call": "unclear",
     "value": 2500,
-    "why": ""
+    "why": "",
+    "rarity": "Ultra"
    },
    {
     "name": "Inflatable Decoy",
     "cat": "Field Upgrades",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Portable Radar",
     "cat": "Field Upgrades",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Recon Drone",
     "cat": "Field Upgrades",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Revive Pistol",
     "cat": "Field Upgrades",
     "call": "unclear",
     "value": 2500,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "Shock Stick",
     "cat": "Field Upgrades",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Common"
    },
    {
     "name": "Advanced UAV",
     "cat": "Fire Support",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "Artillery Beacon",
     "cat": "Fire Support",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "Bombing Run",
     "cat": "Fire Support",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Epic"
    },
    {
     "name": "Care Package",
     "cat": "Fire Support",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Rare"
    },
    {
     "name": "Combat Drone",
     "cat": "Fire Support",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Epic"
    },
    {
     "name": "Crossfire",
     "cat": "Fire Support",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Impact Warhead",
     "cat": "Fire Support",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "UAV",
     "cat": "Fire Support",
     "call": "unclear",
     "value": 2500,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Disposable Parachute",
     "cat": "Gear",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Durable Gas Mask",
     "cat": "Gear",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Epic"
    },
    {
     "name": "Elite Night Vision Goggles",
     "cat": "Gear",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "Gas Mask",
     "cat": "Gear",
     "call": "unclear",
     "value": 1200,
-    "why": ""
+    "why": "",
+    "rarity": "Rare"
    },
    {
     "name": "Hazmat Suit",
     "cat": "Gear",
     "call": "use",
     "value": null,
-    "why": "Discarded on exfil"
+    "why": "Discarded on exfil",
+    "rarity": "Legendary"
    },
    {
     "name": "NVGs",
     "cat": "Gear",
     "call": "unclear",
     "value": 3000,
-    "why": ""
+    "why": "",
+    "rarity": "Rare"
    },
    {
     "name": "Parachute",
     "cat": "Gear",
     "call": "unclear",
     "value": 5000,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "Radiation Gear",
     "cat": "Gear",
     "call": "use",
     "value": null,
-    "why": "Discarded on exfil"
+    "why": "Discarded on exfil",
+    "rarity": null
    },
    {
     "name": "Weak Night Vision Goggles",
     "cat": "Gear",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Alloyed Plating",
     "cat": "Ingredients",
     "call": "keep",
     "value": null,
-    "why": "Stash Item IV uses 30"
+    "why": "Stash Item IV uses 30",
+    "rarity": "Epic"
    },
    {
     "name": "Ballistic Fabric",
     "cat": "Ingredients",
     "call": "keep",
     "value": 1500,
-    "why": "MIA Recovery IV uses 30"
+    "why": "MIA Recovery IV uses 30",
+    "rarity": "Epic"
    },
    {
     "name": "Binding Catalyst",
     "cat": "Ingredients",
     "call": "keep",
     "value": null,
-    "why": "MIA Recovery II uses 10; Epic Ingredient Printing uses 10"
+    "why": "MIA Recovery II uses 10; Epic Ingredient Printing uses 10",
+    "rarity": "Rare"
    },
    {
     "name": "Biomaterials",
     "cat": "Ingredients",
     "call": "keep",
     "value": null,
-    "why": "Dog Tag Case I uses 10; Uncommon Ingredient Printing uses 20"
+    "why": "Dog Tag Case I uses 10; Uncommon Ingredient Printing uses 20",
+    "rarity": "Uncommon"
    },
    {
     "name": "CPU",
     "cat": "Ingredients",
     "call": "keep",
     "value": 500,
-    "why": "Gunsmith I uses 10; Vendor Item I uses 10; Dog Tag Case IV uses 20"
+    "why": "Gunsmith I uses 10; Vendor Item I uses 10; Dog Tag Case IV uses 20",
+    "rarity": "Rare"
    },
    {
     "name": "Comms Module",
     "cat": "Ingredients",
     "call": "keep",
     "value": 1500,
-    "why": "Stash Weapon I uses 5; MIA Recovery III uses 10"
+    "why": "Stash Weapon I uses 5; MIA Recovery III uses 10",
+    "rarity": "Epic"
    },
    {
     "name": "Control Unit",
     "cat": "Ingredients",
     "call": "keep",
     "value": null,
-    "why": "MIA Recovery I uses 10"
+    "why": "MIA Recovery I uses 10",
+    "rarity": "Uncommon"
    },
    {
     "name": "Detonators",
     "cat": "Ingredients",
     "call": "keep",
     "value": null,
-    "why": "Stash Item II and Dog Tag Case II each use 20"
+    "why": "Stash Item II and Dog Tag Case II each use 20",
+    "rarity": "Uncommon"
    },
    {
     "name": "Electronic Sensors",
     "cat": "Ingredients",
     "call": "keep",
     "value": null,
-    "why": "Stash Item I uses 10; Vendor Item I uses 20"
+    "why": "Stash Item I uses 10; Vendor Item I uses 20",
+    "rarity": "Uncommon"
    },
    {
     "name": "Experimental Compounds",
     "cat": "Ingredients",
     "call": "keep",
     "value": 3500,
-    "why": "Stash Item IV uses 10; Dog Tag Case IV uses 5"
+    "why": "Stash Item IV uses 10; Dog Tag Case IV uses 5",
+    "rarity": "Legendary"
    },
    {
     "name": "High-Tenacity Fibers",
     "cat": "Ingredients",
     "call": "keep",
     "value": 500,
-    "why": "Stash Weapon II uses 20; Uncommon Ingredient Printing uses 10"
+    "why": "Stash Weapon II uses 20; Uncommon Ingredient Printing uses 10",
+    "rarity": "Rare"
    },
    {
     "name": "Hydrochloric Acid",
     "cat": "Ingredients",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "Military Composites",
     "cat": "Ingredients",
     "call": "keep",
     "value": 3500,
-    "why": "Epic Ingredient Printing uses 5"
+    "why": "Epic Ingredient Printing uses 5",
+    "rarity": "Legendary"
    },
    {
     "name": "Nano-Structured Alloy",
     "cat": "Ingredients",
     "call": "keep",
     "value": 3500,
-    "why": "Stash Weapon III uses 10"
+    "why": "Stash Weapon III uses 10",
+    "rarity": "Legendary"
    },
    {
     "name": "Nitro Compounds",
     "cat": "Ingredients",
     "call": "keep",
     "value": 500,
-    "why": "MIA Recovery II uses 10"
+    "why": "MIA Recovery II uses 10",
+    "rarity": "Rare"
    },
    {
     "name": "Nylon Cloth",
     "cat": "Ingredients",
     "call": "keep",
     "value": 500,
-    "why": "Stash Item II and Dog Tag Case II each use 10"
+    "why": "Stash Item II and Dog Tag Case II each use 10",
+    "rarity": "Rare"
    },
    {
     "name": "Nylon Laminate",
     "cat": "Ingredients",
     "call": "keep",
     "value": 1500,
-    "why": "MIA Recovery IV uses 30"
+    "why": "MIA Recovery IV uses 30",
+    "rarity": "Epic"
    },
    {
     "name": "Power Regulator",
     "cat": "Ingredients",
     "call": "keep",
     "value": 1500,
-    "why": "Stash Item II, Dog Tag Case II and III, Gunsmith I, and MIA Recovery III use it"
+    "why": "Stash Item II, Dog Tag Case II and III, Gunsmith I, and MIA Recovery III use it",
+    "rarity": "Epic"
    },
    {
     "name": "Printed Circuit Board",
     "cat": "Ingredients",
     "call": "keep",
     "value": 500,
-    "why": "Dog Tag Case III uses 10; Epic Ingredient Printing uses 10; Vendor Item I uses 10"
+    "why": "Dog Tag Case III uses 10; Epic Ingredient Printing uses 10; Vendor Item I uses 10",
+    "rarity": "Rare"
    },
    {
     "name": "Prototype RF Module",
     "cat": "Ingredients",
     "call": "keep",
     "value": 3500,
-    "why": "MIA Recovery IV uses 10; Vendor Item I uses 2"
+    "why": "MIA Recovery IV uses 10; Vendor Item I uses 2",
+    "rarity": "Legendary"
    },
    {
     "name": "Reactive Metals",
     "cat": "Ingredients",
     "call": "keep",
     "value": null,
-    "why": "Stash Weapon I uses 20; Gunsmith I uses 20"
+    "why": "Stash Weapon I uses 20; Gunsmith I uses 20",
+    "rarity": "Uncommon"
    },
    {
     "name": "Rigid Synthetics",
     "cat": "Ingredients",
     "call": "keep",
     "value": 200,
-    "why": "Stash Item I, Dog Tag Case I, and MIA Recovery I each use some"
+    "why": "Stash Item I, Dog Tag Case I, and MIA Recovery I each use some",
+    "rarity": "Uncommon"
    },
    {
     "name": "Stabilized Reagents",
     "cat": "Ingredients",
     "call": "keep",
     "value": 1500,
-    "why": "Stash Weapon III uses 30; Dog Tag Case IV uses 10"
+    "why": "Stash Weapon III uses 30; Dog Tag Case IV uses 10",
+    "rarity": "Epic"
    },
    {
     "name": "Stock Rod",
     "cat": "Ingredients",
     "call": "keep",
     "value": 500,
-    "why": "Stash Weapon I uses 10"
+    "why": "Stash Weapon I uses 10",
+    "rarity": "Rare"
    },
    {
     "name": "Structural Alloy",
     "cat": "Ingredients",
     "call": "keep",
     "value": 500,
-    "why": "Stash Weapon II uses 20; Dog Tag Case III uses 10"
+    "why": "Stash Weapon II uses 20; Dog Tag Case III uses 10",
+    "rarity": "Rare"
    },
    {
     "name": "Turned Components",
     "cat": "Ingredients",
     "call": "keep",
     "value": 1500,
-    "why": "Stash Item IV uses 30; Stash Weapon II uses 10"
+    "why": "Stash Item IV uses 30; Stash Weapon II uses 10",
+    "rarity": "Epic"
    },
    {
     "name": "Volatile Explosives",
     "cat": "Ingredients",
     "call": "keep",
     "value": 1500,
-    "why": "Stash Weapon III uses 30"
+    "why": "Stash Weapon III uses 30",
+    "rarity": "Epic"
    },
    {
     "name": "Air Base DRC Weapons Locker",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Ultra"
    },
    {
     "name": "Bank Branch Vault Access",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Black Keycard",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": null
    },
    {
     "name": "Black Market Weapons Locker Key",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Coin Mining Den",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Commandant Office",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Epic"
    },
    {
     "name": "Counting Room Vault",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Epic"
    },
    {
     "name": "Executive Arms Auction",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Epic"
    },
    {
     "name": "Gas Station Electrical Room",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Gun Store Weapons Locker Key",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Haksan School Armory",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Hanex Guard Station",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Epic"
    },
    {
     "name": "Hazard Storehouse",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Hoesik Supply Room",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Epic"
    },
    {
     "name": "Imjin Mill Foreman's Office",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Iskra's Control Room",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Legendary"
    },
    {
     "name": "Jang-ui's Converted Power Room",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Legendary"
    },
    {
     "name": "Lucera Suite 703 Bedroom",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Epic"
    },
    {
     "name": "Mirae Electrical Room",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Netshin IT Room",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Epic"
    },
    {
     "name": "Old Barber Shop",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Police Station Key",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": null
    },
    {
     "name": "Police Weapon Depository",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Epic"
    },
    {
     "name": "Re-Education Center Annex",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Epic"
    },
    {
     "name": "Reactor 02 Control Room",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Reactor DRC Locker",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Ultra"
    },
    {
     "name": "Shop Records Room",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Shopping DRC Locker",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Ultra"
    },
    {
     "name": "Supreme Leader's Bunker Access Card",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Legendary"
    },
    {
     "name": "The Chemist's Secure Armory",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Legendary"
    },
    {
     "name": "The Citadel South Wing",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Uncommon"
    },
    {
     "name": "Train Depot Storage Room",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Underground Propaganda Store Room",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "Vault Armory",
     "cat": "Keys",
     "call": "keep",
     "value": 100,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Epic"
    },
    {
     "name": "Weapons Mod Workshop",
     "cat": "Keys",
     "call": "keep",
     "value": null,
-    "why": "Open the matching room, then it is spent"
+    "why": "Open the matching room, then it is spent",
+    "rarity": "Rare"
    },
    {
     "name": "C4",
     "cat": "Lethals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Claymore",
     "cat": "Lethals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Drill Charge",
     "cat": "Lethals",
     "call": "unclear",
     "value": 100,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Frag Grenade",
     "cat": "Lethals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Common"
    },
    {
     "name": "Molotov Cocktail",
     "cat": "Lethals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Proximity Mine",
     "cat": "Lethals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Sticky Grenade",
     "cat": "Lethals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Thermite",
     "cat": "Lethals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Throwing Knife",
     "cat": "Lethals",
     "call": "unclear",
     "value": 100,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Weapon Manual: .50 GS",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: APOC-338",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Astaroth .57",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Axion",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Cronen Squall",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: FSS Carbon Edge 1095",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: FiNN LMG",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Han 86",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Hyeon Burst",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: ISO Nightshade",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: JOKR",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: KG-7 Vulcan",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Kastov 762",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Krait P68",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: M4",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: MAR-9",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Mojave",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Mosin-Nagant",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Oden",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Oris 8.6",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: PM-40 Anvil",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: PPSh-41",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Patriot XMR",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Pila",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: RPG-8",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Rezi 12",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Sang 9mm",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Signal 50",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Type 73",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: VEL 46",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Warlord",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: Wz.55 Striga",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Weapon Manual: X-58 Nyx",
     "cat": "Manuals",
     "call": "extract",
     "value": 5000,
-    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB"
+    "why": "Pays 5,000 on extract and unlocks the weapon. Not sold at the FOB",
+    "rarity": null
    },
    {
     "name": "Pristine K9 Battery Core",
     "cat": "Mission",
     "call": "extract",
     "value": null,
-    "why": "Extract 3 from the NuriGO Mall underground"
+    "why": "Extract 3 from the NuriGO Mall underground",
+    "rarity": null
    },
    {
     "name": "Armor Plate",
     "cat": "Other",
     "call": "unclear",
     "value": 150,
-    "why": ""
+    "why": "",
+    "rarity": "Common"
    },
    {
     "name": "Bomb Glider",
     "cat": "Other",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Car Battery",
     "cat": "Other",
     "call": "use",
     "value": null,
-    "why": "Hanex vault reader needs one"
+    "why": "Hanex vault reader needs one",
+    "rarity": "Uncommon"
    },
    {
     "name": "Defibrillator",
     "cat": "Other",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Dog Tag Case",
     "cat": "Other",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Encrypted Drive",
     "cat": "Other",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Gas Can",
     "cat": "Other",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Common"
    },
    {
     "name": "Irradiated Container",
     "cat": "Other",
     "call": "use",
     "value": null,
-    "why": "Process at Reactor 02 during Operation Fallen Ember"
+    "why": "Process at Reactor 02 during Operation Fallen Ember",
+    "rarity": "Ultra"
    },
    {
     "name": "Spark Plug",
     "cat": "Other",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Survival Kit",
     "cat": "Other",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Tank Alternator",
     "cat": "Other",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "Tank Water Pump",
     "cat": "Other",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Legendary"
    },
    {
     "name": "1-Plate Armor Vest",
     "cat": "Plate Carriers",
     "call": "unclear",
     "value": 500,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "2-Plate Armor Vest",
     "cat": "Plate Carriers",
     "call": "unclear",
     "value": 1000,
-    "why": ""
+    "why": "",
+    "rarity": "Rare"
    },
    {
     "name": "2-Plate Ballistic Gel Vest",
     "cat": "Plate Carriers",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Epic"
    },
    {
     "name": "2-Plate Helmet Armor Vest",
     "cat": "Plate Carriers",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Epic"
    },
    {
     "name": "3-Plate Armor Vest",
     "cat": "Plate Carriers",
     "call": "keep",
     "value": null,
-    "why": "Keep one, sell spares"
+    "why": "Keep one, sell spares",
+    "rarity": "Epic"
    },
    {
     "name": "3-Plate Ballistic Gel Vest",
     "cat": "Plate Carriers",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Ultra"
    },
    {
     "name": "3-Plate Helmet Armor Vest",
     "cat": "Plate Carriers",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Ultra"
    },
    {
     "name": "Tempered Armor Vest",
     "cat": "Plate Carriers",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Ultra"
    },
    {
     "name": "Chemicals",
     "cat": "Resources",
     "call": "keep",
     "value": null,
-    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell"
+    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell",
+    "rarity": null
    },
    {
     "name": "Electronics",
     "cat": "Resources",
     "call": "keep",
     "value": null,
-    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell"
+    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell",
+    "rarity": null
    },
    {
     "name": "Metals",
     "cat": "Resources",
     "call": "keep",
     "value": null,
-    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell"
+    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell",
+    "rarity": null
    },
    {
     "name": "Synthetics",
     "cat": "Resources",
     "call": "keep",
     "value": null,
-    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell"
+    "why": "3D Printer resource. It breaks down on pickup and is not a stash item to sell",
+    "rarity": null
    },
    {
     "name": "Concussion Grenade",
     "cat": "Tacticals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Decoy Grenade",
     "cat": "Tacticals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Common"
    },
    {
     "name": "Flash Grenade",
     "cat": "Tacticals",
     "call": "unclear",
     "value": 100,
-    "why": ""
+    "why": "",
+    "rarity": "Common"
    },
    {
     "name": "Heartbeat Sensor",
     "cat": "Tacticals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Screamer Mine",
     "cat": "Tacticals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Common"
    },
    {
     "name": "Smoke Grenade",
     "cat": "Tacticals",
     "call": "unclear",
     "value": 200,
-    "why": ""
+    "why": "",
+    "rarity": "Common"
    },
    {
     "name": "Snapshot Grenade",
     "cat": "Tacticals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Common"
    },
    {
     "name": "Spotter Scope",
     "cat": "Tacticals",
     "call": "unclear",
     "value": 100,
-    "why": ""
+    "why": "",
+    "rarity": "Rare"
    },
    {
     "name": "Stim",
     "cat": "Tacticals",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Uncommon"
    },
    {
     "name": "Bale's Dog Tag",
     "cat": "Valuables",
     "call": "extract",
     "value": null,
-    "why": "Lieutenant dog tag for the Boss Board"
+    "why": "Lieutenant dog tag for the Boss Board",
+    "rarity": "Legendary"
    },
    {
     "name": "Ballistic Flight Logs",
     "cat": "Valuables",
     "call": "keep",
     "value": 1000,
-    "why": "Bank IV uses 5"
+    "why": "Bank IV uses 5",
+    "rarity": "Uncommon"
    },
    {
     "name": "Bronze Dog Tag",
     "cat": "Valuables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Cash Bag",
     "cat": "Valuables",
     "call": "extract",
     "value": 1500,
-    "why": "Casino vault bag carried out on extract"
+    "why": "Casino vault bag carried out on extract",
+    "rarity": null
    },
    {
     "name": "Cipher Code Ledger",
     "cat": "Valuables",
     "call": "sell",
     "value": 5000,
-    "why": "Not used in an FOB upgrade"
+    "why": "Not used in an FOB upgrade",
+    "rarity": "Epic"
    },
    {
     "name": "Damascus Dog Tag",
     "cat": "Valuables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Degraded Execution Footage",
     "cat": "Valuables",
     "call": "keep",
     "value": 2000,
-    "why": "Bank V uses 10; MIA Recovery II uses 5"
+    "why": "Bank V uses 10; MIA Recovery II uses 5",
+    "rarity": "Rare"
    },
    {
     "name": "Encrypted Archive",
     "cat": "Valuables",
     "call": "keep",
     "value": null,
-    "why": "Bank VI uses 10"
+    "why": "Bank VI uses 10",
+    "rarity": "Rare"
    },
    {
     "name": "Foreign Intelligence Targets",
     "cat": "Valuables",
     "call": "keep",
     "value": 5000,
-    "why": "MIA Recovery III uses 5"
+    "why": "MIA Recovery III uses 5",
+    "rarity": "Epic"
    },
    {
     "name": "Gold Bar",
     "cat": "Valuables",
     "call": "keep",
     "value": 25000,
-    "why": "Stash Weapon III uses 5"
+    "why": "Stash Weapon III uses 5",
+    "rarity": "Ultra"
    },
    {
     "name": "Gold Dog Tag",
     "cat": "Valuables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Gold Skull",
     "cat": "Valuables",
     "call": "keep",
     "value": 25000,
-    "why": "Stash Item IV uses 5"
+    "why": "Stash Item IV uses 5",
+    "rarity": "Ultra"
    },
    {
     "name": "Gorani's Dog Tag",
     "cat": "Valuables",
     "call": "extract",
     "value": null,
-    "why": "Lieutenant dog tag for the Boss Board"
+    "why": "Lieutenant dog tag for the Boss Board",
+    "rarity": "Legendary"
    },
    {
     "name": "Infantry Invasion Plans",
     "cat": "Valuables",
     "call": "keep",
     "value": null,
-    "why": "Bank III uses 5"
+    "why": "Bank III uses 5",
+    "rarity": "Uncommon"
    },
    {
     "name": "Iskra's Dog Tag",
     "cat": "Valuables",
     "call": "extract",
     "value": null,
-    "why": "Lieutenant dog tag, extracted for the Boss Board"
+    "why": "Lieutenant dog tag, extracted for the Boss Board",
+    "rarity": null
    },
    {
     "name": "Jin-Tae's Dog Tag",
     "cat": "Valuables",
     "call": "extract",
     "value": null,
-    "why": "Lieutenant dog tag, extracted for the Boss Board"
+    "why": "Lieutenant dog tag, extracted for the Boss Board",
+    "rarity": null
    },
    {
     "name": "Nuclear Program Files",
     "cat": "Valuables",
     "call": "keep",
     "value": 2000,
-    "why": "Bank VI uses 10; MIA Recovery II uses 5"
+    "why": "Bank VI uses 10; MIA Recovery II uses 5",
+    "rarity": "Rare"
    },
    {
     "name": "Onyx Dog Tag",
     "cat": "Valuables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Regional Combat Notes",
     "cat": "Valuables",
     "call": "keep",
     "value": 1000,
-    "why": "Bank IV uses 5"
+    "why": "Bank IV uses 5",
+    "rarity": "Uncommon"
    },
    {
     "name": "Roze's Dog Tag",
     "cat": "Valuables",
     "call": "extract",
     "value": null,
-    "why": "Lieutenant dog tag for the Boss Board"
+    "why": "Lieutenant dog tag for the Boss Board",
+    "rarity": "Legendary"
    },
    {
     "name": "Sanctioned Assassination List",
     "cat": "Valuables",
     "call": "keep",
     "value": 10000,
-    "why": "MIA Recovery IV uses 5"
+    "why": "MIA Recovery IV uses 5",
+    "rarity": "Legendary"
    },
    {
     "name": "Scavenger's Dog Tag",
     "cat": "Valuables",
     "call": "extract",
     "value": null,
-    "why": "Lieutenant dog tag for the Boss Board"
+    "why": "Lieutenant dog tag for the Boss Board",
+    "rarity": "Legendary"
    },
    {
     "name": "Silver Dog Tag",
     "cat": "Valuables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": null
    },
    {
     "name": "Steel Dog Tag",
     "cat": "Valuables",
     "call": "unclear",
     "value": null,
-    "why": ""
+    "why": "",
+    "rarity": "Common"
    },
    {
     "name": "The Doctor's Dog Tag",
     "cat": "Valuables",
     "call": "extract",
     "value": null,
-    "why": "Lieutenant dog tag, extracted for the Boss Board"
+    "why": "Lieutenant dog tag, extracted for the Boss Board",
+    "rarity": null
    },
    {
     "name": "W.M.D Manifest",
     "cat": "Valuables",
     "call": "keep",
     "value": 5000,
-    "why": "MIA Recovery III uses 5"
+    "why": "MIA Recovery III uses 5",
+    "rarity": "Epic"
    }
   ],
   "notes": [
