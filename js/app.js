@@ -65,7 +65,7 @@
       el('polygon', { points: o.playable.map(function (p) { return p.join(','); }).join(' '), fill: 'none', stroke: 'rgba(186,198,210,.32)', 'stroke-width': 1.5, 'stroke-dasharray': '10 8', 'vector-effect': 'non-scaling-stroke' }, gOutline);
     }
     drawGrid(gGrid); drawZones(); drawThreatZones(); drawRoutes(); drawPins(); buildLayerUI(); buildImageCtl();
-    applyVB(); bindPanZoom(); bindUI(); buildKeys(); buildBanks(); buildMoney(); buildLoot(); buildAbout();
+    applyVB(); bindPanZoom(); bindUI(); buildKeys(); buildBanks(); buildMoney(); buildLoot(); buildBosses(); buildAbout();
     if (location.hash.indexOf('#item=') === 0) focusItem(decodeURIComponent(location.hash.slice(6)));
     window.__HAJIN_OK__ = { items: D.items.length, keys: D.keys.length, pins: Object.keys(pinEls).length };
     hideBoot();
@@ -492,6 +492,38 @@
       $('#lootCount').textContent = rows.length + ' / ' + items.length;
     }
     ['#lootSearch', '#lootCall', '#lootCat', '#lootSort'].forEach(function (s) { v.querySelector(s).addEventListener('input', render); });
+    render();
+  }
+  function buildBosses() {
+    var list = D.bossesGuide || [];
+    var h = '<div class="tablebar">' +
+      '<input id="bossSearch" class="search" type="search" placeholder="Search bosses…">' +
+      '<select id="bossRole"><option value="">Commanders and Lieutenants</option><option value="Commander">Commanders</option><option value="Lieutenant">Lieutenants</option></select>' +
+      '<span class="mono tiny" id="bossCount"></span></div>' +
+      '<div id="bossCards"></div>';
+    var v = $('#bossesView'); v.innerHTML = h;
+    function render() {
+      var q = norm($('#bossSearch').value), role = $('#bossRole').value;
+      var rows = list.filter(function (b) {
+        if (role && b.role !== role) return false;
+        var hay = b.name + ' ' + b.role + ' ' + (b.faction || '') + ' ' + b.where + ' ' + (b.drops || []).join(' ');
+        return !q || norm(hay).indexOf(q) >= 0;
+      });
+      $('#bossCount').textContent = rows.length + ' / ' + list.length;
+      $('#bossCards').innerHTML = rows.map(function (b) {
+        var body = '';
+        if (b.faction) body += '<p><b>Faction:</b> ' + esc(b.faction) + '</p>';
+        body += '<p><b>Where:</b> ' + esc(b.where) + (b.grid ? ' <span class="mono">GRID ' + esc(b.grid) + '</span>' : '') + '</p>';
+        body += '<p>' + esc(b.behavior) + '</p>';
+        body += '<p><b>Drops</b></p><ul>' + (b.drops || []).map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>';
+        body += '<p><b>How to kill</b></p><ol>' + (b.steps || []).map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ol>';
+        body += '<p><b>Weapon types and equipment</b></p><ul>' + (b.arms || []).concat(b.gear || []).map(function (x) { return '<li>' + esc(x) + '</li>'; }).join('') + '</ul>';
+        if (b.pin) body += '<button class="btn-link" type="button" data-go="' + esc(b.pin) + '">Show on map</button>';
+        return '<article class="card"><h2>' + esc(b.name) + '</h2><div class="meta-row"><span class="badge">' + esc(b.role) + '</span></div>' + body + '</article>';
+      }).join('');
+    }
+    v.addEventListener('click', goBtn);
+    ['#bossSearch', '#bossRole'].forEach(function (s) { v.querySelector(s).addEventListener('input', render); });
     render();
   }
   function shown(s) {

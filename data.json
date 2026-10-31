@@ -9128,5 +9128,381 @@
     "conflict": null
    }
   ]
- }
+ },
+ "bossesGuide": [
+  {
+   "id": "colossus",
+   "role": "Commander",
+   "name": "Colossus",
+   "faction": "",
+   "pin": "bosses-colossus-commander",
+   "grid": "B6",
+   "where": "No fixed spawn. Seen at the 14th Political Prison (the Citadel), Cheonwang Peak Array, Chang-san Air Base, and the reactor. The map pin is the Air Base spot.",
+   "behavior": "About seven feet tall, in heavy armor, with a minigun that fires in bursts. Armor shrugs off most grenades. Up close he gives off an electric jolt over nearby metal and leaves pools of green gas. He does not climb ladders or pipes.",
+   "drops": [
+    "Military Composites",
+    "Experimental Compounds"
+   ],
+   "steps": [
+    "Use a high-capacity automatic weapon. Grenades do little. Drill Charges were weakened against him on October 25.",
+    "Stay in cover while the minigun fires and shoot during the pauses.",
+    "Fight from higher ground or hard cover, and fall back around it to put plates on as he closes.",
+    "Stay out of the green gas, and keep off metal when he is close.",
+    "Aim for the head. Drops can scatter, so search the area after the kill."
+   ],
+   "arms": [
+    "High-capacity automatic (LMG or similar)",
+    "Armor plates",
+    "Medkit"
+   ],
+   "gear": [
+    "Hard cover or a roof he cannot climb"
+   ]
+  },
+  {
+   "id": "deathstalker",
+   "role": "Commander",
+   "name": "Deathstalker",
+   "faction": "",
+   "pin": "bosses-deathstalker-commander-helicopter",
+   "grid": "H6",
+   "where": "No fixed spawn. Seen over NuriGO Mall and over the DBN Headquarters roof. The map pin is the mall.",
+   "behavior": "Helicopter-sized autonomous drone with twin machine-gun turrets. A captured SAM site shoots it down, and the site is lost if you move too far away.",
+   "drops": [
+    "Prototype RF Module"
+   ],
+   "steps": [
+    "Capture a nearby SAM site and stay close so it is not retaken.",
+    "Launchers also work, and enough gunfire can bring it down.",
+    "Break line of sight under roofs or in tunnels between shots."
+   ],
+   "arms": [
+    "SAM site",
+    "Launcher"
+   ],
+   "gear": [
+    "Cover that blocks line of sight"
+   ]
+  },
+  {
+   "id": "tank",
+   "role": "Commander",
+   "name": "Main NK Battle Tank",
+   "faction": "North Korean",
+   "pin": "",
+   "grid": "",
+   "where": "No fixed spawn. It patrols Hajin's roads and highways, so there is no map pin.",
+   "behavior": "A main battle tank on patrol. Bullets do no damage. Its main gun covers open roads and fields.",
+   "drops": [
+    "Nano-Structured Alloy"
+   ],
+   "steps": [
+    "Use explosives only: a launcher, Thermite, C4, or Drill Charges.",
+    "Stay off open roads. Buildings and tight streets block the main gun.",
+    "Hit it from the side or rear, then move.",
+    "Restock from Ammo Boxes."
+   ],
+   "arms": [
+    "Launcher",
+    "Thermite, C4, or Drill Charges",
+    "Ammo Box"
+   ],
+   "gear": [
+    "Buildings for cover"
+   ]
+  },
+  {
+   "id": "bale",
+   "role": "Lieutenant",
+   "name": "Bale",
+   "faction": "Spetsnaz, with North Korean forces",
+   "pin": "bosses-bale-lieutenant",
+   "grid": "B7",
+   "where": "Re-Education Center in Deadtown, or the Tank Depot bunker at Chang-san Air Base. The map pin is the Re-Education Center.",
+   "behavior": "Combat trainer and enforcer with elite escorts. Carries a Type 73; the named Dreadnought is a Legendary Type 73.",
+   "drops": [
+    "Bale's Dog Tag",
+    "Dog Tag Case",
+    "Dreadnought (Legendary Type 73), from his key room when it spawns",
+    "Type 73"
+   ],
+   "steps": [
+    "Clear the escorts before you push him.",
+    "Go in with full plates. The air-base bunker is the harder of the two spots.",
+    "Buy Boss Board intel or use a Lieutenant Hunt tower to mark him."
+   ],
+   "arms": [
+    "Automatic weapon for the escorts",
+    "Armor plates",
+    "Medkit"
+   ],
+   "gear": [
+    "Boss Board intel or a Lieutenant Hunt tower"
+   ]
+  },
+  {
+   "id": "jang",
+   "role": "Lieutenant",
+   "name": "Jang-ui",
+   "faction": "",
+   "pin": "bosses-jang-ui-lieutenant",
+   "grid": "G6",
+   "where": "Reported at the Netshin Tech Complex in The Grid, and at an encampment in NuriGO Mall (Operation Shopping Hacks). His key opens a converted power room on the mall's bottom floor. The map pin is Netshin.",
+   "behavior": "Met in a key-locked room guarded by four auto-turrets. The underground mall has no power and has K9 robot dogs.",
+   "drops": [
+    "Jang-ui's Dog Tag",
+    "Dog Tag Case",
+    "Paektu (Ultra Hyeon Burst), from his key room when it spawns",
+    "Hyeon Burst"
+   ],
+   "steps": [
+    "Bring night vision. The underground mall has no power.",
+    "Watch for K9 robot dogs underground.",
+    "If he is in the turret room, deal with the four auto-turrets before you commit."
+   ],
+   "arms": [
+    "Close-range weapon",
+    "Night vision"
+   ],
+   "gear": [
+    "Armor plates",
+    "Medkit"
+   ]
+  },
+  {
+   "id": "gorani",
+   "role": "Lieutenant",
+   "name": "Gorani",
+   "faction": "",
+   "pin": "bosses-gorani-lieutenant",
+   "grid": "F7",
+   "where": "A woodland camp at Mujin Pass, the woods above Hanrim Village, and forest south of Cheonwang. His key room is the upper landing of the Imjin rice mill. The map pin is the forest pin south of Cheonwang.",
+   "behavior": "Sniper in a ghillie suit with a water-deer skull over his face. He shoots from the trees and is weaker up close. An escort has been reported with him.",
+   "drops": [
+    "Gorani's Dog Tag",
+    "Dog Tag Case",
+    "Incisor (Legendary MAR-9), from his key room when it spawns",
+    "MAR-9",
+    "Infantry Invasion Plans"
+   ],
+   "steps": [
+    "Use a Lieutenant Hunt tower before you cross open ground.",
+    "Pop smoke and move in the gaps between his shots.",
+    "Close the distance."
+   ],
+   "arms": [
+    "Smoke",
+    "Close-range weapon once you reach him"
+   ],
+   "gear": [
+    "Lieutenant Hunt tower",
+    "Armor plates"
+   ]
+  },
+  {
+   "id": "warden",
+   "role": "Lieutenant",
+   "name": "The Warden",
+   "faction": "",
+   "pin": "bosses-the-warden-lieutenant",
+   "grid": "C3",
+   "where": "Mess hall at the 14th Political Prison. Also reported in the northern hills and at The Citadel. His name is Kang. The map pin is the prison.",
+   "behavior": "Holds a riot shield. One player has to draw him while the others flank. A long-range rifle works in the hills.",
+   "drops": [
+    "Kang's Dog Tag",
+    "Dog Tag Case",
+    "Incarcerator (Ultra X-58 Nyx), from his key room when it spawns",
+    "X-58 Nyx",
+    "Type 73 has also been seen on him",
+    "A key to his loot room"
+   ],
+   "steps": [
+    "One player draws the shield. The others flank.",
+    "In the hills, fight him with a long-range rifle.",
+    "Search the body for the key to his loot room."
+   ],
+   "arms": [
+    "Long-range rifle for the hills",
+    "A second angle for the shield"
+   ],
+   "gear": [
+    "Armor plates",
+    "Medkit"
+   ]
+  },
+  {
+   "id": "doctor",
+   "role": "Lieutenant",
+   "name": "The Doctor",
+   "faction": "",
+   "pin": "bosses-the-doctor-lieutenant",
+   "grid": "F5",
+   "where": "Mirae General Hospital: wards, parking garage, or grounds. The map pin is the parking garage.",
+   "behavior": "The garage ramps are the ways in and out. He drops the key to his Command Office on an upper floor.",
+   "drops": [
+    "The Doctor's Dog Tag",
+    "Dog Tag Case",
+    "Doctor's Salvo (Patriot XMR), from his key room when it spawns",
+    "Patriot XMR",
+    "Key to The Doctor's Command Office"
+   ],
+   "steps": [
+    "Clear the garage ramps first.",
+    "Use a close-range weapon on the garage levels.",
+    "Take the key and the dog tag, then leave."
+   ],
+   "arms": [
+    "Close-range weapon"
+   ],
+   "gear": [
+    "Armor plates",
+    "Medkit"
+   ]
+  },
+  {
+   "id": "scavenger",
+   "role": "Lieutenant",
+   "name": "The Scavenger",
+   "faction": "",
+   "pin": "bosses-the-scavenger-lieutenant",
+   "grid": "G8",
+   "where": "No single hold. Seen in Hajin River Heights, Cheongun Village, a South Island car park, and around Wolves Stadium. The map pin is River Heights. He has no key room. His name is Krueger.",
+   "behavior": "He moves. Fight him at range rather than searching a building blind.",
+   "drops": [
+    "Scavenger's Dog Tag",
+    "Dog Tag Case",
+    "Revenant (Oris 8.6)"
+   ],
+   "steps": [
+    "Buy his intel or use a Lieutenant Hunt tower. River Heights is a large apartment area.",
+    "Fight at range.",
+    "Extract the dog tag."
+   ],
+   "arms": [
+    "Long-range weapon"
+   ],
+   "gear": [
+    "Boss Board intel or a Lieutenant Hunt tower",
+    "Armor plates"
+   ]
+  },
+  {
+   "id": "iskra",
+   "role": "Lieutenant",
+   "name": "Iskra",
+   "faction": "",
+   "pin": "bosses-iskra-lieutenant",
+   "grid": "E6",
+   "where": "Office and broadcast building at Cheonwang Peak Array. Her key room is the control room at the top of the array. The map pin is the array.",
+   "behavior": "The fight runs up a stairwell. Her loot room is on the top floor of the server room.",
+   "drops": [
+    "Iskra's Dog Tag",
+    "Dog Tag Case",
+    "Widow Maker (Legendary Warlord), from her key room when it spawns",
+    "Warlord",
+    "Small Secure Backpack"
+   ],
+   "steps": [
+    "Take the roof of the array for overwatch before you push the broadcast building.",
+    "Fight up the stairwell.",
+    "Her loot room is the top-floor control room."
+   ],
+   "arms": [
+    "A weapon you can use in a stairwell"
+   ],
+   "gear": [
+    "Armor plates",
+    "Medkit"
+   ]
+  },
+  {
+   "id": "chemist",
+   "role": "Lieutenant",
+   "name": "The Chemist",
+   "faction": "",
+   "pin": "bosses-the-chemist-lieutenant",
+   "grid": "I4",
+   "where": "A warehouse on the east side of Haneul Nuclear Reactor. His key opens a bunker armory by the boathouse. The map pin is the reactor.",
+   "behavior": "Wears a yellow hazmat suit. The reactor is irradiated.",
+   "drops": [
+    "The Chemist's Dog Tag",
+    "Dog Tag Case",
+    "Chemical Reaction (Kastov 762), from his key room when it spawns",
+    "Kastov 762"
+   ],
+   "steps": [
+    "Bring a gas mask, radiation gear, and Radiation Blockers.",
+    "Clear the warehouse on the east side.",
+    "Search him for the armory key."
+   ],
+   "arms": [
+    "Gas mask",
+    "Radiation gear",
+    "Radiation Blockers"
+   ],
+   "gear": [
+    "Armor plates",
+    "Medkit"
+   ]
+  },
+  {
+   "id": "roze",
+   "role": "Lieutenant",
+   "name": "Roze",
+   "faction": "",
+   "pin": "bosses-roze-lieutenant",
+   "grid": "G6",
+   "where": "DBN Headquarters roof in The Grid. Her key room is an armory in the Netshin high-rise. The map pin is DBN Headquarters.",
+   "behavior": "Hooded sniper with a scoped rifle and long sightlines. Take the emergency stairwell and use HVAC units as cover. Deathstalker can strafe the same roof.",
+   "drops": [
+    "Roze's Dog Tag",
+    "Dog Tag Case",
+    "The Kraken (Astaroth .57), from her key room when it spawns",
+    "Astaroth .57"
+   ],
+   "steps": [
+    "Climb the emergency stairwell, not the open roof edge.",
+    "Use the HVAC units as cover.",
+    "Move between buildings. Do not cross open streets.",
+    "Watch the sky. Deathstalker can strafe this roof."
+   ],
+   "arms": [
+    "Long-range rifle",
+    "Cover on the roof"
+   ],
+   "gear": [
+    "Armor plates",
+    "Medkit"
+   ]
+  },
+  {
+   "id": "jintae",
+   "role": "Lieutenant",
+   "name": "Jin-Tae",
+   "faction": "",
+   "pin": "bosses-jin-tae-lieutenant",
+   "grid": "F4",
+   "where": "Heavenly Luck Casino, Cheongun Village. The map pin is the casino.",
+   "behavior": "Opens with heavy fire on the gaming floor. Parts of the casino have no power. The casino interior is High threat even where the village is not.",
+   "drops": [
+    "Jin-Tae's Dog Tag",
+    "Dog Tag Case",
+    "Highroller's Fortune (ISO Nightshade), from his key room when it spawns",
+    "ISO Nightshade"
+   ],
+   "steps": [
+    "Bring night vision. Parts of the casino have no power.",
+    "When he opens fire on the gaming floor, fall back to the staff offices.",
+    "Fight him from those offices instead of the open floor."
+   ],
+   "arms": [
+    "Close-range weapon",
+    "Night vision"
+   ],
+   "gear": [
+    "Armor plates",
+    "Medkit"
+   ]
+  }
+ ]
 }
